@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A limited collation of Ephesians at selected variation units from the United Bible Societies Greek New Testament, 5th Edition</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="JJM">Edited by Joey McCollum</authority>
+                <date>2022</date>
+                <availability>
+                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Description of the work (including a date range of origin) whose manuscript tradition is detailed below -->
+                <bibl>
+                    <title xml:lang="grc">Πέτρου Α</title>
+                    <date notBefore="60" notAfter="100"/>
+                </bibl>
+                <listWit>
+                    <!-- Papyri -->
+                    <witness n="P72">
+                        <origDate notBefore="200" notAfter="400"/>
+                    </witness>
+                    <witness n="P81">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness n="P125">
+                        <origDate notBefore="200" notAfter="400"/>
+                    </witness>
+                    <!-- Majuscules -->
+                    <witness n="01">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness n="02">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness n="03">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness n="04">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness n="018">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="020">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="025">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="044">
+                        <origDate notBefore="800" notAfter="1000"/>
+                    </witness>
+                    <witness n="048">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <!-- Minuscules -->
+                    <witness n="33">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="81">
+                        <origDate when="1044"/>
+                    </witness>
+                    <witness n="307">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="436">
+                        <origDate notBefore="1000" notAfter="1200"/>
+                    </witness>
+                    <witness n="442">
+                        <origDate notBefore="1100" notAfter="1300"/>
+                    </witness>
+                    <witness n="642">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness n="1175">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="1243">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="1448">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness n="1611">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="1735">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="1739">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="1852">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness n="2344">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="2492">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <!-- Lectionaries -->
+                    <witness type="lectionary" n="L147">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L422">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness type="lectionary" n="L590">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L591">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L592">
+                        <origDate when="1576"/>
+                    </witness>
+                    <witness type="lectionary" n="L593">
+                        <origDate notBefore="1400" notAfter="1500"/>
+                    </witness>
+                    <witness type="lectionary" n="L596">
+                        <origDate when="1146"/>
+                    </witness>
+                    <witness type="lectionary" n="L680">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L751">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L809">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L883">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L884">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L895">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L921">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L938">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L1153">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness type="lectionary" n="L1154">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L1159">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L1178">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L1298">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness type="lectionary" n="L1364">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L1365">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness type="lectionary" n="L1441">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness type="lectionary" n="L1590">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <!-- Byzantine tradition -->
+                    <witness n="Byz"/>
+                    <!-- Old Latin manuscripts -->
+                    <witness n="ar">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="h">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness n="l">
+                        <origDate notBefore="600" notAfter="700"/>
+                    </witness>
+                    <witness n="q">
+                        <origDate notBefore="600" notAfter="700"/>
+                    </witness>
+                    <witness n="s">
+                        <origDate notBefore="500" notAfter="600"/>
+                    </witness>
+                    <witness n="t">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="w">
+                        <origDate notBefore="500" notAfter="600"/>
+                    </witness>
+                    <witness n="z">
+                        <origDate notBefore="700" notAfter="800"/>
+                    </witness>
+                    <!-- Versions -->
+                    <witness type="version" n="vg">
+                        <origDate notBefore="300" notAfter="500"/>
+                    </witness>
+                    <witness type="version" n="syrp">
+                        <origDate notBefore="450" notAfter="550"/>
+                    </witness>
+                    <witness type="version" n="syrh">
+                        <origDate notBefore="616" notAfter="715"/>
+                    </witness>
+                    <witness type="corrector" n="syrhmg">
+                        <origDate notBefore="616" notAfter="715"/>
+                    </witness>
+                    <witness type="version" n="copsa">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness type="version" n="copbo">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness type="version" n="arm">
+                        <origDate when="434"/>
+                    </witness>
+                    <witness type="version" n="geo">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness type="version" n="eth">
+                        <origDate notBefore="400" notAfter="700"/>
+                    </witness>
+                    <witness type="version" n="slav">
+                        <origDate notBefore="864" notAfter="865"/>
+                    </witness>
+                    <!-- Church fathers -->
+                    <witness type="father" n="Ambrose">
+                        <origDate notBefore="350" notAfter="397"/>
+                    </witness>
+                    <witness type="father" n="Ambrosiaster">
+                        <origDate notBefore="366" notAfter="384"/>
+                    </witness>
+                    <witness type="father" n="Athanasius">
+                        <origDate notBefore="328" notAfter="373"/>
+                    </witness>
+                    <witness type="father" n="Augustine">
+                        <origDate notBefore="390" notAfter="430"/>
+                    </witness>
+                    <witness type="father" n="Bede">
+                        <origDate notBefore="700" notAfter="735"/>
+                    </witness>
+                    <witness type="father" n="Cassiodorus">
+                        <origDate notBefore="530" notAfter="585"/>
+                    </witness>
+                    <witness type="father" n="Chrysostom">
+                        <origDate notBefore="375" notAfter="407"/>
+                    </witness>
+                    <witness type="father" n="ClementOfAlexandria">
+                        <origDate notBefore="195" notAfter="203"/>
+                    </witness>
+                    <witness type="father" n="Cyprian">
+                        <origDate notBefore="248" notAfter="258"/>
+                    </witness>
+                    <witness type="father" n="CyrilOfAlexandria">
+                        <origDate notBefore="412" notAfter="444"/>
+                    </witness>
+                    <witness type="father" n="Didymus">
+                        <origDate notBefore="350" notAfter="398"/>
+                    </witness>
+                    <witness type="father" n="EusebiusOfEmesa">
+                        <origDate notBefore="339" notAfter="360"/>
+                    </witness>
+                    <witness type="father" n="Fulgentius">
+                        <origDate notBefore="500" notAfter="533"/>
+                    </witness>
+                    <witness type="father" n="Gildas">
+                        <origDate notBefore="450" notAfter="570"/>
+                    </witness>
+                    <witness type="father" n="Irenaeus">
+                        <origDate notBefore="161" notAfter="202"/>
+                    </witness>
+                    <witness type="father" n="Jerome">
+                        <origDate notBefore="382" notAfter="420"/>
+                    </witness>
+                    <witness type="father" n="JulianOfEclanum">
+                        <origDate notBefore="404" notAfter="455"/>
+                    </witness>
+                    <witness type="father" n="Origen">
+                        <origDate notBefore="210" notAfter="253"/>
+                    </witness>
+                    <witness type="father" n="Pelagius">
+                        <origDate notBefore="390" notAfter="418"/>
+                    </witness>
+                    <witness type="father" n="PeterOfAlexandria">
+                        <origDate notBefore="300" notAfter="311"/>
+                    </witness>
+                    <witness type="father" n="Priscillian">
+                        <origDate notBefore="370" notAfter="385"/>
+                    </witness>
+                    <witness type="father" n="PseudoDionysius">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness type="father" n="Quodvultdeus">
+                        <origDate notBefore="421" notAfter="450"/>
+                    </witness>
+                    <witness type="father" n="Speculum">
+                        <origDate notBefore="400" notAfter="450"/>
+                    </witness>
+                    <witness type="father" n="Tertullian">
+                        <origDate notBefore="200" notAfter="220"/>
+                    </witness>
+                    <witness type="father" n="Varimadum">
+                        <origDate notBefore="445" notAfter="480"/>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="grc">
+        <interpGrp type="intrinsic">
+            <interp xml:id="RatingA">
+                <p>The current reading is absolutely more likely than the linked reading.</p>
+                <certainty locus="value" degree="19"/>
+            </interp>
+            <interp xml:id="RatingB">
+                <p>The current reading is strongly 
+                more likely than the linked reading.</p>
+                <certainty locus="value" degree="4"/>
+            </interp>
+            <interp xml:id="RatingC">
+                <p>The current reading is more likely
+                than the linked reading.</p>
+                <certainty locus="value" degree="1.5"/>
+            </interp>
+            <interp xml:id="RatingD">
+                <p>The current reading is slightly more likely than the linked reading.</p>
+                <certainty locus="value" degree="1.1"/>
+            </interp>
+            <interp xml:id="EqualRating">
+                <p>The current reading and the linked reading 
+                are equally likely.</p>
+                <certainty locus="value" degree="1"/>
+            </interp>
+        </interpGrp>
+        <interpGrp type="transcriptional">
+            <interp xml:id="Clar">
+                <p>Clarification of the text in terms of grammar, style, or theology.</p>
+            </interp>
+            <interp xml:id="AurConf">
+                <p>Aural confusion concerning letters or dipthongs that came to have the same sound in later Greek, including various itacisms (i.e., interchanges between ι, ει, η, οι, and υ), \textgreek{αι}-\textgreek{ε} interchanges, ο-ω interchanges, interchanges between similar-sounding consonants (e.g., β-υ after certain vowels and π-φ) and other less common interchanges (e.g., vowel sounds that might be confused if spoken quickly).</p>
+            </interp>
+            <interp xml:id="LingConf">
+                <p>Linguistic confusion concerning rules of Greek grammar.</p>
+		        <p><i>Constructiones ad sensum</i> that reflect changes in grammatical rules over time also fall under this rubric.</p>
+            </interp>
+            <interp xml:id="VisErr">
+                <p>Visual error, such as paleographic confusion of similar letters, haplography, dittography and other repetitions of nearby letters, and other skips of the eye resulting in small omissions. Rarer situations, like duplication or omission of letters related to the presence or absence of an ornamental capital at the start of a line, also fall under this rubric.</p>
+            </interp>
+            <interp xml:id="Harm">
+                <p>Harmonization, either to a parallel passage or to the near context.</p>
+            </interp>
+            <interp xml:id="Byz">
+                <p>The text is brought into conformity with the Byzantine text.</p>
+            </interp>
+        </interpGrp>
+        <body>
+            <app xml:id="B21K1V8U6">
+                <lem/>
+                <rdg n="1" wit="P72 01 04 048 1175 1739 1852 ar s vg syrp syrh copsa arm eth slav Irenaeus CyrilOfAlexandria"><w>ιδοντες</w></rdg>
+                <rdg n="2" wit="02 044 5 33 81 307 436 442 642 1243 1448 1611 1735 2344 2492 Byz 018 020 025 Lect copbo geo ClementOfAlexandria Augustine"><w>ειδοτες</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#AurConf #Clar #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K1V9U12">
+                <lem/>
+                <rdg n="1" wit="01 02 04 044 048 5 33 81 307 436 442 642 1175 1243 1448 1611 1735 1739 1852 2344 2492 Byz 018 020 025 Lect(-L751) ar q s vg syrp syrh copbo arm eth geo slav"><w>υμων</w></rdg>
+                <rdg n="2" wit="L751 Origen"><w>ημων</w></rdg>
+                <rdg n="3" wit="03 copsa Athanasius Didymus CyrilOfAlexandria Jerome Augustine"/>
+                <witDetail n="W1/2" type="ambiguous" wit="ClementOfAlexandria" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- Greek and Latin traditions disagree -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#AurConf #Clar"/>
+                        <relation active="3" passive="1 2" ana="#Clar"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K1V22U18">
+                <lem/>
+                <rdg n="1" wit="P72 01 02 03 04 044 33 81 436 1243 1448* 1739 1852 2344 2492 syrp syrh copsa copbo arm eth geo Didymus Jerome"><w>αληθειας</w></rdg>
+                <rdg n="2" wit="5 307 442 642 1175 1448C 1611 1735 Byz 018 020 025 Lect(-L592,L884) slav"><w>αληθειας</w><w>δια</w><w>πνευματος</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="L884"><w>αληθειας</w><w>δια</w><w>του</w><w>πνευματος</w></rdg>
+                <rdg n="2-s2" type="subreading" wit="L592"><w>αληθειας</w><w>δια</w><w>πνευματος</w><w>αγιου</w></rdg>
+                <rdg n="3" wit="Priscillian Speculum Gildas"><w>πιστεως</w><w>δια</w><w>πνευματος</w></rdg>
+                <rdg n="4" wit="ar vg"><w>αγαπης</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K1V22U26-30">
+                <lem/>
+                <rdg n="1" wit="P72 01* 04 044 5 33 81 307 436 442 642 1175 1243 1448 1611 1735 1739 2344 2492 Byz 018 020 025 Lect syrp syrh copsa copbo arm slav"><w>εκ</w><w>καθαρας</w><w>καρδιας</w></rdg>
+                <rdg n="2" wit="01C2 Priscillian Gildas"><w>εκ</w><w>καρδιας</w><w>αληθινης</w></rdg>
+                <rdg n="3" wit="02 03 1852 ar vg geo Varimadum"><w>εκ</w><w>καρδιας</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="3" passive="1 2" ana="#Clar"/>
+                        <relation active="3" passive="2" ana="#VisErr"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V3U2">
+                <lem/>
+                <rdg n="1" wit="P72 P125 01* 02 03 1735 t copsa copbo arm geo ClementOfAlexandria"><w>ει</w></rdg>
+                <rdg n="2" wit="01C2 04 044 5 33 81 307 436 442 642 1175 1243 1448 1611 1739 1852 2344 2492 Byz 018 020 025 Lect(-L1590) ar l slav CyrilOfAlexandria"><w>ειπερ</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="L1590"><w>οπερ</w></rdg>
+                <witDetail n="W1/2-1" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.6667"/></witDetail><!-- Vulgate editions disagree -->
+                <witDetail n="W1/2-2" type="ambiguous" wit="Augustine" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V19U6">
+                <lem/>
+                <rdg n="1" wit="P72 01 02 03 81 642 1448 1735 Byz 018 020 025 L751 w z vg copsa copbo slav"><w>χαρις</w></rdg>
+                <rdg n="2" wit="04 442 1175 1243 1611 1739 1852 2492 ar syrp syrh arm geo Speculum"><w>χαρις</w><w>παρα</w><w>τω</w><w>θεω</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="044 33 307 436 2344"><w>χαρις</w><w>παρα</w><w>θεω</w></rdg>
+                <rdg n="3" wit="5 eth Cassiodorus"><w>χαρις</w><w>του</w><w>θεου</w></rdg>
+                <witDetail n="Z" type="lac" wit="Lect(-L751)"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3" ana="#Clar"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V19U14">
+                <lem/>
+                <rdg n="1" wit="01 02C 03 5 436 642 1735 Byz 018 020 025 ar w z vg copsa copbo slav Speculum"><w>θεου</w></rdg>
+                <rdg n="2" wit="04 044 307 442 1175 1243 1448 1611 1739 1852 2492 syrp syrh arm geo"><w>αγαθην</w></rdg>
+                <rdg n="3" wit="P72 81"><w>αγαθην</w><w>θεου</w></rdg>
+                <rdg n="4" wit="02* 33 2344"><w>θεου</w><w>αγαθην</w></rdg>
+                <rdg n="5" wit="L751"/>
+                <witDetail n="Z" type="lac" wit="Lect(-L751)"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#RatingA"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3 4" ana="#Clar"/><!-- conflation -->
+                        <relation active="1" passive="2" ana="#Harm"/><!-- cf. Acts 23:1, 1 Tim 1:5, 19 -->
+                        <relation active="1" passive="5" ana="#Clar"/><!-- omission of difficult word -->
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V21U16">
+                <lem/>
+                <rdg n="1" wit="P72 02 03 04 33 81 436 442 642 1175 1243 1448 1611 1735 1739 1852 2344 2492 Byz 018 020 025 L751 L1159 ar q t w z vg syrh copsa copbo eth geo EusebiusOfEmesa Chrysostom Tertullian Cyprian Jerome Augustine Quodvultdeus Varimadum"><w>επαθεν</w></rdg>
+                <rdg n="1-s1" type="subreading" wit="Lect(-L596,L751,L1159,L1441)"><w>υπερ</w><w>ημων</w><w>επαθεν</w></rdg>
+                <rdg n="2" wit="P81 01 044 5 307 syrp arm slav CyrilOfAlexandria Ambrosiaster Ambrose JulianOfEclanum Fulgentius"><w>απεθανεν</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="L596 L1441"><w>υπερ</w><w>ημων</w><w>απεθανεν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm"/><!-- cf. 3:18 -->
+                        <relation active="2" passive="1" ana="#Harm"/><!-- cf. 3:18 -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V21U20-22">
+                <lem/>
+                <rdg n="1" wit="P72 01 02 03 04 044 5 81 442 1175 1448 1611 1735 1739 1852 ar w z syrh copsa arm eth geo Cyprian Ambrose"><w>υμων</w><w>υμιν</w></rdg>
+                <rdg n="2" wit="33 307 436 Byz 018 020 025 Lect(-L921) slav Tertullian Jerome"><w>ημων</w><w>υμιν</w></rdg>
+                <rdg n="3" wit="642 1243 2344 L921 q syrp copbo Varimadum"><w>ημων</w><w>ημιν</w></rdg>
+                <rdg n="4" wit="2492 t"><w>υμων</w><w>ημιν</w></rdg>
+                <witDetail n="W1/2/3-1" type="ambiguous" wit="Augustine" target="1 2 3"><certainty target="1" locus="value" degree="0.1000"/><certainty target="2" locus="value" degree="0.0500"/><certainty target="3" locus="value" degree="0.8500"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="W1/2/3-2" type="ambiguous" wit="CyrilOfAlexandria" target="1 2 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="W1/2-1" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- Vulgate editions disagree -->
+                <witDetail n="W1/2-2" type="ambiguous" wit="Quodvultdeus" target="1 2"><certainty target="1" locus="value" degree="0.7500"/><certainty target="2" locus="value" degree="0.2500"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#AurConf"/>
+                        <relation active="2 4" passive="1 3" ana="#Clar"/>
+                        <relation active="2" passive="1 3 4" ana="#AurConf"/>
+                        <relation active="3" passive="1 2 4" ana="#AurConf"/>
+                        <relation active="4" passive="2 3 4" ana="#AurConf"/>
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K2V25U10">
+                <lem/>
+                <rdg n="1" wit="01 02 03 5 1175 1735 syrp syrh eth PseudoDionysius"><w>πλανωμενοι</w></rdg>
+                <rdg n="2" wit="P72 04 044 33 81 307 436 442 642 1448 1611 1739 1852 2344 2492 Byz 018 020 025 Lect geo Augustine"><w>πλανωμενα</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V7U32">
+                <lem/>
+                <rdg n="1" wit="P72 P81 01C2 03 33 442 1175 1243 1448 1739 1852 2344 2492 2492 L596 ar t z vg syrp arm eth geo Augustine"><w>συγκληρονομοις</w></rdg>
+                <rdg n="1-s1" type="subreading" wit="01*"><w>συγκληρονομους</w></rdg>
+                <rdg n="2" wit="02 04 044 5 81 307 436 642 1611 1735 Byz 018 020 025 Lect(-L596) copsa copbo slav Jerome"><w>συγκληρονομοι</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V7U34-36">
+                <lem/>
+                <rdg n="1" wit="P81 03 04* 044 33 81 307 436 642 1175 1243 1735 1739 1852 2344 2492 020 025 L592 L884 L1154 L1159 L1364 L1441 ar l t z vg copsa arm geo eth Ambrose Speculum"><w>χαριτος</w><w>ζωης</w></rdg>
+                <rdg n="2" wit="018 Lect(-L592,L596,L884,L1154,L1159,L1364,L1441)"><w>χαριτος</w><w>ζωσης</w></rdg>
+                <rdg n="3" wit="P72 syrp"><w>χαριτος</w><w>ζωης</w><w>αιωνιου</w></rdg>
+                <rdg n="4" wit="01 02 5 442 1448 1611 L596 syrh copbo"><w>ποικιλης</w><w>χαριτος</w><w>ζωης</w></rdg>
+                <rdg n="4-s1" type="subreading" wit="04C2 Jerome"><w>ποικιλης</w><w>χαριτος</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="Byz" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3" ana="#Clar"/>
+                        <relation active="1" passive="4" ana="#Harm"/><!-- cf. 4:10 -->
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V8U18">
+                <lem/>
+                <rdg n="1" wit="P72 P81 01 02 03 04 044 5 33 81 307A 436 442 642 1175 1243 1448T 1611 1735 1739 1852 2344 2492 L596 ar l t w z vg syrp syrh copbo arm eth geo slav ClementOfAlexandria Pelagius Speculum"><w>ταπεινοφρονες</w></rdg>
+                <rdg n="2" wit="307T 018 025 Lect(-L596,L1590) L1590*"><w>φιλοφρονες</w></rdg>
+                <rdg n="3" wit="020 1448A L1590C"><w>φιλοφρονες</w><w>ταπεινοφρονες</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="Byz" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- conflation -->
+                        <relation active="3" passive="1 2" ana="#VisErr"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V14U30">
+                <lem/>
+                <rdg n="1" wit="01 02 04 044 5 33 81 307 436 442 642 1175 1243 1448 1735 1739 2344 2492 Byz 018 025 Lect(-L1364) ar t w z arm eth geo slav ClementOfAlexandria"><w>μηδε</w><w>ταραχθητε</w></rdg>
+                <rdg n="2" wit="1611 1852"><w>και</w><w>ου</w><w>μη</w><w>ταραχθητε</w></rdg>
+                <rdg n="3" wit="P72 03 020 L1364 Jerome"/>
+                <witDetail n="W1/2" type="ambiguous" wit="copsa" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V15U6-8">
+                <lem/>
+                <rdg n="1" wit="P72 01 02 03 04 044 33 1175 1243 1611 1739 1852 ar t w z vg syrp syrh copsa copbo arm geo ClementOfAlexandria Jerome"><w>τον</w><w>χριστον</w></rdg>
+                <rdg n="2" wit="5 81 307 436 442 642 1448 1735 2344 2492 Byz Lect(-L593,L1441) slav Didymus"><w>τον</w><w>θεον</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="L593"><w>τον</w><w>θεον</w><w>αυτον</w></rdg>
+                <rdg n="2-s2" type="subreading" wit="L1441"><w>τον</w><w>θεον</w><w>ημων</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V16U24">
+                <lem/>
+                <rdg n="1" wit="P72 03 044 1175 1611 1739 1852 vg copsa geo ClementOfAlexandria"><w>καταλαλεισθε</w></rdg>
+                <rdg n="2" wit="1448*"><w>καταλαλουσιν</w></rdg>
+                <rdg n="3" wit="01 02 04 5 33 81 642 1448C 018 025 L680 L1159 Bede"><w>καταλαλουσιν</w><w>υμων</w><w>ως</w><w>κακοποιων</w></rdg>
+                <rdg n="3-s1" type="subreading" wit="2492"><w>καταλαλουσιν</w><w>υμων</w><w>ως</w><w>κακουργων</w></rdg>
+                <rdg n="4" wit="307 436 442 1243 1735 2344 020 Lect(-L680,L1159)"><w>καταλαλωσιν</w><w>υμων</w><w>ως</w><w>κακοποιων</w></rdg>
+                <witDetail n="W3/4" type="ambiguous" wit="Byz" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="3" ana="#RatingA"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Harm"/><!-- cf. 2:12) -->
+                        <relation active="3" passive="2" ana="#VisErr"/>
+                        <relation active="3" passive="4" ana="#Clar"/>
+                        <relation active="1 2 3" passive="4" ana="#Byz"/>
+                        <relation active="1 2 4" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V18U10-14">
+                <lem/>
+                <rdg n="1" wit="03 642 Byz 018 025 Lect(-L593,L596,L883)"><w>περι</w><w>αμαρτιων</w><w>επαθεν</w></rdg>
+                <rdg n="2" wit="2492 L593 L883"><w>υπερ</w><w>αμαρτιων</w><w>επαθεν</w></rdg>
+                <rdg n="3" wit="P72 02 1611 1735 arm"><w>περι</w><w>αμαρτιων</w><w>υπερ</w><w>υμων</w><w>απεθανεν</w></rdg>
+                <rdg n="3-s1" type="subreading" wit="044"><w>περι</w><w>υμων</w><w>υπερ</w><w>αμαρτιων</w><w>απεθανεν</w></rdg>
+                <rdg n="4" wit="01C2 04C2 5 33 436 442 1175 1243 1739 1852 2344 L596 syrh copbo eth"><w>περι</w><w>αμαρτιων</w><w>υπερ</w><w>ημων</w><w>απεθανεν</w></rdg>
+                <rdg n="4-s1" type="subreading" wit="01*"><w>περι</w><w>των</w><w>αμαρτιων</w><w>υπερ</w><w>ημων</w><w>απεθανεν</w></rdg>
+                <rdg n="5" wit="04* ar z vg syrp copsa ClementOfAlexandria"><w>περι</w><w>αμαρτιων</w><w>ημων</w><w>απεθανεν</w></rdg>
+                <rdg n="5-s1" type="subreading" wit="Cyprian"><w>περι</w><w>αμαρτιων</w><w>απεθανεν</w></rdg>
+                <rdg n="6" wit="020 81 307 1448 slav"><w>περι</w><w>αμαρτιων</w><w>υπερ</w><w>ημων</w><w>επαθεν</w></rdg>
+                <rdg n="6-s1" type="subreading" wit="geo"><w>περι</w><w>αμαρτιων</w><w>υπερ</w><w>υμων</w><w>επαθεν</w></rdg>
+                <rdg n="7" wit=""><w>υπερ</w><w>αμαρτωλων</w><w>απεθανεν</w></rdg>
+                <witDetail n="W1/4" type="ambiguous" wit="Augustine" target="1 5"><certainty target="1" locus="value" degree="0.1667"/><certainty target="5" locus="value" degree="0.8333"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="W4/7" type="ambiguous" wit="Didymus" target="4 7"><certainty target="4" locus="value" degree="0.5000"/><certainty target="7" locus="value" degree="0.5000"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                        <relation active="5" passive="6" ana="#EqualRating"/>
+                        <relation active="6" passive="7" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="5" ana="#Clar"/>
+                        <relation active="1" passive="6" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="3 4 5" passive="7" ana="#Clar"/>
+                        <relation active="3" passive="4" ana="#AurConf"/>
+                        <relation active="3" passive="5" ana="#VisErr"/>
+                        <relation active="4" passive="3" ana="#AurConf"/>
+                        <relation active="4" passive="5" ana="#VisErr"/>
+                        <relation active="5" passive="3" ana="#Clar"/>
+                        <relation active="6" passive="1" ana="#VisErr"/>
+                        <relation active="6" passive="4" ana="#Clar"/>
+                        <relation active="2 3 4 5 6 7" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V18U24">
+                <lem/>
+                <rdg n="1" wit="P72 03 044 1175 1243 1448 1611 1852 2492 025 L590 L591 L593 L921 L1154 L1178 z syrp syrh arm"><w>υμας</w></rdg>
+                <rdg n="2" wit="02 04 5 33 81 307 436 442 642 1735 1739 2344 018 020 Lect(-L590,L591,L593,L921,L1154,L1178) ar t vg syrhmg copbo eth geo slav ClementOfAlexandria PeterOfAlexandria Didymus CyrilOfAlexandria Cyprian Jerome"><w>ημας</w></rdg>
+                <rdg n="3" wit="01*"/>
+                <witDetail n="W1/2-1" type="ambiguous" wit="Byz copsa" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="W1/2-2" type="ambiguous" wit="Augustine" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- different readings cited in different works -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#AurConf #Clar"/>
+                        <relation active="2" passive="1" ana="#AurConf"/>
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B21K3V21U2">
+                <lem/>
+                <rdg n="1" wit="01C2 02 03 04 044 5 33 81 307 442 1175 1243 1448 1611 1735 1739 1852 2344 2492 Byz 018 020 025 Lect ar z vg syrh arm geo slav Origen Didymus CyrilOfAlexandria Cyprian Jerome Augustine Varimadum"><w>ο</w></rdg>
+                <rdg n="2" wit="642 syrp"><w>ω</w></rdg>
+                <rdg n="3" wit="P72 01* 436 eth"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#AurConf"/>
+                        <relation active="2 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+        </body>
+    </text>
+</TEI>
