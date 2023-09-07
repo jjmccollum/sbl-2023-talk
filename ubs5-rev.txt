@@ -1,0 +1,143 @@
+1:5 {A} λύσαντι ἡμᾶς ἐκ P18 01C2 02 04 2050 2329 ith Andrew Victorinus-Pettau Primasius // λύσαντι ἐκ 01* 1611 2344 arm // λύσαντι ἡμᾶς ἀπό 2351 eth // λούσαντι ἡμᾶς ἀπό 205 209 1006 1841 (1854 2053 2062 ἐκ for ἀπό) Byz [025 046C (046* homoioteleuton)] ar gig t vg copbo Apringius Beatus
+
+1:6 {C} εἰς τοὺς αἰῶνας τῶν αἰώνων 01C2 (01* τὸν αἰῶνα) 04 205 209 1006 1611 1841 1854 2053 2062 2329 2351 Byz [046] ar gig h t vg syrph syrh arm eth Didymus Andrew Apringius Beatus // εἰς τοὺς αἰῶνας P18 02 025 2050 copbo // omit including ἀμήν 2344
+
+1:8 {A} Ὦ 01C1 02 04 1006 1611 1841 2053 2062 Byz [025 046] h syrph syrh arm eth Epiphanius Ambrose Varimadum Primasius // Ὦ, ἀρχὴ καὶ τέλος (see 21.6) 01*, 2 205 209 1854 2050 (2329 ἡ ἀρχή and τὸ τέλος) (2344 τὸ τέλος) 2351 ar gig t vg copbo Andrew Apringius Beatus
+
+1:15 {C} πεπυρωμένης 02 04 // πεπυρωμένῳ 01 205 209 2050 2053 2062 ar gig h t vg copsa copbo arm eth Irenaeus Cyprian Maternus Apringius Primasius Beatus // πεπυρωμένοι 1006 1611 1841 1854 2329 2344 2351 Byz [025 046] syrhmg Andrew Victorinus-Pettau Tyconius
+
+2:7 {A} θεοῦ 01 02 04 025 205 209 1854 2329 syrph arm Andrew // θεοῦ μου 1006 1611 1841 2050 2053 2344 2351 Byz [046] ar gig t vg syrh copsa copbo eth Origen Cyprian (Victorinus-Pettau) Gregory-Elvira Chromatius Varimadum Apringius Primasius Beatus
+
+2:20 {B} γυναῖκα 01 04 025 205 209 1611 2050 2053 2329 2344 ar gig t vg copsa copbo arm eth Epiphanius Andrew Tertullian Ambrosiaster Tyconius Beatus // γυναῖκα σου (02 add τήν after σου) 1006 1841 1854 2351 Byz [046] syrph syrh Cyprian Primasius
+
+2:22 {A} κλίνην 01 04 205 209 1006 1611 1841 1854 2050 2053 2329 2344 2351 Byz [025 046] ar gig t vg syrph syrh copbo eth Andrew Tertullian Cyprian Ambrosiaster Tyconius Primasius // φυλακήν 02 // κλίβανον arm // ἀσθένειαν copsa
+
+2:22 {A} ἔργων αὐτῆς 01 04 1006 1611 1841 2050 2053 2351 Byz [025 046] gig vgww vgst syrh eth Tertullian Tyconius Beatus // ἔργων αὐτῶν 02 205 209 1854 2329 2344 ar t vgcl syrph copsa copbo arm Andrew Cyprian Ambrosiaster Apringius Primasius // omit ἐκ τῶν ἔργων αὐτῆς copbomss
+
+3:5 {B} οὕτως 01* 02 04 1006 2329 2344 2351 ar gig t vg syrph syrh copsa copbo arm eth Primasius // οὗτος 01C2 205 209 1611 1841 1854 2053 Byz [025 046] Andrew // αὐτός 2050
+
+4:11 {A} ἦσαν 01 02 205 209 1006 1611 1841 2053 2351 Byz ar gig t vg Apringius Beatus // εἰσιν 025 1854 2050 2344 copsa eth Andrew // ἐγένοντο 2329 arm // οὐκ ἦσαν 046 // omit ἦσαν καί Varimadum Fulgentius Primasius
+
+5:6 {C} τὰ ἑπτά P24 01 1854 2053 2329 (2344 omit τά) 2351 Byz [046] gig vgcl syrph syrh copsa copbo arm Irenaeuslat Clement Hippolytus Cyprian Maternus Tyconius Gregory-Elvira Fulgentius Primasius Beatus // τά 02 025 205 209 1006 1611 1841 2050 ar vgww vgst Irenaeusarm Andrew Apringius
+
+5:9 {A} τῷ θεῷ 02 eth // ἡμᾶς 1 // τῷ θεῷ ἡμᾶς 01 209 1006 1611 1841 2053 2329 2351 Byz [046] copbo Andrew // ἡμᾶς τῷ θεῷ 2050 2344 ar gig vg syrph syrh arm Hippolytus Cyprian Maternus Augustine Varimadum Fulgentius Primasius Beatus // τῷ θεῷ ἡμῶν (see 5.10) 205 (copsa)
+
+5:10 {A} αὐτούς 01 02 205 209 1006 1611 1841 2050 2053 2344 2351 Byz [046] vgww vgst syrph syrh copbo arm (eth) Andrew Cyprian Maternus // ἡμᾶς (see 5.9) ar gig vgcl copsa (Hippolytus) Varimadum Fulgentius Primasius Beatus
+
+5:10 {A} βασιλεύσουσιν 01 025 205 209 1854 2050 2053 2344 2351 gig vgww vgst copsa copbo Hippolytus Andrew Cyprian Maternus Fulgentius // βασιλεύουσιν 02 1006 1611 1841 2329 Byz [046] (ar) // βασιλεύσομεν 2432 vgcl Primasius Beatus
+
+5:13 {B} καί 01 1611* gig syrh copsa copbopt arm eth Primasius Cassiodorus Beatus // ἐστίν, καί 02 1006 1611C 1841 2329 2344 Byz syrph copbopt // ἅ ἐστιν, καί 025 046 205 209 2050 vg Andrew Fulgentius1/2 // ὅσα ἐστιν, καί 2053 2351 Fulgentius1/2 // omit ar
+
+6:1 {B} ἔρχου (see footnote 2 and 6.3–4, 5, 7–8) 02 04 025 1006 1611 1841 1854 2053 2351 vgww vgst syrhmg copsa copbo arm Andrew // Ἔρχου καὶ ἴδε 01 205 209 2329 2344 Byz [046] ar gig vgcl syrph syrh (eth) Victorinus-Pettau Primasius Beatus
+
+6:2 {B} καὶ εἶδον (see footnote 1 and 6.3–4, 5, 7–8) 01 02 04 025 205 209 1006 1611 1841 2053 2344 itgig vg syrh cop(sa), bo arm eth Andrew // καὶ ἤκουσα καὶ εἶδον syrph // omit 1854 2329 2351 Byz [046] ar vgmss Primasius Beatus
+
+6:3-4 {B} ἔρχου. καί 02 04 1006 1611 1841 1854 2053 2329 2351 Byz [025 046] vgww vgst syrph syrh copsa copbo arm Andrew // ἔρχου καὶ ἴδε. καί 205 209 2344 ar gig vgcl (eth) Primasius Beatus // ἔρχου καὶ ἴδε. καὶ εἶδον καὶ ἰδού (see 6.1–2, 5, 7–8) 01
+
+6:5 {B} ἔρχου (see footnote 5 and 6.1–2, 3, 7–8) 02 04 025 1006 1611 1841 (1854) 2053 2351 gig vgww vgst syrph syrhmg copsa copbo arm Andrew // ἔρχου καὶ ἴδε 01 205 209 2329 2344 Byz [046] ar vgcl syrh (eth) Primasius Beatus
+
+6:5 {B} καὶ εἶδον (see footnote 4 and 6.1–2, 3, 7–8) 01 02 04 025 205 209 1006 1611 1841 2053 vgww vgst syrh copbo arm Andrew (Primasius) // omit 1854 2329 2344 2351 Byz [046] ar gig vgcl syrph copsa eth Beatus
+
+6:7 {B} ἔρχου (see footnote 7 and 6.1–2, 3, 5) 02 04 025 1006 1611 1841 1854 2053 2329 2351 vgww vgst syrph syrhmg copsa copbo arm Andrew // ἔρχου καὶ ἴδε 01 205 209 2344 Byz [046] ar gig vgcl syrh (eth) Primasius Beatus
+
+6:8 {B} καὶ εἶδον (see footnote 6 and 6.1–2, 3, 5) 01 02 (04 2053 omit καί) 025 205 209 1006 1611 1841 ar vgww vgst syrph syrh copsa copbo arm Andrew // omit 1854 2329 2344 2351 Byz [046] gig vgcl eth Primasius Beatus
+
+6:17 {A} αὐτῶν 01 04 1611 1854 2053 2329 2344 ar gig vg syrph syrh Fulgentius // αὐτοῦ 02 205 209 1006 1841 2351 Byz [025 046] copsa copbo arm eth Andrew Primasius Beatus
+
+9:13 {C} ἐκ τῶν τεσσάρων κεράτων 205 209 1006 1841 1854 2329 2351 Byz [025 046] vgcl syrph Andrew Cyprian Tyconius Primasius Beatus // ἐκ τῶν κεράτων P47 01C1 02 0207 1611 2053 2344 ar gig vgww vgst syrh copsa copbo eth // omit μίαν … κεράτων 01*
+
+10:4 {B} ὅτε ἐλάλησαν αἱ ἑπτὰ βρονταί, ἤμελλον (ἔμελλον) γράφειν 02 04 205 209 1006 1611 1841 2053 2329 2351 Byz [025 046] ar vgcl vgww vgst syrph syrh arm Andrew // ὅτε ἐλάλησαν αἱ ἑπτὰ βρονταί καὶ ἔμελλον γράφειν αὐτά 1854 (2344 omit αὐτά) // ὅσα ἐλάλησαν αἱ ἑπτὰ βρονταί, ἔμελλον γράφειν 01 gig copsa Origen (Victorinus-Pettau) Tyconius Primasius Beatus // ἤκουσα ὅσα ἐλάλησαν αἱ βρονταί, καὶ ἤμελλον αὐτὰ γράφειν P47 copbo eth
+
+10:6 {A} καὶ τὴν θάλασσαν καὶ τὰ ἐν αὐτῇ P47 01C2 04 1006 1841 1854 2053 2329 2351 Byz [025 046] ar vg syrh copsams copbo eth Andrew Beatus // omit (by homoioteleuton?) 01* (02 omit καὶ τὴν γῆν … αὐτῇ) 205 209 1611 2344 gig syrph copsams arm Tyconius Primasius
+
+11:1 {A} ῥάβδῳ P47 01* 02 205 209 1006 1611 1841 2053 2344 Byz [025] gig t vg syrhmg copsa copbo eth Andrew Primasius // ῥάβδῳ καὶ εἱστήκει ὁ ἄγγελος 01C2 046 1854 2329 2351 ar syrph syrh arm Tyconius Beatus
+
+11:2 {A} ἔξωθεν P47 02 205 209 1006 1611 1841 1854 2053 2351 Byz [025 046] ar vg syrh copsa copbo arm eth Andrew Tyconius Jerome Primasius Beatus // ἔσωθεν 01 2329 syrph Victorinus-Pettau
+
+11:12 {B} ἤκουσαν 01* 02 04 025 2053 vg syrph syrh // ἤκουσα P47 01C 205 209 1006 1611 1841 1854 2351 Byz [046] ar gig syrhmg arm eth Andrew Tyconius Beatus // ἀκούσονται 2329
+
+11:17 {B} ὅτι 01C2 02 205 209 1611 1854 2053 2329 2351 Byz [025 046] gig h vgww vgst syrph syrh copsa eth Andrew Cyprian Primasius // καὶ ὅτι P47 01* 04 2344 arm // et qui ar // καὶ ὁ ἐρχόμενος ὅτι 051 1006 1841 vgcl (copbo) Tyconius (Beatus)
+
+12:18 {B} καὶ ἐστάθη P47 01 02 04 205 209 1854 2344 2351 ar gig vg syrh arm eth Origen Victorinus-Pettau Beatus // καὶ ἐστάθην 051 1006 1611 1841 2053 2329 Byz [025 046] vgmss syrph copsa copbo Andrew
+
+13:1 {C} ὀνόματα 02 051 205 209 1611 1854 2053 2344 2351 Byz [046] ar vg syrh Priscillian // ὄνομα P47 01 04 025 1006 1841 2329 gig syrph copsa copbo arm eth Andrew Primasius Beatus
+
+13:6 {B} τοὺς ἐν τῷ οὐρανῷ σκηνοῦντας (01* σκηνοῦντες) 02 04 051C (1006 omit τῷ) 1611 1841 (1854 omit τούς) 2329 2344 2351 Byz [046c] vgms syrh (syrph τῶν … σκηνούντων) (Irenaeusarm) // καὶ τοὺς ἐν τῷ οὐρανῷ σκηνοῦντας (01C2 τοῦ for τούς and σκηνοῦντες) 025 046* 051* 205 209 2053 ar vg copsa copbo Irenaeuslat Andrew Beatus // ἐν τῷ οὐρανῷ P47 gig eth Primasius
+
+13:7 {A} καὶ ἐδόθη αὐτῷ ποιῆσαι πόλεμον μετὰ τῶν ἁγίων καὶ νικῆσαι αὐτούς 01 051 205 209 1006 (1611 1854 πόλεμον ποιῆσαι) 1841 2329 2344 2351 Byz [046] ar gig vg syrph syrh copbo eth Beatus // καὶ ἐδόθη αὐτῷ ἐξουσία ποιῆσαι πόλεμον μετὰ τῶν ἁγίων καὶ νικῆσαι αὐτούς 1859 armmss (Quodvultdeus) Primasius // omit (by homoioarcton?) P47 02 04 025 2053 copsa armmss Irenaeuslat Andrew
+
+13:10 {B} εἰς αἰχμαλωσίαν, εἰς αἰχμαλωσίαν ὑπάγει 02 vgww vgst // εἰς αἰχμαλωσίαν ἀπάγει, εἰς αἰχμαλωσίαν ὑπάγει 2351 ar gig vgcl syrph syrh Irenaeuslat Beatus // εἰς αἰχμαλωσίαν, ὑπάγει P47 01 04 025 046 051A 205 209 1006 1611 1841 (1854 ἀπάγει) 2053 2329 copbo Irenaeusarm Andrew // ἔχει αἰχμαλωσίαν, ὑπάγει 051T Byz // αἰχμαλωτίζει, εἰς αἰχμαλωτίαν ὑπάγει 104 copsa Primasius
+
+13:10 {B} ἀποκτανθῆναι αὐτόν 02 // ἀποκτενεῖ 1828 gig syrph Pacian Beatus // ἀποκτείνει (ἀποκτέννει, ἀποκτένει), δεῖ αὐτόν 01 046 1006 1611 1841 1854 2344 2351 eth Irenaeusarm // ἀποκτενεῖ, δεῖ αὐτόν 04 025 051T 205 209 (2053 ἀποκτενεῖν) 2329 ar vg copsa copbo Irenaeuslat Andrew Primasius // δεῖ αὐτὸν ἀποκτανθῆναι (and omit following ἐν μαχαίρῃ ἀποκτανθῆναι) 051A Byz
+
+13:15 {C} ποιήσῃ ἵνα ὅσοι 02 025 1006 1841 (2329 ποιήσει) ar gig vgcl vgww copsa (Hippolytusmss) Primasius Beatus // ποιήσῃ ὅσοι (01 2351 ποιήσει) 205 209 1611 2377 Byz [046] vgst Irenaeus Hippolytus Andrew // ποιήσῃ ὅσοι … ἵνα ἀποκτανθῶσιν 051 1854 // ὅσοι copbo
+
+13:17 {A} καί P47 02 051 205 209 1006 1841 1854 2329 2344 2351 2377 Byz [025 046] gig vg arm eth Hippolytus1/2 Andrew Beatus1/2 // omit 01* 04 1611 ar syrph syrh copsa copbo Irenaeus Hippolytus1/2 Maternus Primasius Beatus1/2
+
+13:18 {A} ἑξήκοντα ἕξ P47 01 02 051 205 209 1006 1611 1841 1854 2053 2329 2351 2377 Byz [025 046] gig vg syrph syrh copsa copbo arm eth Irenaeus Hippolytus Andrew Victorinus-Pettau Gregory-Elvira Primasius Beatus // ἑξήκοντα πέντε 2344 // τεσσεράκοντα ἕξ ar // δέκα ἕξ (P115 χιϛ) 04 Caesarius
+
+14:1 {A} τό 01 02 04 1006 1611 1841 2053 2329 2344 2377 Byz [046] copbo eth Origen Methodius // omit P47 025 051 205 209 1854 copsa Andrew
+
+14:3 {C} ὡς 02 04 051 1006 1841 ar vg syrph Andrew Beatus // omit P47 01 205 209 1611 1854 2053 2329 2344 2377 Byz [025 046] gig t syrh copsa copbo arm eth Origen Methodius Jerome Primasius Cassiodorus
+
+14:6 {B} ἄλλον ἄγγελον P115 01C2 02 04 025 051 1006 1611 1841 2053 2329 ar gig t vg syrph syrh copbo arm Cyprian Maternus Varimadum Primasius Cassiodorus Beatus // ἦλθεν (for εἶδον) ἄλλος ἄγγελος eth // ἄγγελον P47 01* 205 209 1854 Byz [046] copsa Origen Andrew Victorinus-Pettau Ambrose
+
+14:8 {B} ἄγγελος δεύτερος 01C2 (04 δεύτερον) 025 051 205 209 1611 2053 2344 (itgig) syrh copsa copbo arm Andrew (Beatus) // δεύτερος ἄγγελος 02 2329 Byz [046] Primasius Cassiodorus // δεύτερος P47 01* 1006 1841 1854 syrph syrhmg // ἄγγελος 61 69 ar vg eth Victorinus-Pettau
+
+14:13 {A} ναί, λέγει 01C2 02 04 025 051 209 1006 1611 1854 2344 ar gig vg syrph syrh copsa Andrew Augustine Speculum Primasius Beatus // λέγει ναί 2329 Byz [046] // καὶ λέγει 205 2053 // λέγει P47 01* copbo arm eth Varimadum
+
+14:18 {C} ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου ὁ 04 2329 h vgcl arm eth Beatus // ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου 01 (051 1854 ἐξῆλθεν after θυσιαστηρίου) 205 209 1006 Byz [025 046] copsa copbo Andrew // ἄγγελος ἐκ τοῦ θυσιαστηρίου ὁ 02 ar gig vgww vgst // ἄγγελος ἐκ τοῦ θυσιαστηρίου P47 1611 2053 // ἄγγελος Primasius
+
+15:3 {B} ἐθνῶν 01C1 02 051 205 209 1854 2053 2062 2329 Byz [025 046] gig syrhmg copbo Andrew Ambrose Beatus // πάντων τῶν ἐθνῶν h arm eth Primasius // αἰώνων (see 1 Tm 1.17) P47 01*, 2 04 1006 1611 1841 ar vg syrph syrh copsa // ἁγίων 2049
+
+15:6 {B} λίνον 051 205 209 1006 1611 2329 Byz [025] vgcl syrph syrh Andrew Beatus // λινοῦν P47 046 ar gig h Origen Primasius // λινους [sic] after καθαρούς and before λαμπρούς 01 arm (Cassiodorus) // λίθον (see Eze 28.13) 02 04 2053 2062 vgww vgst syrhmg // omit eth
+
+16:4 {B} ἐγένετο 01 04 051 205 209 Byz [025 046] ar vg arm Andrew Beatus // ἐγένοντο P47 02 1006 1611 1841 1854 2053 (2062 ἐγένεντο [sic]) 2329 gig h syrph syrh copsa copbo eth Primasius
+
+16:17 {A} ναοῦ ἀπὸ τοῦ θρόνου P47 02 (1006 ἀπὸ τοῦ ναοῦ ἐκ) 1611 1841 2053 2062 (2329 ἐκ τοῦ ναοῦ after θρόνου) ar vg syrph syrh copsa copbo arm eth Primasius Beatus // οὐρανοῦ (051* ἀπὸ τοῦ οὐρανοῦ) gig // οὐρανοῦ ἀπὸ τοῦ θρόνου 1854 2344 Andrew // ναοῦ τοῦ οὐρανοῦ ἀπὸ τοῦ θρόνου (051C ἀπὸ τοῦ ναοῦ) 205 209 Byz [046] // ναοῦ τοῦ θεοῦ 01 // ναοῦ τοῦ οὐρανοῦ ἀπὸ τοῦ θρόνου τοῦ θεοῦ 2027
+
+17:4 {B} πορνείας αὐτῆς 02 051 205 209 1006 1841 2344 ar vg syrph syrhmg arm eth Andrew Beatus // πορνείας τῆς γῆς 1611 (1854 πονηρίας for πορνείας) 2030 2053 2062 2329 Byz [046] Hippolytus (Cyprian) (Quodvultdeus) (Primasius) // πορνείας αὐτῆς καὶ τῆς γῆς 01 syrh copsa copbo // γῆς gig
+
+17:8 {B} ὑπάγει (see 17.11) 02 1611 2053 2062 syrph copsa copbo eth Irenaeus Hippolytus Andrew Primasius // ὑπάγειν 01 051 205 209 1006 1841 1854 2030 2329 2344 Byz [025 046] ar gig vg syrh arm Hippolytusmss Quodvultdeus Beatus
+
+18:2 {C} καὶ φυλακὴ παντὸς θηρίου ἀκαθάρτου (02, but omit καὶ φυλακὴ παντὸς ὀρνέου ἀκαθάρτου) 2329 itgig syrh (copsa) (arm) eth (Hippolytus) (Primasius) // omit 01 04 051 1006 1841 2030 2053 2062 Byz [(P homoioteleuton) 046] itar vg copbo ethmss Andrew Beatus GNB NIV REB EU BJ TOB BTI // omit this phrase and preceding καὶ φυλακὴ παντὸς ὀρνέου ἀκαθάρτου syrph Hippolytusmss // omit this phrase and preceding καὶ φυλακὴ παντὸς πνεύματος ἀκαθάρτου 205 209 1611 1854 // omit all phrases beginning καὶ φυλακή Priscillian
+
+18:3 {B} τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας 01 1006 1841 2030 2329 2344 Byz [046] vgcl syrh copsa copbopt // τοῦ θυμοῦ τοῦ οἴνου τῆς πορνείας 025 051 205 209 gig copbopt arm ethmss Hippolytus Andrew // τοῦ θυμοῦ τῆς πορνείας 02 (04 τῆς πορνείας τοῦ θυμοῦ) 1611 2053 2062 ar vgww vgst copbopt (eth) Priscillian // τοῦ οἴνου τῆς πορνείας 1854 syrph Primasius Beatus
+
+18:3 {D} πέπωκαν (or πεπώκασιν) (P 051 πέπωκεν) 1006C 2329 ar gig vg syrh arm (Andrew) Priscillian Beatus // πεπότικεν 2042 // πεπτώκασιν (or πέπτωκαν) 01 02 04 205 209 1006* 1611 1841 (1854 2053 2062 πέπτωκεν) 2030 Byz [046] eth Hippolytus // πέπτωκεν εἰς syrhmg Hippolytusmss // omit πέπωκαν πάντα τὰ ἔθνη Primasius
+
+18:12 {A} ξύλου 01 04 051 205 209 1611 1854 2030 (2053 2062 omit ἐκ) 2329 Byz [025 046] gig syrph syrh copsa copbo arm ethmss Hippolytus Andrew Primasius Beatus // λίθου 02 1006 1841 ar vg eth
+
+18:17 {B} ὁ ἐπὶ τόπον πλέων 02 04 1006 (1611 omit ὁ) 1841 1854 2030 Byz ar vgww vgst arm // ὁ ἐπὶ τὸν τόπον πλέων 01 046 0229 2329 gig // ὁ ἐπὶ πόντον πλέων 2254 vgcl copbo Caesarius Primasius // ὁ ἐπὶ τὸν ποταμὸν πλέων 2053 2062 copsa // ἐπὶ τῶν πλοίων πλέων 025 051 205 209 (Hippolytus) Andrew Beatus
+
+18:22 {B} καὶ πᾶς τεχνίτης πάσης τέχνης 04 051 (205 209 omit οὐ μὴ εὑφεθῇ ἐν σοὶ ἔτι) 1006 1611 1841 1854 2062 (2329 τέχνεως for τέχνης) 2344 Byz [025 046] ar gig vg syrh copsa (eth Hippolytusslav, but omit καὶ φωνὴ ... third ἔτι) Andrew Primasius Beatus // καὶ πᾶς τεχνίτης καὶ πάσης τέχνης 2053 ethmss // καὶ πᾶς τεχνίτης (01, but omit καὶ φωνὴ μύλου ... third ἔτι) 02 copbo eth Hippolytusslav // omit καὶ πᾶς ... third ἔτι syrph syrhmg arm Hippolytusgr
+
+19:5 {C} καὶ οἱ φοβούμενοι 02 051 (0229 omit οἱ) 205 209 1006 1611 1841 1854 2030 2053 2062 2329 2344 Byz [046] ar gig t vg syrph syrh copbo arm ethmss Andrew Primasius Apringius Beatus // οἱ φοβούμενοι 01 04 025 copsa eth
+
+19:6 {C} κύριος ὁ θεὸς ἡμῶν 01C2 1611 1854 2030 2053 2062 2329 2344 Byz [025 046] ar gig vg syrh copsams arm Apringius Beatus // ὁ θεὸς ὁ κύριος ἡμῶν 01* // κύριος ὁ θεός 02 1006 1841 t syrphC copsamss copbo Cyprian // ὁ θεὸς ἡμῶν 051 205 209 Andrew // κύριος syrph* (Primasius add ἡμῶν)
+
+19:7 {C} δώσωμεν 025 2062 2329 2344 Andrew // δώσομεν 01C2 02 2053 // δῶμεν 01* 051 205 209 1006 1611 1841 1854 2030 Byz [046] ar gig t vg eth Cyprian Primasius Beatus
+
+19:11 {C} καλούμενος πιστὸς καὶ ἀληθινός (01 πιστὸς καλούμενος) (1006 καὶ καλούμενος) 1611 1841 1854 2030 2053 2062 (2329 omit καὶ ἀληθινός) 2344 Byz [046] ar gig t vgcl syrph syrh eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus // πιστὸς καὶ ἀληθινός 02 025 051 205 209 arm Hippolytus Andrew // vocabatur fidelis et verax vocatur vgww vgst
+
+19:12 {C} ὡς 02 1006 1841 ar gig t vg syrph syrh copsa copbo eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus // omit 01 051 205 209 1611 1854 2030 2053 2062 2329 2344 Byz [025 046] arm Hippolytus Andrew
+
+19:13 {B} βεβαμμένον 02 051 205 209 1854 2030 2344 Byz [046] copsa arm Andrew // ἐρραμμένον (1611 ῥεραμμένον) 2053 2062 (Origen1/2) // ἐρραντισμένον (P 2329 ῥεραντισμένον) 1006 1841 ar gig t vg eth Irenaeuslat Origen1/2 Hippolytus Cyprian Priscillian Jerome Varimadum Apringius Primasius Cassiodorus Beatus // περιρεραμμένον 01* (01C2 περιρεραντισμένον)
+
+20:6 {C} τά 01 046 1611 2053 2062 2329 syrh copsa copbo // omit 02 051 205 209 1006 1841 1854 2030 2050 2377 Byz copbomss arm eth Andrew
+
+20:9 {A} ἐκ τοῦ οὐρανοῦ 02 2053K copbomss eth Augustine2/3 Primasius // ἀπὸ τοῦ θεοῦ 1854 // ἀπὸ τοῦ θεοῦ ἐκ τοῦ οὐρανοῦ 01C2 (01* homoioteleuton) 025 1006 1611 1841 2050 2053T 2062 vg syrh Jerome Apringius Beatus // ἐκ τοῦ θεοῦ ἀπὸ τοῦ οὐρανοῦ (051 omit first τοῦ) 205 209 Andrew // ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ (see 21.2, 10) 2030 2329 Byz [046] ar gig syrph copsa copbo arm ethmss Augustine1/3
+
+21:3 {B} λαοί 01 02 046 2050 2053 2062 2329 ar Irenaeus Andrew // λαός 051S 205 209 1006 1611 1841 1854 2030 Byz [025] gig sin vg syrph syrh copsa copbo arm eth Ambrose Augustine Primasius Apringius Beatus
+
+21:3 {C} μετ᾽ αὐτῶν ἔσται αὐτῶν θεός 02 (1854 θεὸς αὐτῶν) 2030 (2050 καὶ ἔσται) 2053K (2053T 2062 ὁ θεός) 2329 2377 vg eth Irenaeus Ambrose1/2 Apringius Beatus // ἔσται μετ᾽ αὐτῶν θεὸς αὐτῶν, 025 051S 205 209 Andrew // μετ᾽ αὐτῶν ἔσται θεός, 1006 1611 1841 copsa copbopt // μετ᾽ αὐτῶν ἔσται (01 ἔσται before μετ᾽) Byz [046] gig sin copbopt Ambrose1/2 Augustine Primasius
+
+21:4 {C} ὅτι τὰ πρῶτα 01C1 205 209 1854 Byz [046] ar (gig τὰ γὰρ πρῶτα) vgcl vgww syrh copsa copbo arm Irenaeus Augustine Quodvultdeus Primasius // ὅτι ταῦτα 2050 // τὰ πρῶτα 02 025 051S 1006 1611 1841 2030 2053 2062 2329 2377 Andrew // quae prima vgst Apringius Beatus // τὰ πρόβατα 01*
+
+21:12 {C} τὰ ὀνόματα 02 1611 1841 1854 2030 (2050 τὰ ὀνόματα after Ἰσραήλ) 2053 2329 2377 // ὀνόματα 1006 2062 Byz [046] // omit 01 025 051 205 209 arm Andrew
+
+22:14 πλύνοντες τὰς στολὰς αὐτῶν 01 02 1006 1841 (2050 πλύναντες) 2053 2062 ar vg copsa eth Ps-Athanasiusmss Ambrose Fulgentius Apringius // πλατύνοντες τὰς στολὰς αὐτῶν Ps-Athanasius // ποιοῦντες τὰς ἐντολὰς αὐτοῦ 205 209 1611S 1854 2030 2329 2377 Byz [046] gig syrph syrh copbo (arm τηροῦντες τάς) Andrew Tertullian Cyprian Caesarius Beatus
+
+22:21 {A} κυρίου Ἰησοῦ 01 02 1611S 2053 2062 // κυρίου Ἰησοῦ Χριστοῦ 051S 209 1006 1841 1854 2030 2050 2329 2377 Byz [046] syrh Andrew // κυρίου ἡμῶν Ἰησοῦ Χριστοῦ 205 ar gig vg (copsa omit Χριστοῦ) syrph arm eth Beatus // omit verse 21, but add after verse 20 εἰς ἁγίους πάντας εἰς αἰώνας τῶν αἰώνων. ἀμήν. copbo
+
+22:21 {B} μετὰ πάντων. 02 (ar cum omnibus hominibus) vgst (vgww Beatus1/2 add ἀμήν) Beatus1/2 // μετὰ πάντων ἡμῶν. ἀμήν. 2050 (vgcl eth ὑμῶν for ἡμῶν) // μετὰ τῶν ἁγίων. ἀμήν. 01 (gig omit ἀμήν) NIV // μετὰ τῶν ἁγίων σου. ἀμήν. 2329 // μετὰ πάντων τῶν ἁγίων. ἀμήν. 051S 205 209 (1006 1841 omit ἀμήν) 1611 1854 2062 2377 Byz [046] syrh copsa (concerning copbo see footnote 2) arm (Andrew omit ἀμήν) // μετὰ πάντων τῶν ἁγίων αὐτοῦ. ἀμήν. 2030 syrph
