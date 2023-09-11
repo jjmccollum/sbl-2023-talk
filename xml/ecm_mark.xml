@@ -4244,6 +4244,112 @@
                     </listRelation>
                 </note>
             </app>
+            <app xml:id="B02K14V5U14">
+                <lem><w>επανω</w></lem>
+                <rdg n="1" wit="MT 01 02 03 04 05 011 017 019 032 037 038 041 042 043 044 0103 0211 1 3 4 13 16 18 23 26 28 35 61 69 79 105 117 118 124 131 152 153 176 178 179 184 191 205 209 222 238 261 273 304 346 348 349 351 372 377 382 389 427 472 495 513 543 544 555 565 569 579 590 595 695 697 700 706 713 716 719 728 732 740 752 766 780 788 791 792 803 807 826 827 828 829 855 863 872 873 892 949 979 983 1009 1029 1047 1071 1082 1084 1093 1128 1160 1216 1241 1243 1253 1273 1279 1302 1326 1337 1342 1396 1424 1446 1457 1495 1506 1515 1528 1542s 1546 1574 1579 1582 1593 1645 1654 1689 2106 2148 2174 2193 2200 2206 2411 2487 2542 2606 2607 2680 2726 2737 2738 2766 2786 2886 L211 L547 L563 L770 L773 L950"><w>επανω</w></rdg>
+                <rdg n="2" wit="154 517 733 954 1555 1675"/>
+                <witDetail n="Z" type="lac" wit="P45 P84 P88 P137 05s 011s 022 041s 055 064 067 072 083 099 0104 0130 0131 0167 0184 0187 0188 0233 0250 0274 0292 33 719s 837 954s 1084s 1542 1574s 2486 2517 2537 2538 2542s 2666 2744 L60 L387 L547s L844 L2211"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar #Harm"/><!-- cf. John 12:5 -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B02K14V24U18-20">
+                <lem><w>της</w><w>διαθηκης</w></lem>
+                <rdg n="1" wit="01 03 04 05 019 032 038 044 0211 565"><w>της</w><w>διαθηκης</w></rdg>
+                <rdg n="2" wit="MT 02 017 037 041 042 043 1 3 4 13 16 18 23 26 28 35 61 69 79 105 117 118 124 131 152 153 154 176 178 179 184 191 205 209 222 238 261 273 346 348 349 351 372 377 382 389 427 472 495 513 517 543 544 555 569 579 595 695 697 700 706 713 716 719 728 732 733 740 752 766 780 788 791 792 803 807 826 827 828 829 855 863 872 873 892 949 954 979 983 1009 1047 1071 1082 1084 1093 1128 1160 1216 1241 1243 1253 1273 1279 1302 1326 1337 1342 1396 1424 1446 1457 1495 1506 1515 1528 1542s 1546 1555 1574 1579 1582 1593 1645 1654 1675 1689 2106 2148 2174 2193 2200 2206 2411 2542 2606 2607 2680 2726 2737 2738 2766 2786 2886 L211 L387 L547 L770 L773 L950"><w>της</w><w>καινης</w><w>διαθηκης</w></rdg>
+                <rdg n="3" wit="2487"/>
+                <witDetail n="Z" type="lac" wit="P45 P84 P88 P137 05s 011 011s 022 041s 055 064 067 072 083 099 0103 0104 0130 0131 0167 0184 0187 0188 0233 0250 0274 0292 33 304 590 719s 837 954s 1029 1084s 1542 1574s 2486 2517 2537 2538 2542s 2666 2744 L60 L547s L563 L844 L2211"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Harm"/><!-- cf. Luke 22:20; 1 Cor 11:25 -->
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B02K14V25U10-16">
+                <lem><w>ουκετι</w><w>ου</w><w>μη</w><w>πιω</w></lem>
+                <rdg n="1" wit="MT 02 03 017 022 037 041 042 043 055 0211 1 3 4 13 16 18 23 26 28 35 61 69 79 105 117 118 124 131 152 153 154 176 178 179 184 191 205 209 222 238 261 273 346 348 349 351 372 377 382 389 427 472 495 513 517 543 544 555 569 579 595 695 697 700 706 713 716 719 728 732 733 740 752 766 780 788 791 803 807 826 827 828 829 855 863 872 873 954 979 983 1009 1047 1071 1082 1084 1160 1216 1241 1243 1253 1273 1279 1302 1326 1337 1396 1424 1446 1457 1495 1506 1515 1528 1542s 1546 1555 1579 1582 1593 1645 1654 1675 1689 2106 2148 2174 2193 2200 2206 2411 2487 2542 2606 2607 2680 2726 2737 2738 2786 2886 L547 L770 L773"><w>ουκετι</w><w>ου</w><w>μη</w><w>πιω</w></rdg>
+                <rdg n="2" wit="L387"><w>ου</w><w>μη</w><w>πιω</w><w>ουκετι</w></rdg>
+                <rdg n="3" wit="038"><w>ουκετι</w><w>ου</w><w>μη</w><w>προσθωμεν</w><w>πιειν</w></rdg>
+                <rdg n="4" wit="565"><w>ουκετι</w><w>ου</w><w>προσθω</w><w>πιειν</w></rdg>
+                <rdg n="5" wit="05"><w>ου</w><w>μη</w><w>προσθω</w><w>πειν</w></rdg>
+                <rdg n="6" wit="2766"><w>ουκετι</w><w>μη</w><w>πιω</w></rdg>
+                <rdg n="7" wit="01 04 019 032 044 0103 792 892 1093 1128 1342 1574 L211 L950"><w>ου</w><w>μη</w><w>πιω</w></rdg>
+                <rdg n="8" wit="949"><w>μη</w><w>πιω</w></rdg>
+                <witDetail n="Z" type="lac" wit="P45 P84 P88 P137 05s 011 011s 041s 064 067 072 083 099 0104 0130 0131 0167 0184 0187 0188 0233 0250 0274 0292 33 304 590 719s 837 954s 1029 1084s 1542 1574s 2486 2517 2537 2538 2542s 2666 2744 L60 L547s L563 L844 L2211"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                        <relation active="5" passive="6" ana="#EqualRating"/>
+                        <relation active="6" passive="7" ana="#EqualRating"/>
+                        <relation active="7" passive="8" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="7" ana="#Harm"/><!-- cf. Matt 26:29 -->
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#Clar"/>
+                        <relation active="1" passive="7" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="3" passive="1" ana="#Clar #VisErr"/>
+                        <relation active="3" passive="5" ana="#VisErr"/>
+                        <relation active="4 5" passive="3" ana="#Clar"/><!-- conflation -->
+                        <relation active="5" passive="3" ana="#Clar"/>
+                        <relation active="5" passive="7" ana="#Clar #VisErr"/>
+                        <relation active="6" passive="1" ana="#Clar"/>
+                        <relation active="6" passive="8" ana="#VisErr"/>
+                        <relation active="7" passive="1 2" ana="#Clar"/>
+                        <relation active="7" passive="5" ana="#Clar"/>
+                        <relation active="7" passive="6" ana="#Clar"/>
+                        <relation active="7" passive="8" ana="#VisErr"/>
+                        <relation active="8" passive="7" ana="#Clar"/>
+                        <relation active="2 3 4 5 6 7 8" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B02K14V30U34-38">
+                <lem><w>δις</w><w>αλεκτορα</w><w>φωνησαι</w></lem>
+                <rdg n="1" wit="MT 02 03 011 017 019 022 037 041 042 043 044 083 0211 0233 1 3 4 16 18 23 26 28 35 61 105 117 118 124 131 152 153 154 178 179 184 205 209 222 261 273 304 348 351 372 389 495 513 517 544 555 569 595 695 697 706 713 716 719 728 733 740 752 780 791 792 803 827 828 829 855 872 873 892 949 954 979 1047 1071 1082 1084 1093 1216 1241 1243 1253 1273 1279 1302 1326 1337 1342 1396 1424 1457 1495 1506 1528 1546 1555 1574 1579 1582 1593 1645 1675 2106 2174 2193 2200 2206 2487 2606 2607 2680 2726 2737 2766 2786 2886 L211 L770 L773"><w>δις</w><w>αλεκτορα</w><w>φωνησαι</w></rdg>
+                <rdg n="2" wit="038 13 346 472 543 565 700 788 826 983 1009 1515 1542s 1654 2542"><w>αλεκτορα</w><w>δις</w><w>φωνησαι</w></rdg>
+                <rdg n="3" wit="79"><w>αλεκτορα</w><w>φωνησαι</w><w>δις</w></rdg>
+                <rdg n="4" wit="69"><w>αλεκτορα</w><w>τρις</w><w>φωνησαι</w></rdg>
+                <rdg n="5" wit="01 04 05 032 176 191 238 377 382 579 766 807 1128 1160 1689 2148 L950"><w>αλεκτορα</w><w>φωνησαι</w></rdg>
+                <rdg n="6" wit="427"><w>δις</w><w>αλεκτωρ</w><w>φωνηση</w></rdg>
+                <witDetail n="W1/6" type="ambiguous" wit="349 732 863 1446 2411 2738" target="1 6"><w>δις</w><w>αλεκτορ</w><w>φωνησαι</w></witDetail>
+                <witDetail n="Z" type="lac" wit="P45 P84 P88 P137 05s 011s 041s 055 064 067 072 099 0103 0104 0130 0131 0167 0184 0187 0188 0250 0274 0292 33 590 719s 837 954s 1029 1084s 1542 1574s 2486 2517 2537 2538 2542s 2666 2744 L60 L387 L547 L547s L563 L844 L2211"/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                        <relation active="5" passive="6" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 4 6" passive="5" ana="#Harm"/><!-- cf. Matt 26:34; Luke 22:34; John 13:36 -->
+                        <relation active="1" passive="2 3" ana="#Clar"/>
+                        <relation active="1" passive="6" ana="#AurConf #LingConf"/>
+                        <relation active="2" passive="4" ana="#Clar #VisErr"/><!-- assimilation or dittography -->
+                        <relation active="5" passive="1 2 3 4" ana="#Clar"/>
+                        <relation active="2 3 4 5 6" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
         </body>
     </text>
 </TEI>
