@@ -19,6 +19,8 @@
                     <date notBefore="60" notAfter="100"/>
                 </bibl>
                 <listWit>
+                    <!-- Byzantine tradition -->
+                    <witness n="Byz"/>
                     <!-- Papyri -->
                     <witness n="P72">
                         <origDate notBefore="200" notAfter="400"/>
@@ -182,8 +184,6 @@
                     <witness type="lectionary" n="L1590">
                         <origDate notBefore="1200" notAfter="1300"/>
                     </witness>
-                    <!-- Byzantine tradition -->
-                    <witness n="Byz"/>
                     <!-- Old Latin manuscripts -->
                     <witness n="ar">
                         <origDate notBefore="800" notAfter="900"/>
