@@ -1699,11 +1699,11 @@
                     </listRelation>
                     <listRelation type="transcriptional">
                         <relation active="1" passive="2 3 4 5" ana="#Clar"/><!-- substitutions of more common words -->
+                        <relation active="2 5" passive="6" ana="#Clar"/><!-- conflation -->
                         <relation active="2" passive="3 4 5" ana="#Clar"/><!-- substitutions of more common words -->
-                        <relation active="2" passive="6" ana="#Clar"/><!-- conflation with Byzantine reading -->
-                        <relation active="3" passive="4 5" ana="#Clar"/>
+                        <!-- <relation active="3" passive="4 5" ana="#Clar"/>
                         <relation active="4" passive="3 5" ana="#Clar"/>
-                        <relation active="5" passive="3 4" ana="#Clar"/>
+                        <relation active="5" passive="3 4" ana="#Clar"/> -->
                         <relation active="6" passive="5" ana="#VisErr"/>
                         <relation active="1 2 3 4 6" passive="5" ana="#Byz"/>
                     </listRelation>
