@@ -3349,8 +3349,10 @@
                     </listRelation>
                     <listRelation type="transcriptional">
                         <relation active="1" passive="4" ana="#Clar"/>
+                        <relation active="2" passive="3" ana="#Clar #VisErr"/>
+                        <relation active="2" passive="5" ana="#Clar"/>
+                        <relation active="3" passive="2" ana="#Clar #VisErr"/>
                         <relation active="4" passive="2" ana="#Clar"/>
-                        <relation active="2" passive="3 5" ana="#Clar"/>
                         <relation active="1 3 4 5" passive="2" ana="#Byz"/>
                         <relation active="1 2 3 5" passive="4" ana="#Byz"/>
                     </listRelation>
