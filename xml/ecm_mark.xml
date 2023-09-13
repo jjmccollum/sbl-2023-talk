@@ -1318,7 +1318,6 @@
                         <relation active="4" passive="5" ana="#Clar"/>
                         <relation active="5" passive="1" ana="#Clar"/>
                         <relation active="5" passive="4" ana="#Clar"/>
-                        <relation active="6" passive="1" ana="#Harm"/><!-- cf. Acts 23:9 -->
                         <relation active="6 8" passive="12" ana="#VisErr"/>
                         <relation active="6 10 11" passive="9" ana="#Clar"/>
                         <relation active="6 10 12 14" passive="13" ana="#VisErr"/>
