@@ -3348,7 +3348,7 @@
                         <relation active="4" passive="5" ana="#EqualRating"/>
                     </listRelation>
                     <listRelation type="transcriptional">
-                        <relation active="1" passive="4" ana="#Clar"/>
+                        <relation active="1" passive="3 4" ana="#Clar"/>
                         <relation active="2" passive="3" ana="#Clar #VisErr"/>
                         <relation active="2" passive="5" ana="#Clar"/>
                         <relation active="3" passive="2" ana="#Clar #VisErr"/>
