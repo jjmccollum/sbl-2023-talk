@@ -1309,8 +1309,8 @@
                         <relation active="1" passive="2" ana="#Clar"/>
                         <relation active="1" passive="5" ana="#VisErr"/>
                         <relation active="1" passive="6" ana="#Clar"/>
-                        <relation active="2" passive="1" ana="#Clar"/>
                         <relation active="2 3" passive="4" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
                         <relation active="2" passive="3" ana="#VisErr"/>
                         <relation active="3" passive="2" ana="#Clar"/>
                         <relation active="4" passive="2 3" ana="#Clar"/>
@@ -1330,6 +1330,7 @@
                         <relation active="9" passive="6 7" ana="#Clar"/>
                         <relation active="10" passive="6" ana="#Clar"/>
                         <relation active="11" passive="6" ana="#Clar"/>
+                        <relation active="12" passive="6 8" ana="#Clar"/>
                         <relation active="1 2 3 4 5 7 8 9 10 11 12 13 14" passive="6" ana="#Byz"/>
                     </listRelation>
                 </note>
