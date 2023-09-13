@@ -1319,7 +1319,6 @@
                         <relation active="5" passive="1" ana="#Clar"/>
                         <relation active="5" passive="4" ana="#Clar"/>
                         <relation active="6 8" passive="12" ana="#VisErr"/>
-                        <relation active="6 10 11" passive="9" ana="#Clar"/>
                         <relation active="6 10 12 14" passive="13" ana="#VisErr"/>
                         <relation active="6 12" passive="14" ana="#VisErr"/><!-- dittography of 2:15 -->
                         <relation active="6" passive="7" ana="#Clar"/>
@@ -1328,10 +1327,10 @@
                         <relation active="6" passive="11" ana="#Clar #VisErr"/>
                         <relation active="7" passive="6" ana="#Clar"/>
                         <relation active="8" passive="6" ana="#Clar"/>
-                        <relation active="9" passive="6 7" ana="#Clar"/>
+                        <relation active="9" passive="6" ana="#Clar"/>
                         <relation active="10" passive="6" ana="#Clar"/>
                         <relation active="11" passive="6" ana="#Clar"/>
-                        <!-- <relation active="12" passive="6 8" ana="#Clar"/> -->
+                        <relation active="12" passive="6 8" ana="#Clar"/>
                         <relation active="1 2 3 4 5 7 8 9 10 11 12 13 14" passive="6" ana="#Byz"/>
                     </listRelation>
                 </note>
