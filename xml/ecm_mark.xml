@@ -2504,9 +2504,9 @@
                     </listRelation>
                     <listRelation type="transcriptional">
                         <relation active="1 2 3" passive="4" ana="#Clar #VisErr"/><!-- haplography or deletion due to geographical difficulties -->
+                        <relation active="1 2" passive="3" ana="#Clar"/>
                         <relation active="1" passive="2" ana="#VisErr"/>
-                        <relation active="2 3" passive="1" ana="#Clar"/>
-                        <relation active="2" passive="3" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
                         <relation active="2 3 4" passive="1" ana="#Byz"/>
                     </listRelation>
                 </note>
