@@ -1319,7 +1319,7 @@
                         <relation active="5" passive="4" ana="#Clar"/>
                         <relation active="6 8" passive="12" ana="#VisErr"/>
                         <relation active="6 10 11" passive="9" ana="#Clar"/>
-                        <relation active="6 10 12" passive="13" ana="#VisErr"/>
+                        <relation active="6 10 12 14" passive="13" ana="#VisErr"/>
                         <relation active="6 12" passive="14" ana="#VisErr"/><!-- dittography of 2:15 -->
                         <relation active="6" passive="7" ana="#Clar"/>
                         <relation active="6" passive="8" ana="#Clar"/>
