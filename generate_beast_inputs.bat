@@ -1,7 +1,7 @@
 pip install --upgrade teiphy
-teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock strict --seed 1337 xml/ecm_mark.xml ecm_mark_strict.xml
-teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock uncorrelated --seed 1337 xml/ecm_mark.xml ecm_mark_uncorrelated.xml
-teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock local --seed 1337 xml/ecm_mark.xml ecm_mark_local.xml
+teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock strict --seed 1776 xml/ecm_mark.xml ecm_mark_strict.xml
+teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock uncorrelated --seed 1776 xml/ecm_mark.xml ecm_mark_uncorrelated.xml
+teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock local --seed 1776 xml/ecm_mark.xml ecm_mark_local.xml
 teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock strict --seed 1337 xml/ubs_ephesians.xml ubs_ephesians_strict.xml
 teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock uncorrelated --seed 1337 xml/ubs_ephesians.xml ubs_ephesians_uncorrelated.xml
 teiphy -t reconstructed -t defective -t orthographic -t subreading -m overlap -m lac -s"*" -s T --fill-correctors --clock local --seed 1337 xml/ubs_ephesians.xml ubs_ephesians_local.xml
