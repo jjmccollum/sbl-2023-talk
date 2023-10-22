@@ -1,0 +1,1769 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A collation of Revelation at selected variation units from the United Bible Societies Greek New Testament, 5th Edition</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority xml:id="JJM">Edited by Joey McCollum</authority>
+                <date>2023</date>
+                <availability>
+                    <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!-- Description of the work (including a date range of origin) whose manuscript tradition is detailed below -->
+                <bibl>
+                    <title xml:lang="grc">Ἀποκάλυψις</title>
+                    <date notBefore="81" notAfter="96"/><!-- the reign of Domitian -->
+                </bibl>
+                <listWit>
+                    <!-- Byzantine tradition -->
+                    <witness n="Byz"/>
+                    <!-- Papyri -->
+                    <witness n="P18">
+                        <origDate notBefore="200" notAfter="400"/>
+                    </witness>
+                    <witness n="P24">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness n="P47">
+                        <origDate notBefore="250" notAfter="300"/>
+                    </witness>
+                    <witness n="P115">
+                        <origDate notBefore="200" notAfter="400"/>
+                    </witness>
+                    <!-- Majuscules -->
+                    <witness n="01">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness type="corrector" n="01C1">
+                        <origDate notBefore="400" notAfter="600"/>
+                    </witness>
+                    <witness type="corrector" n="01C2">
+                        <origDate notBefore="600" notAfter="700"/>
+                    </witness>
+                    <witness n="02">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness n="04">
+                        <origDate notBefore="400" notAfter="500"/>
+                    </witness>
+                    <witness n="025">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness n="046">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="051">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="051S">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="0207">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness n="0229">
+                        <origDate notBefore="700" notAfter="800"/>
+                    </witness>
+                    <!-- Minuscules -->
+                    <witness n="1">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness n="205">
+                        <origDate notBefore="1400" notAfter="1500"/>
+                    </witness>
+                    <witness n="209">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="1006">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="1611">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="1841">
+                        <origDate notBefore="800" notAfter="1000"/>
+                    </witness>
+                    <witness n="1854">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="2030">
+                        <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness n="2050">
+                        <origDate when="1107"/>
+                    </witness>
+                    <witness n="2053">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness n="2062">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
+                    <witness n="2254">
+                        <origDate notBefore="1500" notAfter="1600"/>
+                    </witness>
+                    <witness n="2329">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="2344">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
+                    <witness n="2351">
+                        <origDate notBefore="900" notAfter="1000"/>
+                    </witness>
+                    <witness n="2377">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness n="2432">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <!-- Old Latin manuscripts -->
+                    <witness n="ar">
+                        <origDate notBefore="807" notAfter="808"/>
+                    </witness>
+                    <witness n="gig">
+                        <origDate notBefore="1204" notAfter="1227"/>
+                    </witness>
+                    <witness n="h">
+                        <origDate notBefore="600" notAfter="700"/>
+                    </witness>
+                    <witness n="sin">
+                        <origDate notBefore="900" notAfter="1100"/>
+                    </witness>
+                    <witness n="t">
+                        <origDate notBefore="1025" notAfter="1075"/>
+                    </witness>
+                    <!-- Versions -->
+                    <witness type="version" n="vg">
+                        <origDate notBefore="300" notAfter="500"/>
+                    </witness>
+                    <witness type="version" n="syrph">
+                        <origDate when="508"/>
+                    </witness>
+                    <witness type="version" n="syrh">
+                        <origDate notBefore="616" notAfter="715"/>
+                    </witness>
+                    <witness type="corrector" n="syrhmg">
+                        <origDate notBefore="616" notAfter="715"/>
+                    </witness>
+                    <witness type="version" n="copsa">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness type="version" n="copbo">
+                        <origDate notBefore="800" notAfter="900"/>
+                    </witness>
+                    <witness type="version" n="arm">
+                        <origDate when="434"/>
+                    </witness>
+                    <witness type="version" n="eth">
+                        <origDate notBefore="400" notAfter="700"/>
+                    </witness>
+                    <!-- Church fathers -->
+                    <witness type="father" n="Ambrose">
+                        <origDate notBefore="350" notAfter="397"/>
+                    </witness>
+                    <witness type="father" n="Ambrosiaster">
+                        <origDate notBefore="366" notAfter="384"/>
+                    </witness>
+                    <witness type="father" n="Andrew">
+                        <origDate notBefore="563" notAfter="614"/>
+                    </witness>
+                    <witness type="father" n="Apringius">
+                        <origDate notBefore="500" notAfter="600"/>
+                    </witness>
+                    <witness type="father" n="Augustine">
+                        <origDate notBefore="390" notAfter="430"/>
+                    </witness>
+                    <witness type="father" n="Beatus">
+                        <origDate notBefore="730" notAfter="785"/>
+                    </witness>
+                    <witness type="father" n="Caesarius">
+                        <origDate notBefore="468" notAfter="542"/>
+                    </witness>
+                    <witness type="father" n="Cassiodorus">
+                        <origDate notBefore="530" notAfter="585"/>
+                    </witness>
+                    <witness type="father" n="Chromatius">
+                        <origDate notBefore="381" notAfter="407"/>
+                    </witness>
+                    <witness type="father" n="ClementOfAlexandria">
+                        <origDate notBefore="195" notAfter="203"/>
+                    </witness>
+                    <witness type="father" n="Cyprian">
+                        <origDate notBefore="248" notAfter="258"/>
+                    </witness>
+                    <witness type="father" n="Didymus">
+                        <origDate notBefore="350" notAfter="398"/>
+                    </witness>
+                    <witness type="father" n="Epiphanius">
+                        <origDate notBefore="374" notAfter="377"/><!-- date range for Panarion -->
+                    </witness>
+                    <witness type="father" n="Fulgentius">
+                        <origDate notBefore="500" notAfter="533"/>
+                    </witness>
+                    <witness type="father" n="GregoryElvira">
+                        <origDate notBefore="370" notAfter="392"/>
+                    </witness>
+                    <witness type="father" n="Hippolytus">
+                        <origDate notBefore="200" notAfter="235"/>
+                    </witness>
+                    <witness type="father" n="Irenaeus">
+                        <origDate notBefore="161" notAfter="202"/>
+                    </witness>
+                    <witness type="father" n="Jerome">
+                        <origDate notBefore="382" notAfter="420"/>
+                    </witness>
+                    <witness type="father" n="Maternus">
+                        <origDate notBefore="300" notAfter="400"/>
+                    </witness>
+                    <witness type="father" n="Methodius">
+                        <origDate when="290"/><!-- approximate date of Symposium -->
+                    </witness>
+                    <witness type="father" n="Origen">
+                        <origDate notBefore="210" notAfter="253"/>
+                    </witness>
+                    <witness type="father" n="Pacian">
+                        <origDate notBefore="365" notAfter="391"/>
+                    </witness>
+                    <witness type="father" n="Primasius">
+                        <origDate notBefore="550" notAfter="560"/>
+                    </witness>
+                    <witness type="father" n="Priscillian">
+                        <origDate notBefore="370" notAfter="385"/>
+                    </witness>
+                    <witness type="father" n="Quodvultdeus">
+                        <origDate notBefore="421" notAfter="450"/>
+                    </witness>
+                    <witness type="father" n="Speculum">
+                        <origDate notBefore="400" notAfter="450"/>
+                    </witness>
+                    <witness type="father" n="Tertullian">
+                        <origDate notBefore="200" notAfter="220"/>
+                    </witness>
+                    <witness type="father" n="Tyconius">
+                        <origDate notBefore="370" notAfter="390"/>
+                    </witness>
+                    <witness type="father" n="Varimadum">
+                        <origDate notBefore="445" notAfter="480"/>
+                    </witness>
+                    <witness type="father" n="VictorinusPettau">
+                        <origDate notBefore="270" notAfter="304"/>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="grc">
+        <interpGrp type="intrinsic">
+            <interp xml:id="RatingA">
+                <p>The current reading is absolutely more likely than the linked reading.</p>
+                <certainty locus="value" degree="19"/>
+            </interp>
+            <interp xml:id="RatingB">
+                <p>The current reading is strongly 
+                more likely than the linked reading.</p>
+                <certainty locus="value" degree="4"/>
+            </interp>
+            <interp xml:id="RatingC">
+                <p>The current reading is more likely
+                than the linked reading.</p>
+                <certainty locus="value" degree="1.5"/>
+            </interp>
+            <interp xml:id="RatingD">
+                <p>The current reading is slightly more likely than the linked reading.</p>
+                <certainty locus="value" degree="1.1"/>
+            </interp>
+            <interp xml:id="EqualRating">
+                <p>The current reading and the linked reading 
+                are equally likely.</p>
+                <certainty locus="value" degree="1"/>
+            </interp>
+        </interpGrp>
+        <interpGrp type="transcriptional">
+            <interp xml:id="Clar">
+                <p>Clarification of the text in terms of grammar, style, or theology.</p>
+            </interp>
+            <interp xml:id="AurConf">
+                <p>Aural confusion concerning letters or dipthongs that came to have the same sound in later Greek, including various itacisms (i.e., interchanges between ι, ει, η, οι, and υ), \textgreek{αι}-\textgreek{ε} interchanges, ο-ω interchanges, interchanges between similar-sounding consonants (e.g., β-υ after certain vowels and π-φ) and other less common interchanges (e.g., vowel sounds that might be confused if spoken quickly).</p>
+            </interp>
+            <interp xml:id="LingConf">
+                <p>Linguistic confusion concerning rules of Greek grammar.</p>
+		        <p><i>Constructiones ad sensum</i> that reflect changes in grammatical rules over time also fall under this rubric.</p>
+            </interp>
+            <interp xml:id="VisErr">
+                <p>Visual error, such as paleographic confusion of similar letters, haplography, dittography and other repetitions of nearby letters, and other skips of the eye resulting in small omissions. Rarer situations, like duplication or omission of letters related to the presence or absence of an ornamental capital at the start of a line, also fall under this rubric.</p>
+            </interp>
+            <interp xml:id="Harm">
+                <p>Harmonization, either to a parallel passage or to the near context.</p>
+            </interp>
+            <interp xml:id="Byz">
+                <p>The text is brought into conformity with the Byzantine text.</p>
+            </interp>
+        </interpGrp>
+        <body>
+            <app xml:id="B26K1V5U48-52">
+                <lem><w>λύσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></lem>
+                <rdg n="1" wit="P18 01C2 02 04 2050 2329 h Andrew VictorinusPettau Primasius"><w>λύσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></rdg>
+                <rdg n="2" wit="01* 1611 2344 arm"><w>λύσαντι</w><w>ἐκ</w></rdg>
+                <rdg n="3" wit="2351 eth"><w>λύσαντι</w><w>ἡμᾶς</w><w>ἀπό</w></rdg>
+                <rdg n="4" wit="1854 2053 2062"><w>λούσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></rdg>
+                <rdg n="5" wit="025 046C 205 209 1006 1841 Byz ar gig t vg copbo Apringius Beatus"><w>λούσαντι</w><w>ἡμᾶς</w><w>ἀπό</w></rdg>
+                <witDetail n="↑" type="overlap" wit="046*"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="1" passive="3" ana="#Clar"/>
+                        <relation active="1" passive="4" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="3" passive="1" ana="#Clar"/>
+                        <relation active="4" passive="1" ana="#AurConf"/>
+                        <relation active="4" passive="5" ana="#Clar"/>
+                        <relation active="5" passive="4" ana="#Clar"/>
+                        <relation active="1 2 3 4" passive="5" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K1V6U34-42">
+                <lem><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τῶν</w><w>αἰώνων</w></lem>
+                <rdg n="1" wit="01C2 04 046 205 209 1006 1611 1841 1854 2053 2062 2329 2351 Byz ar gig h t vg syrph syrh arm eth Didymus Andrew Apringius Beatus"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τῶν</w><w>αἰώνων</w></rdg>
+                <rdg n="1-f1" type="defective" cause="linguistic-confusion" ana="#LingConf" wit="01*"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τὸν</w><w>αἰῶνα</w></rdg>
+                <rdg n="2" wit="P18 02 025 2050 copbo"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w></rdg>
+                <rdg n="3" wit="2344"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- removal of a perceived doxological interpolation? -->
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Clar"/><!-- assimilation to a common doxological element -->
+                        <relation active="3" passive="1 2" ana="#Clar"/><!-- insertion of a common doxological conclusion -->
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K1V8U15">
+                <lem/>
+                <rdg n="1" wit="01C1 02 04 025 046 1006 1611 1841 2053 2062 Byz h syrph syrh arm eth Epiphanius Ambrose Varimadum Primasius"/>
+                <rdg n="2" wit="01* 01C2 205 209 1854 2050 2351 ar gig t vg copbo Andrew Apringius Beatus"><w>ἀρχὴ</w><w>καὶ</w><w>τέλος</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="2329"><w>ἡ</w><w>ἀρχὴ</w><w>καὶ</w><w>τὸ</w><w>τέλος</w></rdg>
+                <rdg n="2-s2" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ἀρχὴ</w><w>καὶ</w><w>τὸ</w><w>τέλος</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm"/><!-- cf. 21:6 -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K1V15U20">
+                <lem><w>πεπυρωμένης</w></lem>
+                <rdg n="1" wit="02 04"><w>πεπυρωμένης</w></rdg>
+                <rdg n="2" wit="01 205 209 2050 2053 2062 ar gig h t vg copsa copbo arm eth Irenaeus Cyprian Maternus Apringius Primasius Beatus"><w>πεπυρωμένῳ</w></rdg>
+                <rdg n="3" wit="025 046 1006 1611 1841 1854 2329 2344 2351 Byz syrhmg Andrew VictorinusPettau Tyconius"><w>πεπυρωμένοι</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- clarification of the referent as πόδες -->
+                        <relation active="1 3" passive="2" ana="#Clar"/><!-- clarification of the referent as χαλκολιβάνῳ -->
+                        <relation active="1 2" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K2V7U54">
+                <lem><w>θεοῦ</w></lem>
+                <rdg n="1" wit="01 02 04 025 205 209 1854 2329 syrph arm Andrew"><w>θεοῦ</w></rdg>
+                <rdg n="2" wit="046 1006 1611 1841 2050 2053 2344 2351 Byz ar gig t vg syrh copsa copbo eth Origen Cyprian VictorinusPettau GregoryElvira Chromatius Varimadum Apringius Primasius Beatus"><w>θεοῦ</w><w>μου</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K2V20U16">
+                <lem><w>γυναῖκα</w></lem>
+                <rdg n="1" wit="01 04 025 205 209 1611 2050 2053 2329 2344 ar gig t vg copsa copbo arm eth Epiphanius Andrew Tertullian Ambrosiaster Tyconius Beatus"><w>γυναῖκα</w></rdg>
+                <rdg n="2" wit="046 1006 1841 1854 2351 Byz syrph syrh Cyprian Primasius"><w>γυναῖκα</w><w>σου</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="02"><w>γυναῖκα</w><w>σου</w><w>τήν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- to clarify that Jezebel is a woman in their congregation -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- to clarify that Jezebel is not someone's wife, but a woman in the congregation -->
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K2V22U10">
+                <lem><w>κλίνην</w></lem>
+                <rdg n="1" wit="01 04 025 046 205 209 1006 1611 1841 1854 2050 2053 2329 2344 2351 Byz ar gig t vg syrph syrh copbo eth Andrew Tertullian Cyprian Ambrosiaster Tyconius Primasius"><w>κλίνην</w></rdg>
+                <rdg n="2" wit="02"><w>φυλακήν</w></rdg>
+                <rdg n="3" wit="arm"><w>κλίβανον</w></rdg>
+                <rdg n="4" wit="copsa"><w>ἀσθένειαν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K2V22U38-40">
+                <lem><w>ἔργων</w><w>αὐτῆς</w></lem>
+                <rdg n="1" wit="01 04 025 046 1006 1611 1841 2050 2053 2351 Byz gig syrh eth Tertullian Tyconius Beatus"><w>ἔργων</w><w>αὐτῆς</w></rdg>
+                <rdg n="2" wit="02 205 209 1854 2329 2344 ar t syrph copsa copbo arm Andrew Cyprian Ambrosiaster Apringius Primasius"><w>ἔργων</w><w>αὐτῶν</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ἔργων αὐτῆς, while vgcl supports ἔργων αὐτῶν -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K3V5U6">
+                <lem><w>οὕτως</w></lem>
+                <rdg n="1" wit="01* 02 04 1006 2329 2344 2351 ar gig t vg syrph syrh copsa copbo arm eth Primasius"><w>οὕτως</w></rdg>
+                <rdg n="2" wit="01C2 025 046 205 209 1611 1841 1854 2053 Byz Andrew"><w>οὗτος</w></rdg>
+                <rdg n="3" wit="2050"><w>αὐτός</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3" ana="#Clar"/><!-- assimilation to the immediately preceding ὁ νικῶν -->
+                        <relation active="1" passive="2" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#AurConf"/>
+                        <relation active="2" passive="3" ana="#VisErr"/>
+                        <relation active="3" passive="2" ana="#VisErr"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K4V11U56">
+                <lem><w>ἦσαν</w></lem>
+                <rdg n="1" wit="01 02 205 209 1006 1611 1841 2053 2351 Byz ar gig t vg Apringius Beatus"><w>ἦσαν</w></rdg>
+                <rdg n="2" wit="025 1854 2050 2344 copsa eth Andrew"><w>εἰσιν</w></rdg>
+                <rdg n="3" wit="2329 arm"><w>ἐγένοντο</w></rdg>
+                <rdg n="4" wit="046"><w>οὐκ</w><w>ἦσαν</w></rdg>
+                <rdg n="5" wit="Varimadum Fulgentius Primasius"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4 5" ana="#Clar"/><!-- reactions to the apparent redundancy of the phrase ἦσαν καὶ ἐκτίσθησαν  -->
+                        <relation active="1" passive="2" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#AurConf"/>
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K5V6U56-58">
+                <lem><w>τὰ</w><w>ἑπτά</w></lem>
+                <rdg n="1" wit="P24 01 046 1854 2053 2329 2351 Byz gig syrph syrh copsa copbo arm ClementOfAlexandria Hippolytus Cyprian Maternus Tyconius GregoryElvira Fulgentius Primasius Beatus"><w>τὰ</w><w>ἑπτά</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ἑπτά</w></rdg>
+                <rdg n="2" wit="02 025 205 209 1006 1611 1841 2050 ar Andrew Apringius"><w>τά</w></rdg>
+                <witDetail n="W1/2-1" type="ambiguous" wit="Irenaeus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- Latin tradition has ἑπτά, Armenian tradition does not -->
+                <witDetail n="W1/2-2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports the inclusion of ἑπτά, while vgww and vgst do not -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K5V9U40-42">
+                <lem><w>τῷ</w><w>θεῷ</w></lem>
+                <rdg n="1" wit="02 eth"><w>τῷ</w><w>θεῷ</w></rdg>
+                <rdg n="2" wit="1"><w>ἡμᾶς</w></rdg>
+                <rdg n="3" wit="01 046 209 1006 1611 1841 2053 2329 2351 Byz copbo Andrew"><w>τῷ</w><w>θεῷ</w><w>ἡμᾶς</w></rdg>
+                <rdg n="4" wit="2050 2344 ar gig vg syrph syrh arm Hippolytus Cyprian Maternus Augustine Varimadum Fulgentius Primasius Beatus"><w>ἡμᾶς</w><w>τῷ</w><w>θεῷ</w></rdg>
+                <rdg n="5" wit="205 copsa"><w>τῷ</w><w>θεῷ</w><w>ἡμῶν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3 4" ana="#Clar"/><!-- conflation, or independent clarifying additions -->
+                        <relation active="1" passive="5" ana="#Harm #VisErr"/><!-- harmonization or dittography occasioned by 5:10 -->
+                        <relation active="3 4" passive="2" ana="#Clar"/>
+                        <relation active="4" passive="1" ana="#VisErr"/>
+                        <relation active="1 2 4 5" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K5V10U6">
+                <lem><w>αὐτούς</w></lem>
+                <rdg n="1" wit="01 02 046 205 209 1006 1611 1841 2050 2053 2344 2351 Byz syrph syrh copbo arm eth Andrew Cyprian Maternus"><w>αὐτούς</w></rdg>
+                <rdg n="2" wit="ar gig copsa Hippolytus Varimadum Fulgentius Primasius Beatus"><w>ἡμᾶς</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support αὐτούς, while vgcl supports ἡμᾶς -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- backward assimilation to ἡμᾶς in 5:9 -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- forward assimilation to βασιλεύουσιν later in this verse -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K5V10U22">
+                <lem><w>βασιλεύσουσιν</w></lem>
+                <rdg n="1" wit="01 025 205 209 1854 2050 2053 2344 2351 gig copsa copbo Hippolytus Andrew Cyprian Maternus Fulgentius"><w>βασιλεύσουσιν</w></rdg>
+                <rdg n="2" wit="02 046 1006 1611 1841 2329 Byz ar"><w>βασιλεύουσιν</w></rdg>
+                <rdg n="3" wit="2432 Primasius Beatus"><w>βασιλεύσομεν</w></rdg>
+                <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.6667"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support βασιλεύσουσιν, while vgcl supports βασιλεύσομεν -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar #LingConf #VisErr"/>
+                        <relation active="1" passive="3" ana="#Clar"/><!-- backward assimilation to ἡμᾶς in 5:9 and αὐτούς earlier in this verse -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K5V13U40">
+                <lem><w>καί</w></lem>
+                <rdg n="1" wit="01 1611* gig syrh copsa arm eth Primasius Cassiodorus Beatus"><w>καί</w></rdg>
+                <rdg n="2" wit="02 1006 1611C 1841 2329 2344 Byz syrph"><w>ἐστίν</w><w>καί</w></rdg>
+                <rdg n="3" wit="025 046 205 209 2050 vg Andrew"><w>ἅ</w><w>ἐστιν</w><w>καί</w></rdg>
+                <rdg n="4" wit="2053 2351"><w>ὅσα</w><w>ἐστιν</w><w>καί</w></rdg>
+                <rdg n="5" wit="ar"/>
+                <witDetail n="W1/2" type="ambiguous" wit="copbo" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- the tradition is divided -->
+                <witDetail n="W3/4" type="ambiguous" wit="Fulgentius" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- the tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar"/><!-- to supply the expected verb after ὅ -->
+                        <relation active="1" passive="5" ana="#VisErr"/>
+                        <relation active="2" passive="3 4" ana="#Clar"/>
+                        <relation active="3" passive="2" ana="#VisErr"/><!-- oversight of a one-letter word -->
+                        <relation active="4" passive="3" ana="#VisErr"/><!-- haplography following θαλάσσης -->
+                        <relation active="5" passive="1" ana="#Clar"/>
+                        <relation active="1 3 4 5" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V1U46">
+                <lem><w>ἔρχου</w></lem>
+                <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2351 syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
+                <rdg n="2" wit="01 046 205 209 2329 2344 Byz ar gig syrph syrh eth VictorinusPettau Primasius Beatus"><w>Ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:3-4, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V2U2-4">
+                <lem><w>καὶ</w><w>εἶδον</w></lem>
+                <rdg n="1" wit="01 02 04 025 205 209 1006 1611 1841 2053 2344 gig vg syrh copsa copbo arm eth Andrew"><w>καὶ</w><w>εἶδον</w></rdg>
+                <rdg n="2" wit="syrph"><w>καὶ</w><w>ἤκουσα</w><w>καὶ</w><w>εἶδον</w></rdg>
+                <rdg n="3" wit="046 1854 2329 2351 Byz ar Primasius Beatus"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="3" passive="1" ana="#Clar"/>
+                        <relation active="1 2" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V3U26-V4U2">
+                <lem><w>ἔρχου</w><w>καὶ</w></lem>
+                <rdg n="1" wit="02 04 025 046 1006 1611 1841 1854 2053 2329 2351 Byz syrph syrh copsa copbo arm Andrew"><w>ἔρχου</w><w>καὶ</w></rdg>
+                <rdg n="2" wit="205 209 2344 ar gig eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w><w>καί</w></rdg>
+                <rdg n="3" wit="01"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w><w>καὶ</w><w>εἶδον</w><w>καὶ</w><w>ἰδού</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου καὶ, while vgcl supports ἔρχου καὶ ἴδε καί -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V5U26">
+                <lem><w>ἔρχου</w></lem>
+                <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2351 gig syrph syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
+                <rdg n="2" wit="01 046 205 209 2329 2344 Byz ar syrh eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V5U28-30">
+                <lem><w>καὶ</w><w>εἶδον</w></lem>
+                <rdg n="1" wit="01 02 04 025 205 209 1006 1611 1841 2053 syrh copbo arm Andrew Primasius"><w>καὶ</w><w>εἶδον</w></rdg>
+                <rdg n="2" wit="046 1854 2329 2344 2351 Byz ar gig syrph copsa eth Beatus"/>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support καὶ εἶδον, while vgcl supports the omission -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V7U28">
+                <lem><w>ἔρχου</w></lem>
+                <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2329 2351 syrph syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
+                <rdg n="2" wit="01 046 205 209 2344 Byz ar gig syrh eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V8U2-4">
+                <lem><w>καὶ</w><w>εἶδον</w></lem>
+                <rdg n="1" wit="01 02 025 205 209 1006 1611 1841 ar syrph syrh copsa copbo arm Andrew"><w>καὶ</w><w>εἶδον</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="parablepsis" ana="#VisErr" wit="04 2053"><w>εἶδον</w></rdg>
+                <rdg n="2" wit="046 1854 2329 2344 2351 Byz gig eth Primasius Beatus"/>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support καὶ εἶδον, while vgcl supports the omission -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm #VisErr"/><!-- cf. 6:1-2, 5, 7-8 -->
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K6V17U18">
+                <lem><w>αὐτῶν</w></lem>
+                <rdg n="1" wit="01 04 1611 1854 2053 2329 2344 ar gig vg syrph syrh Fulgentius"><w>αὐτῶν</w></rdg>
+                <rdg n="2" wit="025 046 02 205 209 1006 1841 2351 Byz copsa copbo arm eth Andrew Primasius Beatus"><w>αὐτοῦ</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- clarification of genitive of possession -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- clarification of objective genitive -->
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K9V13U20-26">
+                <lem><w>ἐκ</w><w>τῶν</w><w>τεσσάρων</w><w>κεράτων</w></lem>
+                <rdg n="1" wit="025 046 205 209 1006 1841 1854 2329 2351 Byz syrph Andrew Cyprian Tyconius Primasius Beatus"><w>ἐκ</w><w>τῶν</w><w>τεσσάρων</w><w>κεράτων</w></rdg>
+                <rdg n="2" wit="P47 01C1 02 0207 1611 2053 2344 ar gig syrh copsa copbo eth"><w>ἐκ</w><w>τῶν</w><w>κεράτων</w></rdg>
+                <rdg n="3" wit="01*"/>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports the inclusion of τεσσάρων, while vgww and vgst do not -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/><!-- haplography following φωνήν -->
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K10V4U2-16">
+                <lem><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἤμελλον</w><w>γράφειν</w></lem>
+                <rdg n="1" wit="02 04 025 046 205 209 1006 1611 1841 2053 2329 2351 Byz ar vg syrph syrh arm Andrew"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἤμελλον</w><w>γράφειν</w></rdg>
+                <rdg n="2" wit="1854"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>καὶ</w><w>ἔμελλον</w><w>γράφειν</w><w>αὐτά</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>καὶ</w><w>ἔμελλον</w><w>γράφειν</w></rdg>
+                <rdg n="3" wit="01 gig copsa Origen VictorinusPettau Tyconius Primasius Beatus"><w>ὅσα</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἔμελλον</w><w>γράφειν</w></rdg>
+                <rdg n="4" wit="P47 copbo eth"><w>ἤκουσα</w><w>ὅσα</w><w>ἐλάλησαν</w><w>αἱ</w><w>βρονταί</w><w>καὶ</w><w>ἤμελλον</w><w>αὐτὰ</w><w>γράφειν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar"/>
+                        <relation active="3" passive="4" ana="#Clar"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K10V6U50-62">
+                <lem><w>καὶ</w><w>τὴν</w><w>θάλασσαν</w><w>καὶ</w><w>τὰ</w><w>ἐν</w><w>αὐτῇ</w></lem>
+                <rdg n="1" wit="P47 01C2 04 025 046 1006 1841 1854 2053 2329 2351 Byz ar vg syrh copbo eth Andrew Beatus"><w>καὶ</w><w>τὴν</w><w>θάλασσαν</w><w>καὶ</w><w>τὰ</w><w>ἐν</w><w>αὐτῇ</w></rdg>
+                <rdg n="2" wit="01* 205 209 1611 2344 gig syrph arm Tyconius Primasius"/>
+                <witDetail n="W1/2" type="ambiguous" wit="copsa" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="↑B26K10V6U36-62" type="overlap" target="B26K10V6U36-62" wit="02"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K11V1U13">
+                <lem/>
+                <rdg n="1" wit="P47 01* 02 025 205 209 1006 1611 1841 2053 2344 Byz gig t vg syrhmg copsa copbo eth Andrew Primasius"/>
+                <rdg n="2" wit="01C2 046 1854 2329 2351 ar syrph syrh arm Tyconius Beatus"><w>καὶ</w><w>εἱστήκει</w><w>ὁ</w><w>ἄγγελος</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K11V2U10">
+                <lem><w>ἔξωθεν</w></lem>
+                <rdg n="1" wit="P47 02 025 046 205 209 1006 1611 1841 1854 2053 2351 Byz ar vg syrh copsa copbo arm eth Andrew Tyconius Jerome Primasius Beatus"><w>ἔξωθεν</w></rdg>
+                <rdg n="2" wit="01 2329 syrph VictorinusPettau"><w>ἔσωθεν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#AurConf #Clar"/>
+                        <relation active="2" passive="1" ana="#AurConf #Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K11V12U4">
+                <lem><w>ἤκουσαν</w></lem>
+                <rdg n="1" wit="01* 02 04 025 2053 vg syrph syrh"><w>ἤκουσαν</w></rdg>
+                <rdg n="2" wit="P47 01C 046 205 209 1006 1611 1841 1854 2351 Byz ar gig syrhmg arm eth Andrew Tyconius Beatus"><w>ἤκουσα</w></rdg>
+                <rdg n="3" wit="2329"><w>ἀκούσονται</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- assimilation to usual usage in Revelation -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- assimilation to preceding context -->
+                        <relation active="3" passive="1" ana="#Clar"/><!-- assimilation to the tense of other verbs in this passage -->
+                        <relation active="1 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K11V17U28">
+                <lem><w>ὅτι</w></lem>
+                <rdg n="1" wit="01C2 02 025 046 205 209 1611 1854 2053 2329 2351 Byz gig h syrph syrh copsa eth Andrew Cyprian Primasius"><w>ὅτι</w></rdg>
+                <rdg n="2" wit="P47 01* 04 2344 arm"><w>καὶ</w><w>ὅτι</w></rdg>
+                <rdg n="3" xml:lang="lat" wit="ar"><w>et</w><w>qui</w></rdg>
+                <rdg n="4" wit="051 1006 1841 copbo Tyconius Beatus"><w>καὶ</w><w>ὁ</w><w>ἐρχόμενος</w><w>ὅτι</w></rdg>
+                <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.6667"/><certainty target="4" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ὅτι, while vgcl supports καὶ ὁ ἐρχόμενος ὅτι -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#Clar"/><!-- syntactic correction -->
+                        <relation active="1" passive="4" ana="#Clar"/><!-- addition of a common completion to the previous two phrases -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- syntactic correction -->
+                        <relation active="4" passive="2" ana="#VisErr"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K12V18U2-4">
+                <lem><w>καὶ</w><w>ἐστάθη</w></lem>
+                <rdg n="1" wit="P47 01 02 04 205 209 1854 2344 2351 ar gig vg syrh arm eth Origen VictorinusPettau Beatus"><w>καὶ</w><w>ἐστάθη</w></rdg>
+                <rdg n="2" wit="025 046 051 1006 1611 1841 2053 2329 Byz syrph copsa copbo Andrew"><w>καὶ</w><w>ἐστάθην</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- backward assimilation (subject is ὁ δράκων and this verse is read as the end of the current chapter)-->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- forward assimilation (subject is the author and this verse is read as the start of the next chapter)-->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V1U52">
+                <lem><w>ὀνόματα</w></lem>
+                <rdg n="1" wit="02 046 051 205 209 1611 1854 2053 2344 2351 Byz ar vg syrh Priscillian"><w>ὀνόματα</w></rdg>
+                <rdg n="2" wit="P47 01 04 025 1006 1841 2329 gig syrph copsa copbo arm eth Andrew Primasius Beatus"><w>ὄνομα</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/><!-- clarification; multiple horns can accommodate multiple names -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V6U38-46">
+                <lem><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></lem>
+                <rdg n="1" wit="02 04 046C 051C 1611 1841 2329 2344 2351 Byz syrh"><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="parablepsis" ana="#VisErr" wit="1854"><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
+                <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="01*"><w>τοῦ</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντες</w></rdg>
+                <rdg n="1-s3" type="subreading" wit="1006"><w>τοὺς</w><w>ἐν</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
+                <rdg n="1-s4" type="subreading" cause="clarification" ana="#Clar" wit="syrph"><w>τῶν</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνούντων</w></rdg>
+                <rdg n="2" wit="025 046* 051* 205 209 2053 ar vg copsa copbo Andrew Beatus"><w>καὶ</w><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="01C2"><w>καὶ</w><w>τοῦ</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντες</w></rdg>
+                <rdg n="3" wit="P47 gig eth Primasius"><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="Irenaeus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- Armenian tradition lacks καί, Latin tradition includes it -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- removal of a participial phrase whose referent is not clear -->
+                        <relation active="1" passive="2" ana="#Clar"/><!-- clarification that referents other than "his name and his tabernacle" are in view here -->
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V7U2-22">
+                <lem><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></lem>
+                <rdg n="1" wit="01 046 051 205 209 1006 1841 2329 2344 2351 Byz ar gig vg syrph syrh copbo eth Beatus"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1611 1854"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>πόλεμον</w><w>ποιῆσαι</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
+                <rdg n="2" wit="1859 Quodvultdeus Primasius"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ἐξουσία</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
+                <rdg n="3" wit="P47 02 04 025 2053 copsa Irenaeus Andrew"/>
+                <witDetail n="W2/3" type="ambiguous" wit="arm" target="2 3"><certainty target="2" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V10U6-14">
+                <lem><w>εἰς</w><w>αἰχμαλωσίαν</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></lem>
+                <rdg n="1" wit="02"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="2" wit="2351 ar gig syrph syrh Irenaeuslat Beatus"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ἀπάγει</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="3" wit="P47 01 04 025 046 051A 205 209 1006 1611 1841 2053 2329 copbo Irenaeusarm Andrew"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="3-s1" type="subreading" cause="paleographic-confusion" ana="#VisErr" wit="1854"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ἀπάγει</w></rdg>
+                <rdg n="4" wit="051T Byz"><w>ἔχει</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="5" wit="104 copsa Primasius"><w>αἰχμαλωτίζει</w><w>εἰς</w><w>αἰχμαλωτίαν</w><w>ὑπάγει</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support the exclusion of ἀπάγει, while vgcl supports its inclusion -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3" passive="4" ana="#Clar #VisErr"/><!-- assimilation or dittography occasioned by the previous phrase -->
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1 3" passive="5" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1 2 3 5" passive="4" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V10U24-26">
+                <lem><w>ἀποκτανθῆναι</w><w>αὐτόν</w></lem>
+                <rdg n="1" wit="02"><w>ἀποκτανθῆναι</w><w>αὐτόν</w></rdg>
+                <rdg n="2" wit="1828 gig syrph Pacian Beatus"><w>ἀποκτενεῖ</w></rdg>
+                <rdg n="3" wit="01 046 1006 1611 1841 1854 2344 2351 eth"><w>ἀποκτείνει</w><w>δεῖ</w><w>αὐτόν</w></rdg>
+                <rdg n="4" wit="04 025 051T 205 209 2329 ar vg copsa copbo Andrew Primasius"><w>ἀποκτενεῖ</w><w>δεῖ</w><w>αὐτόν</w></rdg>
+                <rdg n="4-s1" type="subreading" cause="clarification" ana="#Clar" wit="2053"><w>ἀποκτενεῖν</w><w>δεῖ</w><w>αὐτόν</w></rdg>
+                <rdg n="5" wit="051A Byz"><w>δεῖ</w><w>αὐτὸν</w><w>ἀποκτανθῆναι</w></rdg>
+                <witDetail n="W3/4" type="ambiguous" wit="Irenaeus" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- Armenian tradition supports ἀποκτείνει, Latin tradition supports ἀποκτενεῖ -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 4" passive="5" ana="#VisErr"/><!-- the witnesses to reading 5 lack the next phrase, so homoioarcton is likely responsible -->
+                        <relation active="1" passive="2 3 4 5" ana="#Clar"/><!-- clarifications by supplying an expected verb -->
+                        <relation active="3" passive="4" ana="#AurConf"/>
+                        <relation active="4" passive="3" ana="#AurConf"/>
+                        <relation active="1 2 3 4" passive="5" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V15U36-56">
+                <lem><w>ποιήσῃ</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></lem>
+                <rdg n="1" wit="02 025 1006 1841 ar gig copsa Primasius Beatus"><w>ποιήσῃ</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="2329"><w>ποιήσει</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="2" wit="046 205 209 1611 2377 Byz Irenaeus Hippolytus Andrew"><w>ποιήσῃ</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="01 2351"><w>ποιήσει</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="3" wit="051 1854"><w>ποιήσῃ</w><w>ὅσοι</w>...<w>ἵνα</w><w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="4" wit="copbo"><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgcl, vgww support ποιήσῃ ἵνα ὅσοι ... ἀποκτανθῶσιν, while vgst supports ποιήσῃ ὅσοι ... ἀποκτανθῶσιν -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3" passive="4" ana="#Clar"/><!-- simplification of the phrase by removing ποιήσῃ (and potentially a second ἵνα), leaving the second clause to fall under the earlier ἵνα -->
+                        <relation active="1 3" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1 3" ana="#Clar"/><!-- the ποιήσῃ creates the expectation of another ἵνα for ἀποκτανθῶσιν -->
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V17U2">
+                <lem><w>καί</w></lem>
+                <rdg n="1" wit="P47 02 025 046 051 205 209 1006 1841 1854 2329 2344 2351 2377 Byz gig vg arm eth Andrew"><w>καί</w></rdg>
+                <rdg n="2" wit="01* 04 1611 ar syrph syrh copsa copbo Irenaeus Maternus Primasius"/>
+                <witDetail n="W1/2" type="ambiguous" wit="Beatus Hippolytus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K13V18U44-46">
+                <lem><w>ἑξήκοντα</w><w>ἕξ</w></lem>
+                <rdg n="1" wit="P47 01 02 025 046 051 205 209 1006 1611 1841 1854 2053 2329 2351 2377 Byz gig vg syrph syrh copsa copbo arm eth Irenaeus Hippolytus Andrew VictorinusPettau GregoryElvira Primasius Beatus"><w>ἑξήκοντα</w><w>ἕξ</w></rdg>
+                <rdg n="2" wit="2344"><w>ἑξήκοντα</w><w>πέντε</w></rdg>
+                <rdg n="3" wit="ar"><w>τεσσεράκοντα</w><w>ἕξ</w></rdg>
+                <rdg n="4" wit="P115 04 Caesarius"><w>δέκα</w><w>ἕξ</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar #VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar #VisErr"/>
+                        <relation active="3" passive="1 4" ana="#Clar #VisErr"/>
+                        <relation active="4" passive="1 3" ana="#Clar #VisErr"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V1U10"><!-- TODO: check if the word index is correct -->
+                <lem><w>τό</w></lem>
+                <rdg n="1" wit="01 02 04 046 1006 1611 1841 2053 2329 2344 2377 Byz copbo eth Origen Methodius"><w>τό</w></rdg>
+                <rdg n="2" wit="P47 025 051 205 209 1854 copsa Andrew"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V3U6">
+                <lem><w>ὡς</w></lem>
+                <rdg n="1" wit="02 04 051 1006 1841 ar vg syrph Andrew Beatus"><w>ὡς</w></rdg>
+                <rdg n="2" wit="P47 01 025 046 205 209 1611 1854 2053 2329 2344 2377 Byz gig t syrh copsa copbo arm eth Origen Methodius Jerome Primasius Cassiodorus"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/><!-- removal of a word deemed unnecessary or obscure here, of homoioarcton -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V6U4-8">
+                <lem><w>εἶδον</w><w>ἄλλον</w><w>ἄγγελον</w></lem>
+                <rdg n="1" wit="P115 01C2 02 04 025 051 1006 1611 1841 2053 2329 ar gig t vg syrph syrh copbo arm Cyprian Maternus Varimadum Primasius Cassiodorus Beatus"><w>εἶδον</w><w>ἄλλον</w><w>ἄγγελον</w></rdg>
+                <rdg n="2" wit="eth"><w>ἦλθεν</w><w>ἄλλος</w><w>ἄγγελος</w></rdg>
+                <rdg n="3" wit="P47 01* 046 205 209 1854 Byz copsa Origen Andrew VictorinusPettau Ambrose"><w>εἶδον</w><w>ἄγγελον</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#Clar #VisErr"/><!-- haplography or clarifying deletion (no other angel has been mentioned recently) -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1 2" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V8U6-8">
+                <lem><w>ἄγγελος</w><w>δεύτερος</w></lem>
+                <rdg n="1" wit="01C2 025 051 205 209 1611 2053 2344 gig syrh copsa copbo arm Andrew Beatus"><w>ἄγγελος</w><w>δεύτερος</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="04"><w>ἄγγελος</w><w>δεύτερον</w></rdg>
+                <rdg n="2" wit="02 046 2329 Byz Primasius Cassiodorus"><w>δεύτερος</w><w>ἄγγελος</w></rdg>
+                <rdg n="3" wit="P47 01* 1006 1841 1854 syrph syrhmg"><w>δεύτερος</w></rdg>
+                <rdg n="4" wit="61 69 ar vg eth VictorinusPettau"><w>ἄγγελος</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3 4" ana="#VisErr"/>
+                        <relation active="3 4" passive="1 2" ana="#Clar"/><!-- conflation or separate clarifications -->
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V13U36-38">
+                <lem><w>ναί</w><w>λέγει</w></lem>
+                <rdg n="1" wit="01C2 02 04 025 051 209 1006 1611 1854 2344 ar gig vg syrph syrh copsa Andrew Augustine Speculum Primasius Beatus"><w>ναί</w><w>λέγει</w></rdg>
+                <rdg n="2" wit="046 2329 Byz"><w>λέγει</w><w>ναί</w></rdg>
+                <rdg n="3" wit="205 2053"><w>καὶ</w><w>λέγει</w></rdg>
+                <rdg n="4" wit="P47 01* copbo arm eth Varimadum"><w>λέγει</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3" passive="4" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#VisErr"/><!-- paleographic confusion -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="4" passive="1 2 3" ana="#Clar"/>
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K14V18U6-16">
+                <lem><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></lem>
+                <rdg n="1" wit="04 2329 h arm eth Beatus"><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></rdg>
+                <rdg n="2" wit="01 025 046 205 209 1006 Byz copsa copbo Andrew"><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="051 1854"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ἐξῆλθεν</w></rdg>
+                <rdg n="3" wit="02 ar gig"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></rdg>
+                <rdg n="4" wit="P47 1611 2053"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w></rdg>
+                <rdg n="5" wit="Primasius"><w>ἄγγελος</w></rdg>
+                <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου ὁ, while vgww and vgst support ἄγγελος ἐκ τοῦ θυσιαστηρίου ὁ -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 4" passive="5" ana="#Clar"/><!-- flattening for commentary? -->
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/><!-- assimilation to the anarthrous ἄγγελος or oversight of a single letter -->
+                        <relation active="1" passive="3" ana="#VisErr"/>
+                        <relation active="2" passive="4" ana="#VisErr"/>
+                        <relation active="3" passive="1" ana="#Clar"/>
+                        <relation active="3" passive="4" ana="#Clar #VisErr"/><!-- assimilation to the anarthrous ἄγγελος or oversight of a single letter -->
+                        <relation active="4" passive="2" ana="#Clar"/>
+                        <relation active="1 3 4 5" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K15V3U72">
+                <lem><w>ἐθνῶν</w></lem>
+                <rdg n="1" wit="01C1 02 025 046 051 205 209 1854 2053 2062 2329 Byz gig syrhmg copbo Andrew Ambrose Beatus"><w>ἐθνῶν</w></rdg>
+                <rdg n="2" wit="h arm eth Primasius"><w>πάντων</w><w>τῶν</w><w>ἐθνῶν</w></rdg>
+                <rdg n="3" wit="P47 01* 01C2 04 1006 1611 1841 ar vg syrph syrh copsa"><w>αἰώνων</w></rdg>
+                <rdg n="4" wit="2049"><w>ἁγίων</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 3 4" passive="2" ana="#Harm"/><!-- cf. 1 Tim 1:17 -->
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K15V6U30">
+                <lem><w>λίνον</w></lem>
+                <rdg n="1" wit="025 051 205 209 1006 1611 2329 Byz syrph syrh Andrew Beatus"><w>λίνον</w></rdg>
+                <rdg n="2" wit="P47 046 ar gig h Origen Primasius"><w>λινοῦν</w></rdg>
+                <rdg n="3" wit="01 arm Cassiodorus"><w>λινους</w><note>[sic] after καθαρούς and before λαμπρούς</note></rdg>
+                <rdg n="4" wit="02 04 2053 2062 syrhmg"><w>λίθον</w></rdg>
+                <rdg n="5" wit="eth"/>
+                <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.3333"/><certainty target="4" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports λίνον, while vgww and vgst support λίθον -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 5" passive="4" ana="#Harm"/><!-- cf. Ezek 28:13 -->
+                        <relation active="1 2" passive="3" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#VisErr"/>
+                        <relation active="4" passive="1 2" ana="#Clar"/>
+                        <relation active="5" passive="1 2 3" ana="#Clar"/>
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K16V4U34">
+                <lem><w>ἐγένετο</w></lem>
+                <rdg n="1" wit="01 04 025 046 051 205 209 Byz ar vg arm Andrew Beatus"><w>ἐγένετο</w></rdg>
+                <rdg n="2" wit="P47 02 1006 1611 1841 1854 2053 2329 gig h syrph syrh copsa copbo eth Primasius"><w>ἐγένοντο</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="paleographic-confusion" ana="#VisErr" wit="2062"><w>ἐγένεντο</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#LingConf"/><!-- construction ad sensum, possibly informed by the presence of τοὺς ποταμοὺς in addition to τὰς πηγὰς -->
+                        <relation active="2" passive="1" ana="#Clar"/><!-- grammatical clarification -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K16V17U30-40">
+                <lem><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></lem>
+                <rdg n="1" wit="P47 02 1611 1841 2053 2062 ar vg syrph syrh copsa copbo arm eth Primasius Beatus"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1006"><w>ἀπὸ</w><w>τοῦ</w><w>ναοῦ</w><w>ἐκ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="2329"><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w></rdg>
+                <rdg n="2" wit="gig"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="051*"><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="3" wit="1854 2344 Andrew"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="4" wit="046 205 209 Byz"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="4-s1" type="subreading" cause="clarification" ana="#Clar" wit="051C"><w>ἀπὸ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="5" wit="01"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
+                <rdg n="6" wit="2027"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w><w>τοῦ</w><w>θεοῦ</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                        <relation active="5" passive="6" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 3" passive="4" ana="#Clar"/><!-- conflation -->
+                        <relation active="1" passive="3" ana="#Clar #VisErr"/><!-- assimilation to more common imagery ("a voice out of heaven") or paleographic confusion -->
+                        <relation active="3" passive="1" ana="#VisErr"/><!-- paleographic confusion -->
+                        <relation active="3" passive="2" ana="#VisErr"/>
+                        <relation active="4" passive="1 3" ana="#VisErr"/>
+                        <relation active="4" passive="6" ana="#Clar"/>
+                        <relation active="6" passive="4 5" ana="#VisErr"/>
+                        <relation active="1 2 3 5 6" passive="4" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K17V4U60-62">
+                <lem><w>πορνείας</w><w>αὐτῆς</w></lem>
+                <rdg n="1" wit="02 051 205 209 1006 1841 2344 ar vg syrph syrhmg arm eth Andrew Beatus"><w>πορνείας</w><w>αὐτῆς</w></rdg>
+                <rdg n="2" wit="046 1611 2030 2053 2062 2329 Byz Hippolytus Cyprian Quodvultdeus Primasius"><w>πορνείας</w><w>τῆς</w><w>γῆς</w></rdg>
+                <rdg n="2-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="1854"><w>πονηρίας</w><w>τῆς</w><w>γῆς</w></rdg>
+                <rdg n="3" wit="01 syrh copsa copbo"><w>πορνείας</w><w>αὐτῆς</w><w>καὶ</w><w>τῆς</w><w>γῆς</w></rdg>
+                <rdg n="4" wit="gig"><w>γῆς</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- conflation -->
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2 3" passive="4" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="3" passive="1" ana="#VisErr"/>
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K17V8U36">
+                <lem><w>ὑπάγει</w></lem>
+                <rdg n="1" wit="02 1611 2053 2062 syrph copsa copbo eth Irenaeus Hippolytus Andrew Primasius"><w>ὑπάγει</w></rdg>
+                <rdg n="2" wit="01 025 046 051 205 209 1006 1841 1854 2030 2329 2344 Byz ar gig vg syrh arm Quodvultdeus Beatus"><w>ὑπάγειν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Harm #VisErr"/><!-- harmonization or dittography occasioned by 17:11 -->
+                        <relation active="1 3 4" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V2U32-60">
+                <rdg n="1" wit="2329 gig syrh copsa arm eth Hippolytus Primasius">Include all three phrases beginning καὶ φυλακή</rdg>
+                <rdg n="2" wit="01 04 025 046 051 1006 1841 2030 2053 2062 Byz ar vg copbo Andrew Beatus">Include first and second phrases beginning καὶ φυλακή</rdg>
+                <rdg n="3" wit="02">Include first and third phrases beginning καὶ φυλακή</rdg>
+                <rdg n="4" wit="syrph">Include first phrase beginning καὶ φυλακή</rdg>
+                <rdg n="5" wit="205 209 1611 1854">Include second phrase beginning καὶ φυλακή</rdg>
+                <rdg n="6" wit="Priscillian">Omit all three phrases beginning καὶ φυλακή</rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                        <relation active="5" passive="6" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4 5 6" ana="#VisErr"/>
+                        <relation active="2" passive="4 5 6" ana="#VisErr"/>
+                        <relation active="3" passive="4 6" ana="#VisErr"/>
+                        <relation active="4" passive="6" ana="#VisErr"/>
+                        <relation active="5" passive="6" ana="#VisErr"/>
+                        <relation active="1 3 4 5 6" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V3U6-16">
+                <lem><w>τοῦ</w><w>οἴνου</w><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></lem>
+                <rdg n="1" wit="01 046 1006 1841 2030 2329 2344 Byz syrh copsa"><w>τοῦ</w><w>οἴνου</w><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="2" wit="025 051 205 209 gig arm Hippolytus Andrew"><w>τοῦ</w><w>θυμοῦ</w><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="3" wit="02 1611 2053 2062 ar eth Priscillian"><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="3-s1" type="subreading" cause="clarification" ana="#Clar" wit="04"><w>τῆς</w><w>πορνείας</w><w>τοῦ</w><w>θυμοῦ</w></rdg>
+                <rdg n="4" wit="1854 syrph Primasius Beatus"><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <witDetail n="W1/2/3" type="ambiguous" wit="copbo" target="1 2 3"><certainty target="1" locus="value" degree="0.3334"/><certainty target="2" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- tradition is divided -->
+                <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας, while vgww and vgst support τοῦ θυμοῦ τῆς πορνείας -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3 4" ana="#VisErr"/>
+                        <relation active="1 2" passive="3 4" ana="#VisErr"/>
+                        <relation active="3 4" passive="1 2" ana="#Clar"/><!-- conflation -->
+                        <relation active="4" passive="3" ana="#Clar"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V3U20">
+                <lem><w>πέπωκαν</w></lem>
+                <rdg n="1" wit="1006C 2329 ar gig vg syrh arm Andrew Priscillian Beatus"><w>πέπωκαν</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="025 051"><w>πέπωκεν</w></rdg>
+                <rdg n="2" wit="2042"><w>πεπότικεν</w></rdg>
+                <rdg n="3" wit="01 02 04 046 205 209 1006* 1611 1841 2030 Byz eth Hippolytus"><w>πεπτώκαν</w></rdg>
+                <rdg n="3-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="1854 2053 2062"><w>πέπτωκεν</w></rdg>
+                <rdg n="4" wit="syrhmg"><w>πέπτωκεν</w><w>εἰς</w></rdg>
+                <rdg n="5" wit="Primasius"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingD"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 4" passive="5" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Clar"/><!-- clarification that Babylon is the subject and πάντα τὰ ἔθνη is the object -->
+                        <relation active="1" passive="3" ana="#Clar #VisErr"/><!-- clarification of the consequence of their action ("they have fallen") or dittography producing πτ from π -->
+                        <relation active="3" passive="1" ana="#Clar #VisErr"/><!-- backward assimilation (they have drunk the wine of wrath) or haplography -->
+                        <relation active="3" passive="4" ana="#Clar"/>
+                        <relation active="4" passive="3" ana="#Clar"/>
+                        <relation active="1 2 4 5" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V12U58-60">
+                <lem><w>ἐκ</w><w>ξύλου</w></lem>
+                <rdg n="1" wit="01 04 025 046 051 205 209 1611 1854 2030 2329 Byz gig syrph syrh copsa copbo arm Hippolytus Andrew Primasius Beatus"><w>ἐκ</w><w>ξύλου</w></rdg>
+                <rdg n="1-s1" type="subreading" wit="2053 2062"><w>ξύλου</w></rdg>
+                <rdg n="2" wit="02 1006 1841 ar vg eth"><w>ἐκ</w><w>λίθου</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/><!-- forward assimilation ("bronze, iron, and marble" are mentioned next) or dittography -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V17U26-32">
+                <lem><w>ὁ</w><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></lem>
+                <rdg n="1" wit="02 04 1006 1841 1854 2030 Byz ar arm"><w>ὁ</w><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></rdg>
+                <rdg n="1-s1" type="subreading" wit="1611"><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></rdg>
+                <rdg n="2" wit="01 046 0229 2329 gig"><w>ὁ</w><w>ἐπὶ</w><w>τὸν</w><w>τόπον</w><w>πλέων</w></rdg>
+                <rdg n="3" wit="2254 copbo Caesarius Primasius"><w>ὁ</w><w>ἐπὶ</w><w>πόντον</w><w>πλέων</w></rdg>
+                <rdg n="4" wit="2053 2062 copsa"><w>ὁ</w><w>ἐπὶ</w><w>τὸν</w><w>ποταμὸν</w><w>πλέων</w></rdg>
+                <rdg n="5" wit="025 051 205 209 Hippolytus Andrew Beatus"><w>ἐπὶ</w><w>τῶν</w><w>πλοίων</w><w>πλέων</w></rdg>
+                <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.6667"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ὁ ἐπὶ τόπον πλέων, while vgcl supports ὁ ἐπὶ πόντον πλέων -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#Clar #VisErr"/>
+                        <relation active="1" passive="4" ana="#Clar #VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar #VisErr"/>
+                        <relation active="2" passive="5" ana="#Clar"/>
+                        <relation active="3" passive="1" ana="#VisErr"/>
+                        <relation active="3" passive="4" ana="#Clar #VisErr"/>
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K18V22U32-40">
+                <lem><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνης</w></lem>
+                <rdg n="1" wit="04 025 046 051 205 209 1006 1611 1841 1854 2062 2344 Byz ar gig vg syrh copsa Andrew Primasius Beatus"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνης</w></rdg>
+                <rdg n="1-s1" type="subreading" wit="2329"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνεως</w></rdg>
+                <rdg n="2" wit="2053"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>καὶ</w><w>πάσης</w><w>τέχνης</w></rdg>
+                <rdg n="3" wit="01 02 copbo"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w></rdg>
+                <rdg n="4" wit="syrph syrhmg arm"/>
+                <witDetail n="W1/3/4" type="ambiguous" wit="Hippolytus" target="1 3 4"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.3333"/><certainty target="4" locus="value" degree="0.3334"/></witDetail><!-- tradition is divided -->
+                <witDetail n="W1/3" type="ambiguous" wit="eth" target="1 3"><certainty target="1" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3" passive="4" ana="#VisErr"/>
+                        <relation active="1 2" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V5U32-36">
+                <lem><w>καὶ</w><w>οἱ</w><w>φοβούμενοι</w></lem>
+                <rdg n="1" wit="02 046 051 205 209 1006 1611 1841 1854 2030 2053 2062 2329 2344 Byz ar gig t vg syrph syrh copbo arm Andrew Primasius Apringius Beatus"><w>καὶ</w><w>οἱ</w><w>φοβούμενοι</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="haplography" ana="#VisErr" wit="0229"><w>καὶ</w><w>φοβούμενοι</w></rdg>
+                <rdg n="2" wit="01 04 025 copsa eth"><w>οἱ</w><w>φοβούμενοι</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V6U42-48">
+                <lem><w>κύριος</w><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></lem>
+                <rdg n="1" wit="01C2 025 046 1611 1854 2030 2053 2062 2329 2344 Byz ar gig vg syrh arm Apringius Beatus"><w>κύριος</w><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></rdg>
+                <rdg n="2" wit="01*"><w>ὁ</w><w>θεὸς</w><w>ὁ</w><w>κύριος</w><w>ἡμῶν</w></rdg>
+                <rdg n="3" wit="02 1006 1841 t syrphC copsa copbo Cyprian"><w>κύριος</w><w>ὁ</w><w>θεός</w></rdg>
+                <rdg n="4" wit="051 205 209 Andrew"><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></rdg>
+                <rdg n="5" wit="syrph*"><w>κύριος</w></rdg>
+                <rdg n="5-s1" type="subreading" cause="clarification" ana="#Clar" wit="Primasius"><w>κύριος</w><w>ἡμῶν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="3" ana="#Clar"/><!-- removal of ἡμῶν to keep all of the titles together -->
+                        <relation active="2" passive="4" ana="#VisErr"/>
+                        <relation active="3" passive="1" ana="#Clar"/>
+                        <relation active="3" passive="5" ana="#VisErr"/>
+                        <relation active="4 5" passive="1 2" ana="#Clar"/><!-- conflation or independent pious expansions -->
+                        <relation active="5" passive="3" ana="#Clar"/><!-- pious expansion -->
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V7U10">
+                <lem><w>δώσωμεν</w></lem>
+                <rdg n="1" wit="025 2062 2329 2344 Andrew"><w>δώσωμεν</w></rdg>
+                <rdg n="2" wit="01C2 02 2053"><w>δώσομεν</w></rdg>
+                <rdg n="3" wit="01* 046 051 205 209 1006 1611 1841 1854 2030 Byz ar gig t vg eth Cyprian Primasius Beatus"><w>δῶμεν</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2" passive="3" ana="#Clar"/><!-- backward assimilation to previous non-future subjunctives -->
+                        <relation active="1" passive="2" ana="#AurConf"/>
+                        <relation active="2" passive="1" ana="#AurConf #Clar"/>
+                        <relation active="1 2" passive="3" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V11U30-36">
+                <lem><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></lem>
+                <rdg n="1" wit="046 1611 1841 1854 2030 2053 2062 2344 Byz ar gig t syrph syrh eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus"><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="01"><w>πιστὸς</w><w>καλούμενος</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="1006"><w>καὶ</w><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="1-s3" type="subreading" cause="haplography" ana="#VisErr" wit="2329"><w>καλούμενος</w><w>πιστὸς</w></rdg>
+                <rdg n="2" wit="02 025 051 205 209 arm Hippolytus Andrew"><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="3" xml:lang="lat" wit=""><w>vocabatur</w><w>fidelis</w><w>et</w><w>verax</w><w>vocatur</w></rdg>
+                <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports καλούμενος πιστὸς καὶ ἀληθινός, while vgww and vgst read vocabatur fidelis et verax vocatur -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/><!-- to remove any ambiguity -->
+                        <relation active="1" passive="3" ana="#Clar"/>
+                        <relation active="2 3" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V12U10">
+                <lem><w>ὡς</w></lem>
+                <rdg n="1" wit="02 1006 1841 ar gig t vg syrph syrh copsa copbo eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus"><w>ὡς</w></rdg>
+                <rdg n="2" wit="01 025 046 051 205 209 1611 1854 2030 2053 2062 2329 2344 Byz arm Hippolytus Andrew"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/><!-- oversight of two letters -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K19V13U8">
+                <lem><w>βεβαμμένον</w></lem>
+                <rdg n="1" wit="02 046 051 205 209 1854 2030 2344 Byz copsa arm Andrew"><w>βεβαμμένον</w></rdg>
+                <rdg n="2" wit="2053 2062"><w>ἐρραμμένον</w></rdg>
+                <rdg n="2-s1" type="subreading" wit="1611"><w>ῥεραμμένον</w></rdg>
+                <rdg n="3" wit="1006 1841 ar gig t vg eth Irenaeuslat Hippolytus Cyprian Priscillian Jerome Varimadum Apringius Primasius Cassiodorus Beatus"><w>ἐρραντισμένον</w></rdg>
+                <rdg n="3-s1" type="subreading" wit="025 2329"><w>ῥεραντισμένον</w></rdg>
+                <rdg n="4" wit="01*"><w>περιρεραμμένον</w></rdg>
+                <rdg n="4-s1" type="subreading" wit="01C2"><w>περιρεραντισμένον</w></rdg>
+                <witDetail n="W2/3" type="ambiguous" wit="Origen" target="2 3"><certainty target="2" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- different readings in different quotations -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3 4" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#VisErr"/><!-- paleographic confusion -->
+                        <relation active="2 3" passive="4" ana="#Clar"/>
+                        <relation active="2" passive="3" ana="#Clar"/>
+                        <relation active="3" passive="2" ana="#Clar"/>
+                        <relation active="2 3 4" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K20V6U64">
+                <lem><w>τά</w></lem>
+                <rdg n="1" wit="01 046 1611 2053 2062 2329 syrh copsa copbo"><w>τά</w></rdg>
+                <rdg n="2" wit="02 051 205 209 1006 1841 1854 2030 2050 2377 Byz arm eth Andrew"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/>
+                        <relation active="2" passive="1" ana="#Clar #VisErr"/><!-- syntactic clarification (χίλια ἔτη is already an activated reference) or dittography occasioned by 20:5 -->
+                        <relation active="2" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K20V9U44-48">
+                <lem><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></lem>
+                <rdg n="1" wit="02 2053K copbomss eth Primasius"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="2" wit="1854"><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
+                <rdg n="3" wit="01C2 025 1006 1611 1841 2050 2053T 2062 vg syrh Jerome Apringius Beatus"><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="4" wit="205 209 Andrew"><w>ἐκ</w><w>τοῦ</w><w>θεοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="4-s1" type="subreading" wit="051"><w>ἐκ</w><w>θεοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="5" wit="046 2030 2329 Byz ar gig syrph copsa copbo arm"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
+                <witDetail n="W1/5" type="ambiguous" wit="Augustine" target="1 5"><certainty target="1" locus="value" degree="0.6667"/><certainty target="5" locus="value" degree="0.3333"/></witDetail><!-- different readings in different quotations -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingA"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 2 3 4" passive="5" ana="#Harm #VisErr"/><!-- harmonization or dittography occasioned by 21:2, 10 -->
+                        <relation active="1 2" passive="3 5" ana="#Clar"/><!-- conflation or separate clarifications -->
+                        <relation active="3" passive="2" ana="#VisErr"/>
+                        <relation active="3" passive="4" ana="#Clar"/><!-- slip of memory while copying -->
+                        <relation active="4" passive="3" ana="#Clar"/>
+                        <relation active="5" passive="1" ana="#VisErr"/>
+                        <relation active="1 2 3 4" passive="5" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K21V3U46">
+                <lem><w>λαοί</w></lem>
+                <rdg n="1" wit="01 02 046 2050 2053 2062 2329 ar Irenaeus Andrew"><w>λαοί</w></rdg>
+                <rdg n="2" wit="025 051S 205 209 1006 1611 1841 1854 2030 Byz gig sin vg syrph syrh copsa copbo arm eth Ambrose Augustine Primasius Apringius Beatus"><w>λαός</w></rdg>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingB"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Harm"/><!-- cf. OT references to Israel and God -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K21V3U56-64">
+                <lem><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></lem>
+                <rdg n="1" wit="02 2030 2053K 2329 2377 vg eth Irenaeus Apringius Beatus"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1854"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>θεὸς</w><w>αὐτῶν</w></rdg>
+                <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="2050"><w>μετ᾽</w><w>αὐτῶν</w><w>καὶ</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></rdg>
+                <rdg n="1-s3" type="subreading" cause="clarification" ana="#Clar" wit="2053T 2062"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>ὁ</w><w>θεός</w></rdg>
+                <rdg n="2" wit="025 051S 205 209 Andrew"><w>ἔσται</w><w>μετ᾽</w><w>αὐτῶν</w><w>θεὸς</w><w>αὐτῶν</w></rdg>
+                <rdg n="3" wit="1006 1611 1841 copsa"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>θεός</w></rdg>
+                <rdg n="4" wit="046 Byz gig sin Augustine Primasius"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w></rdg>
+                <witDetail n="W1/4" type="ambiguous" wit="Ambrose" target="1 4"><certainty target="1" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- different readings in different quotations -->
+                <witDetail n="W3/4" type="ambiguous" wit="copbo" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1 3" passive="4" ana="#Clar"/><!-- αὐτός was perceived as sufficient -->
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#Clar"/><!-- removal of the second αὐτῶν, perceived as superfluous after the first one -->
+                        <relation active="4" passive="3" ana="#Clar"/>
+                        <relation active="1 2 3" passive="4" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K21V4U48-52">
+                <lem><w>ὅτι</w><w>τὰ</w><w>πρῶτα</w></lem>
+                <rdg n="1" wit="01C1 046 205 209 1854 Byz ar syrh copsa copbo arm Irenaeus Augustine Quodvultdeus Primasius"><w>ὅτι</w><w>τὰ</w><w>πρῶτα</w></rdg>
+                <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="gig"><w>τὰ</w><w>γὰρ</w><w>πρῶτα</w></rdg>
+                <rdg n="2" wit="2050"><w>ὅτι</w><w>ταῦτα</w></rdg>
+                <rdg n="3" wit="02 025 051S 1006 1611 1841 2030 2053 2062 2329 2377 Andrew"><w>τὰ</w><w>πρῶτα</w></rdg>
+                <rdg n="4" wit="Apringius Beatus"><w>quae</w><w>prima</w></rdg>
+                <rdg n="5" wit="01*"><w>τὰ</w><w>πρόβατα</w></rdg>
+                <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.6667"/><certainty target="4" locus="value" degree="0.3333"/></witDetail><!-- vgcl, vgww support ὅτι τὰ πρῶτα, while vgst supports quae prima -->
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                        <relation active="3" passive="4" ana="#EqualRating"/>
+                        <relation active="4" passive="5" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="3" ana="#VisErr"/>
+                        <relation active="1" passive="4" ana="#VisErr"/><!-- Latin paleographic confusion of quia and quae -->
+                        <relation active="3" passive="1 4" ana="#Clar"/><!-- aversion to asyndeton -->
+                        <relation active="3" passive="5" ana="#VisErr"/>
+                        <relation active="2 3 4 5" passive="1" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K21V12U40-42">
+                <lem><w>τὰ</w><w>ὀνόματα</w></lem>
+                <rdg n="1" wit="02 1611 1841 1854 2030 2050 2053 2329 2377"><w>τὰ</w><w>ὀνόματα</w></rdg>
+                <rdg n="2" wit="046 1006 2062 Byz"><w>ὀνόματα</w></rdg>
+                <rdg n="3" wit="01 025 051 205 209 arm Andrew"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2" ana="#VisErr"/><!-- oversight of two letters -->
+                        <relation active="1" passive="3" ana="#VisErr"/><!-- homoioarcton -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+            <app xml:id="B26K22V21U8-10">
+                <lem><w>κυρίου</w><w>Ἰησοῦ</w></lem>
+                <rdg n="1" wit="01 02 1611S 2053 2062"><w>κυρίου</w><w>Ἰησοῦ</w></rdg>
+                <rdg n="2" wit="046 051S 209 1006 1841 1854 2030 2050 2329 2377 Byz syrh Andrew"><w>κυρίου</w><w>Ἰησοῦ</w><w>Χριστοῦ</w></rdg>
+                <rdg n="3" wit="205 ar gig vg syrph arm eth Beatus"><w>κυρίου</w><w>ἡμῶν</w><w>Ἰησοῦ</w><w>Χριστοῦ</w></rdg>
+                <rdg n="3-s1" type="subreading" cause="haplography" ana="#VisErr" wit="copsa"><w>κυρίου</w><w>ἡμῶν</w><w>Ἰησοῦ</w></rdg>
+                <witDetail n="↑B26K22V21U2-14" type="overlap" target="B26K22V21U2-14" wit="copbo"/>
+                <witDetail n="Z" type="lac" wit=""/>
+                <note>
+                    <listRelation type="intrinsic">
+                        <relation active="1" passive="2" ana="#RatingC"/>
+                        <relation active="2" passive="3" ana="#EqualRating"/>
+                    </listRelation>
+                    <listRelation type="transcriptional">
+                        <relation active="1" passive="2 3" ana="#Clar"/><!-- pious expansion -->
+                        <relation active="2" passive="3" ana="#Clar"/><!-- pious expansion -->
+                        <relation active="2" passive="1" ana="#Clar"/>
+                        <relation active="1 3" passive="2" ana="#Byz"/>
+                    </listRelation>
+                </note>
+            </app>
+        </body>
+    </text>
+</TEI>
