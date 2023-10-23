@@ -25,12 +25,12 @@
                     <witness n="P72">
                         <origDate notBefore="200" notAfter="400"/>
                     </witness>
-                    <witness n="P81">
+                    <!-- <witness n="P81">
                         <origDate notBefore="300" notAfter="400"/>
-                    </witness>
-                    <witness n="P125">
+                    </witness> -->
+                    <!-- <witness n="P125">
                         <origDate notBefore="200" notAfter="400"/>
-                    </witness>
+                    </witness> -->
                     <!-- Majuscules -->
                     <witness n="01">
                         <origDate notBefore="300" notAfter="400"/>
@@ -56,9 +56,9 @@
                     <witness n="044">
                         <origDate notBefore="800" notAfter="1000"/>
                     </witness>
-                    <witness n="048">
+                    <!-- <witness n="048">
                         <origDate notBefore="400" notAfter="500"/>
-                    </witness>
+                    </witness> -->
                     <!-- Minuscules -->
                     <witness n="5">
                         <origDate notBefore="1200" notAfter="1300"/>
@@ -188,24 +188,24 @@
                     <witness n="ar">
                         <origDate notBefore="800" notAfter="900"/>
                     </witness>
-                    <witness n="h">
+                    <!-- <witness n="h">
                         <origDate notBefore="400" notAfter="500"/>
-                    </witness>
-                    <witness n="l">
+                    </witness> -->
+                    <!-- <witness n="l">
                         <origDate notBefore="600" notAfter="700"/>
-                    </witness>
-                    <witness n="q">
+                    </witness> -->
+                    <!-- <witness n="q">
                         <origDate notBefore="600" notAfter="700"/>
-                    </witness>
-                    <witness n="s">
+                    </witness> -->
+                    <!-- <witness n="s">
                         <origDate notBefore="500" notAfter="600"/>
-                    </witness>
+                    </witness> -->
                     <witness n="t">
                         <origDate notBefore="1000" notAfter="1100"/>
                     </witness>
-                    <witness n="w">
+                    <!-- <witness n="w">
                         <origDate notBefore="500" notAfter="600"/>
-                    </witness>
+                    </witness> -->
                     <witness n="z">
                         <origDate notBefore="700" notAfter="800"/>
                     </witness>
@@ -241,6 +241,7 @@
                         <origDate notBefore="864" notAfter="865"/>
                     </witness>
                     <!-- Church fathers -->
+                    <!-- all fathers are too fragmentary (> 50% lacunose) to include
                     <witness type="father" n="AcaciusOfMelitene">
                         <origDate notBefore="400" notAfter="437"/>
                     </witness>
@@ -284,7 +285,7 @@
                         <origDate notBefore="350" notAfter="398"/>
                     </witness>
                     <witness type="father" n="Epiphanius">
-                        <origDate notBefore="374" notAfter="377"/><!-- date range for Panarion -->
+                        <origDate notBefore="374" notAfter="377"/>
                     </witness>
                     <witness type="father" n="Eusebius">
                         <origDate notBefore="300" notAfter="340"/>
@@ -314,7 +315,7 @@
                         <origDate notBefore="404" notAfter="455"/>
                     </witness>
                     <witness type="father" n="Lucifer">
-                        <origDate notBefore="355" notAfter="362"/><!-- period of Lucifer's exile -->
+                        <origDate notBefore="355" notAfter="362"/>
                     </witness>
                     <witness type="father" n="MarcellusOfAncyra">
                         <origDate notBefore="325" notAfter="374"/>
@@ -367,6 +368,7 @@
                     <witness type="father" n="VigiliusOfThapsus">
                         <origDate notBefore="484" notAfter="550"/>
                     </witness>
+                    -->
                 </listWit>
             </sourceDesc>
         </fileDesc>

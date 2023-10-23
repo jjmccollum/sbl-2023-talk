@@ -37,9 +37,9 @@
                     <witness n="03">
                         <origDate notBefore="300" notAfter="400"/>
                     </witness>
-                    <witness n="04">
+                    <!-- <witness n="04">
                         <origDate notBefore="400" notAfter="500"/>
-                    </witness>
+                    </witness> -->
                     <witness n="06">
                         <origDate notBefore="500" notAfter="600"/>
                     </witness>

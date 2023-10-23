@@ -22,18 +22,18 @@
                     <!-- Byzantine tradition -->
                     <witness n="Byz"/>
                     <!-- Papyri -->
-                    <witness n="P18">
+                    <!-- <witness n="P18">
                         <origDate notBefore="200" notAfter="400"/>
-                    </witness>
-                    <witness n="P24">
+                    </witness> -->
+                    <!-- <witness n="P24">
                         <origDate notBefore="300" notAfter="400"/>
-                    </witness>
-                    <witness n="P47">
+                    </witness> -->
+                    <!-- <witness n="P47">
                         <origDate notBefore="250" notAfter="300"/>
-                    </witness>
-                    <witness n="P115">
+                    </witness> -->
+                    <!-- <witness n="P115">
                         <origDate notBefore="200" notAfter="400"/>
-                    </witness>
+                    </witness> -->
                     <!-- Majuscules -->
                     <witness n="01">
                         <origDate notBefore="300" notAfter="400"/>
@@ -59,28 +59,28 @@
                     <witness n="051">
                         <origDate notBefore="900" notAfter="1000"/>
                     </witness>
-                    <witness n="051S">
+                    <!-- <witness n="051S">
                         <origDate notBefore="900" notAfter="1000"/>
-                    </witness>
-                    <witness n="0207">
+                    </witness> -->
+                    <!-- <witness n="0207">
                         <origDate notBefore="300" notAfter="400"/>
-                    </witness>
-                    <witness n="0229">
+                    </witness> -->
+                    <!-- <witness n="0229">
                         <origDate notBefore="700" notAfter="800"/>
-                    </witness>
+                    </witness> -->
                     <!-- Minuscules -->
-                    <witness n="1">
+                    <!-- <witness n="1">
                         <origDate notBefore="1100" notAfter="1200"/>
-                    </witness>
-                    <witness n="61">
+                    </witness> -->
+                    <!-- <witness n="61">
                         <origDate notBefore="1500" notAfter="1600"/>
-                    </witness>
-                    <witness n="69">
+                    </witness> -->
+                    <!-- <witness n="69">
                         <origDate notBefore="1400" notAfter="1500"/>
-                    </witness>
-                    <witness n="104">
+                    </witness> -->
+                    <!-- <witness n="104">
                         <origDate when="1087"/>
-                    </witness>
+                    </witness> -->
                     <witness n="205">
                         <origDate notBefore="1400" notAfter="1500"/>
                     </witness>
@@ -93,45 +93,45 @@
                     <witness n="1611">
                         <origDate notBefore="900" notAfter="1000"/>
                     </witness>
-                    <witness n="1611S">
+                    <!-- <witness n="1611S">
                         <origDate notBefore="1300" notAfter="1500"/>
-                    </witness>
-                    <witness n="1828">
+                    </witness> -->
+                    <!-- <witness n="1828">
                         <origDate notBefore="1000" notAfter="1100"/>
-                    </witness>
+                    </witness> -->
                     <witness n="1841">
                         <origDate notBefore="800" notAfter="1000"/>
                     </witness>
                     <witness n="1854">
                         <origDate notBefore="1000" notAfter="1100"/>
                     </witness>
-                    <witness n="1859">
+                    <!-- <witness n="1859">
                         <origDate notBefore="1300" notAfter="1400"/>
-                    </witness>
-                    <witness n="2027">
+                    </witness> -->
+                    <!-- <witness n="2027">
                         <origDate notBefore="1200" notAfter="1300"/>
-                    </witness>
-                    <witness n="2030">
+                    </witness> -->
+                    <!-- <witness n="2030">
                         <origDate notBefore="1100" notAfter="1200"/>
-                    </witness>
-                    <witness n="2042">
+                    </witness> -->
+                    <!-- <witness n="2042">
                         <origDate notBefore="1300" notAfter="1400"/>
-                    </witness>
-                    <witness n="2049">
+                    </witness> -->
+                    <!-- <witness n="2049">
                         <origDate notBefore="1500" notAfter="1600"/>
-                    </witness>
-                    <witness n="2050">
+                    </witness> -->
+                    <!-- <witness n="2050">
                         <origDate when="1107"/>
-                    </witness>
+                    </witness> -->
                     <witness n="2053">
                         <origDate notBefore="1200" notAfter="1300"/>
                     </witness>
-                    <witness n="2062">
+                    <!-- <witness n="2062">
                         <origDate notBefore="1200" notAfter="1300"/>
-                    </witness>
-                    <witness n="2254">
+                    </witness> -->
+                    <!-- <witness n="2254">
                         <origDate notBefore="1500" notAfter="1600"/>
-                    </witness>
+                    </witness> -->
                     <witness n="2329">
                         <origDate notBefore="900" notAfter="1000"/>
                     </witness>
@@ -141,12 +141,12 @@
                     <witness n="2351">
                         <origDate notBefore="900" notAfter="1000"/>
                     </witness>
-                    <witness n="2377">
+                    <!-- <witness n="2377">
                         <origDate notBefore="1300" notAfter="1400"/>
-                    </witness>
-                    <witness n="2432">
+                    </witness> -->
+                    <!-- <witness n="2432">
                         <origDate notBefore="1300" notAfter="1400"/>
-                    </witness>
+                    </witness> -->
                     <!-- Old Latin manuscripts -->
                     <witness n="ar">
                         <origDate notBefore="807" notAfter="808"/>
@@ -154,15 +154,15 @@
                     <witness n="gig">
                         <origDate notBefore="1204" notAfter="1227"/>
                     </witness>
-                    <witness n="h">
+                    <!-- <witness n="h">
                         <origDate notBefore="600" notAfter="700"/>
-                    </witness>
-                    <witness n="sin">
+                    </witness> -->
+                    <!-- <witness n="sin">
                         <origDate notBefore="900" notAfter="1100"/>
-                    </witness>
-                    <witness n="t">
+                    </witness> -->
+                    <!-- <witness n="t">
                         <origDate notBefore="1025" notAfter="1075"/>
-                    </witness>
+                    </witness> -->
                     <!-- Versions -->
                     <witness type="version" n="vg">
                         <origDate notBefore="300" notAfter="500"/>
@@ -192,96 +192,96 @@
                         <origDate notBefore="400" notAfter="700"/>
                     </witness>
                     <!-- Church fathers -->
-                    <witness type="father" n="Ambrose">
+                    <!-- <witness type="father" n="Ambrose">
                         <origDate notBefore="350" notAfter="397"/>
-                    </witness>
-                    <witness type="father" n="Ambrosiaster">
+                    </witness> -->
+                    <!-- <witness type="father" n="Ambrosiaster">
                         <origDate notBefore="366" notAfter="384"/>
-                    </witness>
+                    </witness> -->
                     <witness type="father" n="Andrew">
                         <origDate notBefore="563" notAfter="614"/>
                     </witness>
-                    <witness type="father" n="Apringius">
+                    <!-- <witness type="father" n="Apringius">
                         <origDate notBefore="500" notAfter="600"/>
-                    </witness>
-                    <witness type="father" n="Augustine">
+                    </witness> -->
+                    <!-- <witness type="father" n="Augustine">
                         <origDate notBefore="390" notAfter="430"/>
-                    </witness>
+                    </witness> -->
                     <witness type="father" n="Beatus">
                         <origDate notBefore="730" notAfter="785"/>
                     </witness>
-                    <witness type="father" n="Caesarius">
+                    <!-- <witness type="father" n="Caesarius">
                         <origDate notBefore="468" notAfter="542"/>
-                    </witness>
-                    <witness type="father" n="Cassiodorus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Cassiodorus">
                         <origDate notBefore="530" notAfter="585"/>
-                    </witness>
-                    <witness type="father" n="Chromatius">
+                    </witness> -->
+                    <!-- <witness type="father" n="Chromatius">
                         <origDate notBefore="381" notAfter="407"/>
-                    </witness>
-                    <witness type="father" n="ClementOfAlexandria">
+                    </witness> -->
+                    <!-- <witness type="father" n="ClementOfAlexandria">
                         <origDate notBefore="195" notAfter="203"/>
-                    </witness>
-                    <witness type="father" n="Cyprian">
+                    </witness> -->
+                    <!-- <witness type="father" n="Cyprian">
                         <origDate notBefore="248" notAfter="258"/>
-                    </witness>
-                    <witness type="father" n="Didymus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Didymus">
                         <origDate notBefore="350" notAfter="398"/>
-                    </witness>
-                    <witness type="father" n="Epiphanius">
-                        <origDate notBefore="374" notAfter="377"/><!-- date range for Panarion -->
-                    </witness>
-                    <witness type="father" n="Fulgentius">
+                    </witness> -->
+                    <!-- <witness type="father" n="Epiphanius">
+                        <origDate notBefore="374" notAfter="377"/>
+                    </witness> -->
+                    <!-- <witness type="father" n="Fulgentius">
                         <origDate notBefore="500" notAfter="533"/>
-                    </witness>
-                    <witness type="father" n="GregoryElvira">
+                    </witness> -->
+                    <!-- <witness type="father" n="GregoryElvira">
                         <origDate notBefore="370" notAfter="392"/>
-                    </witness>
-                    <witness type="father" n="Hippolytus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Hippolytus">
                         <origDate notBefore="200" notAfter="235"/>
-                    </witness>
-                    <witness type="father" n="Irenaeus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Irenaeus">
                         <origDate notBefore="161" notAfter="202"/>
-                    </witness>
-                    <witness type="father" n="Jerome">
+                    </witness> -->
+                    <!-- <witness type="father" n="Jerome">
                         <origDate notBefore="382" notAfter="420"/>
-                    </witness>
-                    <witness type="father" n="Maternus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Maternus">
                         <origDate notBefore="300" notAfter="400"/>
-                    </witness>
-                    <witness type="father" n="Methodius">
-                        <origDate when="290"/><!-- approximate date of Symposium -->
-                    </witness>
-                    <witness type="father" n="Origen">
+                    </witness> -->
+                    <!-- <witness type="father" n="Methodius">
+                        <origDate when="290"/>
+                    </witness> -->
+                    <!-- <witness type="father" n="Origen">
                         <origDate notBefore="210" notAfter="253"/>
-                    </witness>
-                    <witness type="father" n="Pacian">
+                    </witness> -->
+                    <!-- <witness type="father" n="Pacian">
                         <origDate notBefore="365" notAfter="391"/>
-                    </witness>
+                    </witness> -->
                     <witness type="father" n="Primasius">
                         <origDate notBefore="550" notAfter="560"/>
                     </witness>
-                    <witness type="father" n="Priscillian">
+                    <!-- <witness type="father" n="Priscillian">
                         <origDate notBefore="370" notAfter="385"/>
-                    </witness>
-                    <witness type="father" n="Quodvultdeus">
+                    </witness> -->
+                    <!-- <witness type="father" n="Quodvultdeus">
                         <origDate notBefore="421" notAfter="450"/>
-                    </witness>
-                    <witness type="father" n="Speculum">
+                    </witness> -->
+                    <!-- <witness type="father" n="Speculum">
                         <origDate notBefore="400" notAfter="450"/>
-                    </witness>
-                    <witness type="father" n="Tertullian">
+                    </witness> -->
+                    <!-- <witness type="father" n="Tertullian">
                         <origDate notBefore="200" notAfter="220"/>
-                    </witness>
-                    <witness type="father" n="Tyconius">
+                    </witness> -->
+                    <!-- <witness type="father" n="Tyconius">
                         <origDate notBefore="370" notAfter="390"/>
-                    </witness>
-                    <witness type="father" n="Varimadum">
+                    </witness> -->
+                    <!-- <witness type="father" n="Varimadum">
                         <origDate notBefore="445" notAfter="480"/>
-                    </witness>
-                    <witness type="father" n="VictorinusPettau">
+                    </witness> -->
+                    <!-- <witness type="father" n="VictorinusPettau">
                         <origDate notBefore="270" notAfter="304"/>
-                    </witness>
+                    </witness> -->
                 </listWit>
             </sourceDesc>
         </fileDesc>
