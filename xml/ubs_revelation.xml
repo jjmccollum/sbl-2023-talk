@@ -72,6 +72,15 @@
                     <witness n="1">
                         <origDate notBefore="1100" notAfter="1200"/>
                     </witness>
+                    <witness n="61">
+                        <origDate notBefore="1500" notAfter="1600"/>
+                    </witness>
+                    <witness n="69">
+                        <origDate notBefore="1400" notAfter="1500"/>
+                    </witness>
+                    <witness n="104">
+                        <origDate when="1087"/>
+                    </witness>
                     <witness n="205">
                         <origDate notBefore="1400" notAfter="1500"/>
                     </witness>
@@ -84,14 +93,32 @@
                     <witness n="1611">
                         <origDate notBefore="900" notAfter="1000"/>
                     </witness>
+                    <witness n="1611S">
+                        <origDate notBefore="1300" notAfter="1500"/>
+                    </witness>
+                    <witness n="1828">
+                        <origDate notBefore="1000" notAfter="1100"/>
+                    </witness>
                     <witness n="1841">
                         <origDate notBefore="800" notAfter="1000"/>
                     </witness>
                     <witness n="1854">
                         <origDate notBefore="1000" notAfter="1100"/>
                     </witness>
+                    <witness n="1859">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness n="2027">
+                        <origDate notBefore="1200" notAfter="1300"/>
+                    </witness>
                     <witness n="2030">
                         <origDate notBefore="1100" notAfter="1200"/>
+                    </witness>
+                    <witness n="2042">
+                        <origDate notBefore="1300" notAfter="1400"/>
+                    </witness>
+                    <witness n="2049">
+                        <origDate notBefore="1500" notAfter="1600"/>
                     </witness>
                     <witness n="2050">
                         <origDate when="1107"/>
@@ -141,6 +168,9 @@
                         <origDate notBefore="300" notAfter="500"/>
                     </witness>
                     <witness type="version" n="syrph">
+                        <origDate when="508"/>
+                    </witness>
+                    <witness type="version" n="syrphmg">
                         <origDate when="508"/>
                     </witness>
                     <witness type="version" n="syrh">
@@ -306,13 +336,13 @@
         <body>
             <app xml:id="B26K1V5U48-52">
                 <lem><w>λύσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></lem>
-                <rdg n="1" wit="P18 01C2 02 04 2050 2329 h Andrew VictorinusPettau Primasius"><w>λύσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></rdg>
+                <rdg n="1" wit="P18 01C2 02 04 2050 2329 h Andrew Primasius VictorinusPettau"><w>λύσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></rdg>
                 <rdg n="2" wit="01* 1611 2344 arm"><w>λύσαντι</w><w>ἐκ</w></rdg>
                 <rdg n="3" wit="2351 eth"><w>λύσαντι</w><w>ἡμᾶς</w><w>ἀπό</w></rdg>
                 <rdg n="4" wit="1854 2053 2062"><w>λούσαντι</w><w>ἡμᾶς</w><w>ἐκ</w></rdg>
-                <rdg n="5" wit="025 046C 205 209 1006 1841 Byz ar gig t vg copbo Apringius Beatus"><w>λούσαντι</w><w>ἡμᾶς</w><w>ἀπό</w></rdg>
-                <witDetail n="↑" type="overlap" wit="046*"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="5" wit="Byz 025 046C 205 209 1006 1841 ar gig t vg copbo Apringius Beatus"><w>λούσαντι</w><w>ἡμᾶς</w><w>ἀπό</w></rdg>
+                <witDetail n="W4/5" type="ambiguous" cause="haplography" ana="#VisErr" wit="046*" target="4 5"><w>λούσαντι</w><w>ἡμᾶς</w></witDetail>
+                <witDetail n="Z" type="lac" wit="P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2254 2377 2432 sin syrph syrphmg syrh syrhmg copsa Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -335,11 +365,11 @@
             </app>
             <app xml:id="B26K1V6U34-42">
                 <lem><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τῶν</w><w>αἰώνων</w></lem>
-                <rdg n="1" wit="01C2 04 046 205 209 1006 1611 1841 1854 2053 2062 2329 2351 Byz ar gig h t vg syrph syrh arm eth Didymus Andrew Apringius Beatus"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τῶν</w><w>αἰώνων</w></rdg>
+                <rdg n="1" wit="Byz 01C2 04 046 205 209 1006 1611 1841 1854 2053 2062 2329 2351 ar gig h t vg syrph syrh arm eth Andrew Apringius Beatus Didymus"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τῶν</w><w>αἰώνων</w></rdg>
                 <rdg n="1-f1" type="defective" cause="linguistic-confusion" ana="#LingConf" wit="01*"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w><w>τὸν</w><w>αἰῶνα</w></rdg>
                 <rdg n="2" wit="P18 02 025 2050 copbo"><w>εἰς</w><w>τοὺς</w><w>αἰῶνας</w></rdg>
                 <rdg n="3" wit="2344"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2254 2377 2432 sin syrphmg syrhmg copsa Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -356,11 +386,11 @@
             </app>
             <app xml:id="B26K1V8U15">
                 <lem/>
-                <rdg n="1" wit="01C1 02 04 025 046 1006 1611 1841 2053 2062 Byz h syrph syrh arm eth Epiphanius Ambrose Varimadum Primasius"/>
+                <rdg n="1" wit="Byz 01C1 02 04 025 046 1006 1611 1841 2053 2062 h syrph syrh arm eth Ambrose Epiphanius Primasius Varimadum"/>
                 <rdg n="2" wit="01* 01C2 205 209 1854 2050 2351 ar gig t vg copbo Andrew Apringius Beatus"><w>ἀρχὴ</w><w>καὶ</w><w>τέλος</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="2329"><w>ἡ</w><w>ἀρχὴ</w><w>καὶ</w><w>τὸ</w><w>τέλος</w></rdg>
                 <rdg n="2-s2" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ἀρχὴ</w><w>καὶ</w><w>τὸ</w><w>τέλος</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2254 2377 2432 sin syrphmg syrhmg copsa Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -374,9 +404,9 @@
             <app xml:id="B26K1V15U20">
                 <lem><w>πεπυρωμένης</w></lem>
                 <rdg n="1" wit="02 04"><w>πεπυρωμένης</w></rdg>
-                <rdg n="2" wit="01 205 209 2050 2053 2062 ar gig h t vg copsa copbo arm eth Irenaeus Cyprian Maternus Apringius Primasius Beatus"><w>πεπυρωμένῳ</w></rdg>
-                <rdg n="3" wit="025 046 1006 1611 1841 1854 2329 2344 2351 Byz syrhmg Andrew VictorinusPettau Tyconius"><w>πεπυρωμένοι</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="2" wit="01 205 209 2050 2053 2062 ar gig h t vg copsa copbo arm eth Apringius Beatus Cyprian Irenaeus Maternus Primasius"><w>πεπυρωμένῳ</w></rdg>
+                <rdg n="3" wit="Byz 025 046 1006 1611 1841 1854 2329 2344 2351 syrhmg Andrew Tyconius VictorinusPettau"><w>πεπυρωμένοι</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2254 2377 2432 sin syrph syrphmg syrh Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -392,8 +422,8 @@
             <app xml:id="B26K2V7U54">
                 <lem><w>θεοῦ</w></lem>
                 <rdg n="1" wit="01 02 04 025 205 209 1854 2329 syrph arm Andrew"><w>θεοῦ</w></rdg>
-                <rdg n="2" wit="046 1006 1611 1841 2050 2053 2344 2351 Byz ar gig t vg syrh copsa copbo eth Origen Cyprian VictorinusPettau GregoryElvira Chromatius Varimadum Apringius Primasius Beatus"><w>θεοῦ</w><w>μου</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="2" wit="Byz 046 1006 1611 1841 2050 2053 2344 2351 ar gig t vg syrh copsa copbo eth Apringius Beatus Chromatius Cyprian GregoryElvira Origen Primasius Varimadum VictorinusPettau"><w>θεοῦ</w><w>μου</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrphmg syrhmg Ambrose Ambrosiaster Augustine Caesarius Cassiodorus ClementOfAlexandria Didymus Epiphanius Fulgentius Hippolytus Irenaeus Jerome Maternus Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -407,10 +437,10 @@
             </app>
             <app xml:id="B26K2V20U16">
                 <lem><w>γυναῖκα</w></lem>
-                <rdg n="1" wit="01 04 025 205 209 1611 2050 2053 2329 2344 ar gig t vg copsa copbo arm eth Epiphanius Andrew Tertullian Ambrosiaster Tyconius Beatus"><w>γυναῖκα</w></rdg>
-                <rdg n="2" wit="046 1006 1841 1854 2351 Byz syrph syrh Cyprian Primasius"><w>γυναῖκα</w><w>σου</w></rdg>
+                <rdg n="1" wit="01 04 025 205 209 1611 2050 2053 2329 2344 ar gig t vg copsa copbo arm eth Ambrosiaster Andrew Beatus Epiphanius Tertullian Tyconius"><w>γυναῖκα</w></rdg>
+                <rdg n="2" wit="Byz 046 1006 1841 1854 2351 syrph syrh Cyprian Primasius"><w>γυναῖκα</w><w>σου</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="02"><w>γυναῖκα</w><w>σου</w><w>τήν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrphmg syrhmg Ambrose Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -424,11 +454,11 @@
             </app>
             <app xml:id="B26K2V22U10">
                 <lem><w>κλίνην</w></lem>
-                <rdg n="1" wit="01 04 025 046 205 209 1006 1611 1841 1854 2050 2053 2329 2344 2351 Byz ar gig t vg syrph syrh copbo eth Andrew Tertullian Cyprian Ambrosiaster Tyconius Primasius"><w>κλίνην</w></rdg>
+                <rdg n="1" wit="Byz 01 04 025 046 205 209 1006 1611 1841 1854 2050 2053 2329 2344 2351 ar gig t vg syrph syrh copbo eth Ambrosiaster Andrew Cyprian Primasius Tertullian Tyconius"><w>κλίνην</w></rdg>
                 <rdg n="2" wit="02"><w>φυλακήν</w></rdg>
                 <rdg n="3" wit="arm"><w>κλίβανον</w></rdg>
                 <rdg n="4" wit="copsa"><w>ἀσθένειαν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrphmg syrhmg Ambrose Apringius Augustine Beatus Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -443,10 +473,10 @@
             </app>
             <app xml:id="B26K2V22U38-40">
                 <lem><w>ἔργων</w><w>αὐτῆς</w></lem>
-                <rdg n="1" wit="01 04 025 046 1006 1611 1841 2050 2053 2351 Byz gig syrh eth Tertullian Tyconius Beatus"><w>ἔργων</w><w>αὐτῆς</w></rdg>
-                <rdg n="2" wit="02 205 209 1854 2329 2344 ar t syrph copsa copbo arm Andrew Cyprian Ambrosiaster Apringius Primasius"><w>ἔργων</w><w>αὐτῶν</w></rdg>
+                <rdg n="1" wit="Byz 01 04 025 046 1006 1611 1841 2050 2053 2351 gig syrh eth Beatus Tertullian Tyconius"><w>ἔργων</w><w>αὐτῆς</w></rdg>
+                <rdg n="2" wit="02 205 209 1854 2329 2344 ar t syrph copsa copbo arm Ambrosiaster Andrew Apringius Cyprian Primasius"><w>ἔργων</w><w>αὐτῶν</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ἔργων αὐτῆς, while vgcl supports ἔργων αὐτῶν -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrphmg syrhmg Ambrose Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -460,9 +490,9 @@
             <app xml:id="B26K3V5U6">
                 <lem><w>οὕτως</w></lem>
                 <rdg n="1" wit="01* 02 04 1006 2329 2344 2351 ar gig t vg syrph syrh copsa copbo arm eth Primasius"><w>οὕτως</w></rdg>
-                <rdg n="2" wit="01C2 025 046 205 209 1611 1841 1854 2053 Byz Andrew"><w>οὗτος</w></rdg>
+                <rdg n="2" wit="Byz 01C2 025 046 205 209 1611 1841 1854 2053 Andrew"><w>οὗτος</w></rdg>
                 <rdg n="3" wit="2050"><w>αὐτός</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Beatus Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -480,12 +510,12 @@
             </app>
             <app xml:id="B26K4V11U56">
                 <lem><w>ἦσαν</w></lem>
-                <rdg n="1" wit="01 02 205 209 1006 1611 1841 2053 2351 Byz ar gig t vg Apringius Beatus"><w>ἦσαν</w></rdg>
+                <rdg n="1" wit="Byz 01 02 205 209 1006 1611 1841 2053 2351 ar gig t vg Apringius Beatus"><w>ἦσαν</w></rdg>
                 <rdg n="2" wit="025 1854 2050 2344 copsa eth Andrew"><w>εἰσιν</w></rdg>
                 <rdg n="3" wit="2329 arm"><w>ἐγένοντο</w></rdg>
                 <rdg n="4" wit="046"><w>οὐκ</w><w>ἦσαν</w></rdg>
-                <rdg n="5" wit="Varimadum Fulgentius Primasius"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="5" wit="Fulgentius Primasius Varimadum"/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin syrph syrphmg syrh syrhmg copbo Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -503,12 +533,12 @@
             </app>
             <app xml:id="B26K5V6U56-58">
                 <lem><w>τὰ</w><w>ἑπτά</w></lem>
-                <rdg n="1" wit="P24 01 046 1854 2053 2329 2351 Byz gig syrph syrh copsa copbo arm ClementOfAlexandria Hippolytus Cyprian Maternus Tyconius GregoryElvira Fulgentius Primasius Beatus"><w>τὰ</w><w>ἑπτά</w></rdg>
+                <rdg n="1" wit="Byz P24 01 046 1854 2053 2329 2351 gig syrph syrh copsa copbo arm Beatus ClementOfAlexandria Cyprian Fulgentius GregoryElvira Hippolytus Maternus Primasius Tyconius"><w>τὰ</w><w>ἑπτά</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ἑπτά</w></rdg>
                 <rdg n="2" wit="02 025 205 209 1006 1611 1841 2050 ar Andrew Apringius"><w>τά</w></rdg>
                 <witDetail n="W1/2-1" type="ambiguous" wit="Irenaeus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- Latin tradition has ἑπτά, Armenian tradition does not -->
                 <witDetail n="W1/2-2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports the inclusion of ἑπτά, while vgww and vgst do not -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P47 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin t syrphmg syrhmg eth Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius Didymus Epiphanius Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -524,10 +554,10 @@
                 <lem><w>τῷ</w><w>θεῷ</w></lem>
                 <rdg n="1" wit="02 eth"><w>τῷ</w><w>θεῷ</w></rdg>
                 <rdg n="2" wit="1"><w>ἡμᾶς</w></rdg>
-                <rdg n="3" wit="01 046 209 1006 1611 1841 2053 2329 2351 Byz copbo Andrew"><w>τῷ</w><w>θεῷ</w><w>ἡμᾶς</w></rdg>
-                <rdg n="4" wit="2050 2344 ar gig vg syrph syrh arm Hippolytus Cyprian Maternus Augustine Varimadum Fulgentius Primasius Beatus"><w>ἡμᾶς</w><w>τῷ</w><w>θεῷ</w></rdg>
+                <rdg n="3" wit="Byz 01 046 209 1006 1611 1841 2053 2329 2351 copbo Andrew"><w>τῷ</w><w>θεῷ</w><w>ἡμᾶς</w></rdg>
+                <rdg n="4" wit="2050 2344 ar gig vg syrph syrh arm Augustine Beatus Cyprian Fulgentius Hippolytus Maternus Primasius Varimadum"><w>ἡμᾶς</w><w>τῷ</w><w>θεῷ</w></rdg>
                 <rdg n="5" wit="205 copsa"><w>τῷ</w><w>θεῷ</w><w>ἡμῶν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 025 051 051S 0207 0229 61 69 104 1611S 1828 1854 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius GregoryElvira Irenaeus Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -546,10 +576,10 @@
             </app>
             <app xml:id="B26K5V10U6">
                 <lem><w>αὐτούς</w></lem>
-                <rdg n="1" wit="01 02 046 205 209 1006 1611 1841 2050 2053 2344 2351 Byz syrph syrh copbo arm eth Andrew Cyprian Maternus"><w>αὐτούς</w></rdg>
-                <rdg n="2" wit="ar gig copsa Hippolytus Varimadum Fulgentius Primasius Beatus"><w>ἡμᾶς</w></rdg>
+                <rdg n="1" wit="Byz 01 02 046 205 209 1006 1611 1841 2050 2053 2344 2351 syrph syrh copbo arm eth Andrew Cyprian Maternus"><w>αὐτούς</w></rdg>
+                <rdg n="2" wit="ar gig copsa Beatus Fulgentius Hippolytus Primasius Varimadum"><w>ἡμᾶς</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support αὐτούς, while vgcl supports ἡμᾶς -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 025 051 051S 0207 0229 1 61 69 104 1611S 1828 1854 1859 2027 2030 2042 2049 2062 2254 2329 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius GregoryElvira Irenaeus Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -563,11 +593,11 @@
             </app>
             <app xml:id="B26K5V10U22">
                 <lem><w>βασιλεύσουσιν</w></lem>
-                <rdg n="1" wit="01 025 205 209 1854 2050 2053 2344 2351 gig copsa copbo Hippolytus Andrew Cyprian Maternus Fulgentius"><w>βασιλεύσουσιν</w></rdg>
-                <rdg n="2" wit="02 046 1006 1611 1841 2329 Byz ar"><w>βασιλεύουσιν</w></rdg>
-                <rdg n="3" wit="2432 Primasius Beatus"><w>βασιλεύσομεν</w></rdg>
+                <rdg n="1" wit="01 025 205 209 1854 2050 2053 2344 2351 gig copsa copbo Andrew Cyprian Fulgentius Hippolytus Maternus"><w>βασιλεύσουσιν</w></rdg>
+                <rdg n="2" wit="Byz 02 046 1006 1611 1841 2329 ar"><w>βασιλεύουσιν</w></rdg>
+                <rdg n="3" wit="2432 Beatus Primasius"><w>βασιλεύσομεν</w></rdg>
                 <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.6667"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support βασιλεύσουσιν, while vgcl supports βασιλεύσομεν -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2062 2254 2377 h sin t syrph syrphmg syrh syrhmg arm eth Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius GregoryElvira Irenaeus Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -583,14 +613,14 @@
             </app>
             <app xml:id="B26K5V13U40">
                 <lem><w>καί</w></lem>
-                <rdg n="1" wit="01 1611* gig syrh copsa arm eth Primasius Cassiodorus Beatus"><w>καί</w></rdg>
-                <rdg n="2" wit="02 1006 1611C 1841 2329 2344 Byz syrph"><w>ἐστίν</w><w>καί</w></rdg>
+                <rdg n="1" wit="01 1611* gig syrh copsa arm eth Beatus Cassiodorus Primasius"><w>καί</w></rdg>
+                <rdg n="2" wit="Byz 02 1006 1611C 1841 2329 2344 syrph"><w>ἐστίν</w><w>καί</w></rdg>
                 <rdg n="3" wit="025 046 205 209 2050 vg Andrew"><w>ἅ</w><w>ἐστιν</w><w>καί</w></rdg>
                 <rdg n="4" wit="2053 2351"><w>ὅσα</w><w>ἐστιν</w><w>καί</w></rdg>
                 <rdg n="5" wit="ar"/>
                 <witDetail n="W1/2" type="ambiguous" wit="copbo" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- the tradition is divided -->
                 <witDetail n="W3/4" type="ambiguous" wit="Fulgentius" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- the tradition is divided -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1854 1859 2027 2030 2042 2049 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -612,9 +642,9 @@
             <app xml:id="B26K6V1U46">
                 <lem><w>ἔρχου</w></lem>
                 <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2351 syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
-                <rdg n="2" wit="01 046 205 209 2329 2344 Byz ar gig syrph syrh eth VictorinusPettau Primasius Beatus"><w>Ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <rdg n="2" wit="Byz 01 046 205 209 2329 2344 ar gig syrph syrh eth Beatus Primasius VictorinusPettau"><w>Ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -630,8 +660,8 @@
                 <lem><w>καὶ</w><w>εἶδον</w></lem>
                 <rdg n="1" wit="01 02 04 025 205 209 1006 1611 1841 2053 2344 gig vg syrh copsa copbo arm eth Andrew"><w>καὶ</w><w>εἶδον</w></rdg>
                 <rdg n="2" wit="syrph"><w>καὶ</w><w>ἤκουσα</w><w>καὶ</w><w>εἶδον</w></rdg>
-                <rdg n="3" wit="046 1854 2329 2351 Byz ar Primasius Beatus"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="3" wit="Byz 046 1854 2329 2351 ar Beatus Primasius"/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -647,11 +677,11 @@
             </app>
             <app xml:id="B26K6V3U26-V4U2">
                 <lem><w>ἔρχου</w><w>καὶ</w></lem>
-                <rdg n="1" wit="02 04 025 046 1006 1611 1841 1854 2053 2329 2351 Byz syrph syrh copsa copbo arm Andrew"><w>ἔρχου</w><w>καὶ</w></rdg>
-                <rdg n="2" wit="205 209 2344 ar gig eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w><w>καί</w></rdg>
+                <rdg n="1" wit="Byz 02 04 025 046 1006 1611 1841 1854 2053 2329 2351 syrph syrh copsa copbo arm Andrew"><w>ἔρχου</w><w>καὶ</w></rdg>
+                <rdg n="2" wit="205 209 2344 ar gig eth Beatus Primasius"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w><w>καί</w></rdg>
                 <rdg n="3" wit="01"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w><w>καὶ</w><w>εἶδον</w><w>καὶ</w><w>ἰδού</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου καὶ, while vgcl supports ἔρχου καὶ ἴδε καί -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -668,9 +698,9 @@
             <app xml:id="B26K6V5U26">
                 <lem><w>ἔρχου</w></lem>
                 <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2351 gig syrph syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
-                <rdg n="2" wit="01 046 205 209 2329 2344 Byz ar syrh eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <rdg n="2" wit="Byz 01 046 205 209 2329 2344 ar syrh eth Beatus Primasius"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -685,9 +715,9 @@
             <app xml:id="B26K6V5U28-30">
                 <lem><w>καὶ</w><w>εἶδον</w></lem>
                 <rdg n="1" wit="01 02 04 025 205 209 1006 1611 1841 2053 syrh copbo arm Andrew Primasius"><w>καὶ</w><w>εἶδον</w></rdg>
-                <rdg n="2" wit="046 1854 2329 2344 2351 Byz ar gig syrph copsa eth Beatus"/>
+                <rdg n="2" wit="Byz 046 1854 2329 2344 2351 ar gig syrph copsa eth Beatus"/>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support καὶ εἶδον, while vgcl supports the omission -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -702,9 +732,9 @@
             <app xml:id="B26K6V7U28">
                 <lem><w>ἔρχου</w></lem>
                 <rdg n="1" wit="02 04 025 1006 1611 1841 1854 2053 2329 2351 syrph syrhmg copsa copbo arm Andrew"><w>ἔρχου</w></rdg>
-                <rdg n="2" wit="01 046 205 209 2344 Byz ar gig syrh eth Primasius Beatus"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
+                <rdg n="2" wit="Byz 01 046 205 209 2344 ar gig syrh eth Beatus Primasius"><w>ἔρχου</w><w>καὶ</w><w>ἴδε</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support ἔρχου, while vgcl supports ἔρχου καὶ ἴδε -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -720,9 +750,9 @@
                 <lem><w>καὶ</w><w>εἶδον</w></lem>
                 <rdg n="1" wit="01 02 025 205 209 1006 1611 1841 ar syrph syrh copsa copbo arm Andrew"><w>καὶ</w><w>εἶδον</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="parablepsis" ana="#VisErr" wit="04 2053"><w>εἶδον</w></rdg>
-                <rdg n="2" wit="046 1854 2329 2344 2351 Byz gig eth Primasius Beatus"/>
+                <rdg n="2" wit="Byz 046 1854 2329 2344 2351 gig eth Beatus Primasius"/>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww and vgst support καὶ εἶδον, while vgcl supports the omission -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -737,8 +767,8 @@
             <app xml:id="B26K6V17U18">
                 <lem><w>αὐτῶν</w></lem>
                 <rdg n="1" wit="01 04 1611 1854 2053 2329 2344 ar gig vg syrph syrh Fulgentius"><w>αὐτῶν</w></rdg>
-                <rdg n="2" wit="025 046 02 205 209 1006 1841 2351 Byz copsa copbo arm eth Andrew Primasius Beatus"><w>αὐτοῦ</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="2" wit="Byz 02 025 046 205 209 1006 1841 2351 copsa copbo arm eth Andrew Beatus Primasius"><w>αὐτοῦ</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -752,11 +782,11 @@
             </app>
             <app xml:id="B26K9V13U20-26">
                 <lem><w>ἐκ</w><w>τῶν</w><w>τεσσάρων</w><w>κεράτων</w></lem>
-                <rdg n="1" wit="025 046 205 209 1006 1841 1854 2329 2351 Byz syrph Andrew Cyprian Tyconius Primasius Beatus"><w>ἐκ</w><w>τῶν</w><w>τεσσάρων</w><w>κεράτων</w></rdg>
+                <rdg n="1" wit="Byz 025 046 205 209 1006 1841 1854 2329 2351 syrph Andrew Beatus Cyprian Primasius Tyconius"><w>ἐκ</w><w>τῶν</w><w>τεσσάρων</w><w>κεράτων</w></rdg>
                 <rdg n="2" wit="P47 01C1 02 0207 1611 2053 2344 ar gig syrh copsa copbo eth"><w>ἐκ</w><w>τῶν</w><w>κεράτων</w></rdg>
                 <rdg n="3" wit="01*"/>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.3333"/><certainty target="2" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports the inclusion of τεσσάρων, while vgww and vgst do not -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 04 051 051S 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg arm Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -772,12 +802,12 @@
             </app>
             <app xml:id="B26K10V4U2-16">
                 <lem><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἤμελλον</w><w>γράφειν</w></lem>
-                <rdg n="1" wit="02 04 025 046 205 209 1006 1611 1841 2053 2329 2351 Byz ar vg syrph syrh arm Andrew"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἤμελλον</w><w>γράφειν</w></rdg>
+                <rdg n="1" wit="Byz 02 04 025 046 205 209 1006 1611 1841 2053 2329 2351 ar vg syrph syrh arm Andrew"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἤμελλον</w><w>γράφειν</w></rdg>
                 <rdg n="2" wit="1854"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>καὶ</w><w>ἔμελλον</w><w>γράφειν</w><w>αὐτά</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="2344"><w>ὅτε</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>καὶ</w><w>ἔμελλον</w><w>γράφειν</w></rdg>
-                <rdg n="3" wit="01 gig copsa Origen VictorinusPettau Tyconius Primasius Beatus"><w>ὅσα</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἔμελλον</w><w>γράφειν</w></rdg>
+                <rdg n="3" wit="01 gig copsa Beatus Origen Primasius Tyconius VictorinusPettau"><w>ὅσα</w><w>ἐλάλησαν</w><w>αἱ</w><w>ἑπτὰ</w><w>βρονταί</w><w>ἔμελλον</w><w>γράφειν</w></rdg>
                 <rdg n="4" wit="P47 copbo eth"><w>ἤκουσα</w><w>ὅσα</w><w>ἐλάλησαν</w><w>αἱ</w><w>βρονταί</w><w>καὶ</w><w>ἤμελλον</w><w>αὐτὰ</w><w>γράφειν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -793,11 +823,11 @@
             </app>
             <app xml:id="B26K10V6U50-62">
                 <lem><w>καὶ</w><w>τὴν</w><w>θάλασσαν</w><w>καὶ</w><w>τὰ</w><w>ἐν</w><w>αὐτῇ</w></lem>
-                <rdg n="1" wit="P47 01C2 04 025 046 1006 1841 1854 2053 2329 2351 Byz ar vg syrh copbo eth Andrew Beatus"><w>καὶ</w><w>τὴν</w><w>θάλασσαν</w><w>καὶ</w><w>τὰ</w><w>ἐν</w><w>αὐτῇ</w></rdg>
-                <rdg n="2" wit="01* 205 209 1611 2344 gig syrph arm Tyconius Primasius"/>
+                <rdg n="1" wit="Byz P47 01C2 04 025 046 1006 1841 1854 2053 2329 2351 ar vg syrh copbo eth Andrew Beatus"><w>καὶ</w><w>τὴν</w><w>θάλασσαν</w><w>καὶ</w><w>τὰ</w><w>ἐν</w><w>αὐτῇ</w></rdg>
+                <rdg n="2" wit="01* 205 209 1611 2344 gig syrph arm Primasius Tyconius"/>
                 <witDetail n="W1/2" type="ambiguous" wit="copsa" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
                 <witDetail n="↑B26K10V6U36-62" type="overlap" target="B26K10V6U36-62" wit="02"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -811,9 +841,9 @@
             </app>
             <app xml:id="B26K11V1U13">
                 <lem/>
-                <rdg n="1" wit="P47 01* 02 025 205 209 1006 1611 1841 2053 2344 Byz gig t vg syrhmg copsa copbo eth Andrew Primasius"/>
-                <rdg n="2" wit="01C2 046 1854 2329 2351 ar syrph syrh arm Tyconius Beatus"><w>καὶ</w><w>εἱστήκει</w><w>ὁ</w><w>ἄγγελος</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="Byz P47 01* 02 025 205 209 1006 1611 1841 2053 2344 gig t vg syrhmg copsa copbo eth Andrew Primasius"/>
+                <rdg n="2" wit="01C2 046 1854 2329 2351 ar syrph syrh arm Beatus Tyconius"><w>καὶ</w><w>εἱστήκει</w><w>ὁ</w><w>ἄγγελος</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -826,9 +856,9 @@
             </app>
             <app xml:id="B26K11V2U10">
                 <lem><w>ἔξωθεν</w></lem>
-                <rdg n="1" wit="P47 02 025 046 205 209 1006 1611 1841 1854 2053 2351 Byz ar vg syrh copsa copbo arm eth Andrew Tyconius Jerome Primasius Beatus"><w>ἔξωθεν</w></rdg>
+                <rdg n="1" wit="Byz P47 02 025 046 205 209 1006 1611 1841 1854 2053 2351 ar vg syrh copsa copbo arm eth Andrew Beatus Jerome Primasius Tyconius"><w>ἔξωθεν</w></rdg>
                 <rdg n="2" wit="01 2329 syrph VictorinusPettau"><w>ἔσωθεν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 04 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2344 2377 2432 gig h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -843,9 +873,9 @@
             <app xml:id="B26K11V12U4">
                 <lem><w>ἤκουσαν</w></lem>
                 <rdg n="1" wit="01* 02 04 025 2053 vg syrph syrh"><w>ἤκουσαν</w></rdg>
-                <rdg n="2" wit="P47 01C 046 205 209 1006 1611 1841 1854 2351 Byz ar gig syrhmg arm eth Andrew Tyconius Beatus"><w>ἤκουσα</w></rdg>
+                <rdg n="2" wit="Byz P47 01C 046 205 209 1006 1611 1841 1854 2351 ar gig syrhmg arm eth Andrew Beatus Tyconius"><w>ἤκουσα</w></rdg>
                 <rdg n="3" wit="2329"><w>ἀκούσονται</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2344 2377 2432 h sin t syrphmg copsa copbo Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -861,12 +891,12 @@
             </app>
             <app xml:id="B26K11V17U28">
                 <lem><w>ὅτι</w></lem>
-                <rdg n="1" wit="01C2 02 025 046 205 209 1611 1854 2053 2329 2351 Byz gig h syrph syrh copsa eth Andrew Cyprian Primasius"><w>ὅτι</w></rdg>
+                <rdg n="1" wit="Byz 01C2 02 025 046 205 209 1611 1854 2053 2329 2351 gig h syrph syrh copsa eth Andrew Cyprian Primasius"><w>ὅτι</w></rdg>
                 <rdg n="2" wit="P47 01* 04 2344 arm"><w>καὶ</w><w>ὅτι</w></rdg>
                 <rdg n="3" xml:lang="lat" wit="ar"><w>et</w><w>qui</w></rdg>
-                <rdg n="4" wit="051 1006 1841 copbo Tyconius Beatus"><w>καὶ</w><w>ὁ</w><w>ἐρχόμενος</w><w>ὅτι</w></rdg>
+                <rdg n="4" wit="051 1006 1841 copbo Beatus Tyconius"><w>καὶ</w><w>ὁ</w><w>ἐρχόμενος</w><w>ὅτι</w></rdg>
                 <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.6667"/><certainty target="4" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ὅτι, while vgcl supports καὶ ὁ ἐρχόμενος ὅτι -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -885,9 +915,9 @@
             </app>
             <app xml:id="B26K12V18U2-4">
                 <lem><w>καὶ</w><w>ἐστάθη</w></lem>
-                <rdg n="1" wit="P47 01 02 04 205 209 1854 2344 2351 ar gig vg syrh arm eth Origen VictorinusPettau Beatus"><w>καὶ</w><w>ἐστάθη</w></rdg>
-                <rdg n="2" wit="025 046 051 1006 1611 1841 2053 2329 Byz syrph copsa copbo Andrew"><w>καὶ</w><w>ἐστάθην</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="P47 01 02 04 205 209 1854 2344 2351 ar gig vg syrh arm eth Beatus Origen VictorinusPettau"><w>καὶ</w><w>ἐστάθη</w></rdg>
+                <rdg n="2" wit="Byz 025 046 051 1006 1611 1841 2053 2329 syrph copsa copbo Andrew"><w>καὶ</w><w>ἐστάθην</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -901,9 +931,9 @@
             </app>
             <app xml:id="B26K13V1U52">
                 <lem><w>ὀνόματα</w></lem>
-                <rdg n="1" wit="02 046 051 205 209 1611 1854 2053 2344 2351 Byz ar vg syrh Priscillian"><w>ὀνόματα</w></rdg>
-                <rdg n="2" wit="P47 01 04 025 1006 1841 2329 gig syrph copsa copbo arm eth Andrew Primasius Beatus"><w>ὄνομα</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="Byz 02 046 051 205 209 1611 1854 2053 2344 2351 ar vg syrh Priscillian"><w>ὀνόματα</w></rdg>
+                <rdg n="2" wit="P47 01 04 025 1006 1841 2329 gig syrph copsa copbo arm eth Andrew Beatus Primasius"><w>ὄνομα</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -917,7 +947,7 @@
             </app>
             <app xml:id="B26K13V6U38-46">
                 <lem><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></lem>
-                <rdg n="1" wit="02 04 046C 051C 1611 1841 2329 2344 2351 Byz syrh"><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
+                <rdg n="1" wit="Byz 02 04 046C 051C 1611 1841 2329 2344 2351 syrh"><w>τοὺς</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="parablepsis" ana="#VisErr" wit="1854"><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
                 <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="01*"><w>τοῦ</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντες</w></rdg>
                 <rdg n="1-s3" type="subreading" wit="1006"><w>τοὺς</w><w>ἐν</w><w>οὐρανῷ</w><w>σκηνοῦντας</w></rdg>
@@ -926,7 +956,7 @@
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="01C2"><w>καὶ</w><w>τοῦ</w><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w><w>σκηνοῦντες</w></rdg>
                 <rdg n="3" wit="P47 gig eth Primasius"><w>ἐν</w><w>τῷ</w><w>οὐρανῷ</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="Irenaeus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- Armenian tradition lacks καί, Latin tradition includes it -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg arm Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -942,12 +972,12 @@
             </app>
             <app xml:id="B26K13V7U2-22">
                 <lem><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></lem>
-                <rdg n="1" wit="01 046 051 205 209 1006 1841 2329 2344 2351 Byz ar gig vg syrph syrh copbo eth Beatus"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
+                <rdg n="1" wit="Byz 01 046 051 205 209 1006 1841 2329 2344 2351 ar gig vg syrph syrh copbo eth Beatus"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1611 1854"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>πόλεμον</w><w>ποιῆσαι</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
-                <rdg n="2" wit="1859 Quodvultdeus Primasius"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ἐξουσία</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
-                <rdg n="3" wit="P47 02 04 025 2053 copsa Irenaeus Andrew"/>
+                <rdg n="2" wit="1859 Primasius Quodvultdeus"><w>καὶ</w><w>ἐδόθη</w><w>αὐτῷ</w><w>ἐξουσία</w><w>ποιῆσαι</w><w>πόλεμον</w><w>μετὰ</w><w>τῶν</w><w>ἁγίων</w><w>καὶ</w><w>νικῆσαι</w><w>αὐτούς</w></rdg>
+                <rdg n="3" wit="P47 02 04 025 2053 copsa Andrew Irenaeus"/>
                 <witDetail n="W2/3" type="ambiguous" wit="arm" target="2 3"><certainty target="2" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -963,13 +993,14 @@
             <app xml:id="B26K13V10U6-14">
                 <lem><w>εἰς</w><w>αἰχμαλωσίαν</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></lem>
                 <rdg n="1" wit="02"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
-                <rdg n="2" wit="2351 ar gig syrph syrh Irenaeuslat Beatus"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ἀπάγει</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
-                <rdg n="3" wit="P47 01 04 025 046 051A 205 209 1006 1611 1841 2053 2329 copbo Irenaeusarm Andrew"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="2" wit="2351 ar gig syrph syrh Beatus"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ἀπάγει</w><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="3" wit="P47 01 04 025 046 051A 205 209 1006 1611 1841 2053 2329 copbo Andrew"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
                 <rdg n="3-s1" type="subreading" cause="paleographic-confusion" ana="#VisErr" wit="1854"><w>εἰς</w><w>αἰχμαλωσίαν</w><w>ἀπάγει</w></rdg>
-                <rdg n="4" wit="051T Byz"><w>ἔχει</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
+                <rdg n="4" wit="Byz 051T"><w>ἔχει</w><w>αἰχμαλωσίαν</w><w>ὑπάγει</w></rdg>
                 <rdg n="5" wit="104 copsa Primasius"><w>αἰχμαλωτίζει</w><w>εἰς</w><w>αἰχμαλωτίαν</w><w>ὑπάγει</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support the exclusion of ἀπάγει, while vgcl supports its inclusion -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="W2/3" type="ambiguous" wit="Irenaeus" target="2 3"><certainty target="2" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- the Latin tradition supports εἰς αἰχμαλωσίαν ἀπάγει εἰς αἰχμαλωσίαν ὑπάγει, while the Armenian tradition supports εἰς αἰχμαλωσίαν ὑπάγει -->
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2344 2377 2432 h sin t syrphmg syrhmg arm eth Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -989,13 +1020,13 @@
             <app xml:id="B26K13V10U24-26">
                 <lem><w>ἀποκτανθῆναι</w><w>αὐτόν</w></lem>
                 <rdg n="1" wit="02"><w>ἀποκτανθῆναι</w><w>αὐτόν</w></rdg>
-                <rdg n="2" wit="1828 gig syrph Pacian Beatus"><w>ἀποκτενεῖ</w></rdg>
+                <rdg n="2" wit="1828 gig syrph Beatus Pacian"><w>ἀποκτενεῖ</w></rdg>
                 <rdg n="3" wit="01 046 1006 1611 1841 1854 2344 2351 eth"><w>ἀποκτείνει</w><w>δεῖ</w><w>αὐτόν</w></rdg>
                 <rdg n="4" wit="04 025 051T 205 209 2329 ar vg copsa copbo Andrew Primasius"><w>ἀποκτενεῖ</w><w>δεῖ</w><w>αὐτόν</w></rdg>
                 <rdg n="4-s1" type="subreading" cause="clarification" ana="#Clar" wit="2053"><w>ἀποκτενεῖν</w><w>δεῖ</w><w>αὐτόν</w></rdg>
-                <rdg n="5" wit="051A Byz"><w>δεῖ</w><w>αὐτὸν</w><w>ἀποκτανθῆναι</w></rdg>
+                <rdg n="5" wit="Byz 051A"><w>δεῖ</w><w>αὐτὸν</w><w>ἀποκτανθῆναι</w></rdg>
                 <witDetail n="W3/4" type="ambiguous" wit="Irenaeus" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- Armenian tradition supports ἀποκτείνει, Latin tradition supports ἀποκτενεῖ -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1859 2027 2030 2042 2049 2050 2062 2254 2377 2432 h sin t syrphmg syrh syrhmg arm Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1014,14 +1045,14 @@
             </app>
             <app xml:id="B26K13V15U36-56">
                 <lem><w>ποιήσῃ</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></lem>
-                <rdg n="1" wit="02 025 1006 1841 ar gig copsa Primasius Beatus"><w>ποιήσῃ</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="1" wit="02 025 1006 1841 ar gig copsa Beatus Primasius"><w>ποιήσῃ</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="2329"><w>ποιήσει</w><w>ἵνα</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
-                <rdg n="2" wit="046 205 209 1611 2377 Byz Irenaeus Hippolytus Andrew"><w>ποιήσῃ</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
+                <rdg n="2" wit="Byz 046 205 209 1611 2377 Andrew Hippolytus Irenaeus"><w>ποιήσῃ</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="01 2351"><w>ποιήσει</w><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
                 <rdg n="3" wit="051 1854"><w>ποιήσῃ</w><w>ὅσοι</w>...<w>ἵνα</w><w>ἀποκτανθῶσιν</w></rdg>
                 <rdg n="4" wit="copbo"><w>ὅσοι</w>...<w>ἀποκτανθῶσιν</w></rdg>
                 <witDetail n="W1/2" type="ambiguous" wit="vg" target="1 2"><certainty target="1" locus="value" degree="0.6667"/><certainty target="2" locus="value" degree="0.3333"/></witDetail><!-- vgcl, vgww support ποιήσῃ ἵνα ὅσοι ... ἀποκτανθῶσιν, while vgst supports ποιήσῃ ὅσοι ... ἀποκτανθῶσιν -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2053 2062 2254 2344 2432 h sin t syrph syrphmg syrh syrhmg arm eth Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1038,10 +1069,10 @@
             </app>
             <app xml:id="B26K13V17U2">
                 <lem><w>καί</w></lem>
-                <rdg n="1" wit="P47 02 025 046 051 205 209 1006 1841 1854 2329 2344 2351 2377 Byz gig vg arm eth Andrew"><w>καί</w></rdg>
+                <rdg n="1" wit="Byz P47 02 025 046 051 205 209 1006 1841 1854 2329 2344 2351 2377 gig vg arm eth Andrew"><w>καί</w></rdg>
                 <rdg n="2" wit="01* 04 1611 ar syrph syrh copsa copbo Irenaeus Maternus Primasius"/>
                 <witDetail n="W1/2" type="ambiguous" wit="Beatus Hippolytus" target="1 2"><certainty target="1" locus="value" degree="0.5000"/><certainty target="2" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2053 2062 2254 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Jerome Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1055,11 +1086,11 @@
             </app>
             <app xml:id="B26K13V18U44-46">
                 <lem><w>ἑξήκοντα</w><w>ἕξ</w></lem>
-                <rdg n="1" wit="P47 01 02 025 046 051 205 209 1006 1611 1841 1854 2053 2329 2351 2377 Byz gig vg syrph syrh copsa copbo arm eth Irenaeus Hippolytus Andrew VictorinusPettau GregoryElvira Primasius Beatus"><w>ἑξήκοντα</w><w>ἕξ</w></rdg>
+                <rdg n="1" wit="Byz P47 01 02 025 046 051 205 209 1006 1611 1841 1854 2053 2329 2351 2377 gig vg syrph syrh copsa copbo arm eth Andrew Beatus GregoryElvira Hippolytus Irenaeus Primasius VictorinusPettau"><w>ἑξήκοντα</w><w>ἕξ</w></rdg>
                 <rdg n="2" wit="2344"><w>ἑξήκοντα</w><w>πέντε</w></rdg>
                 <rdg n="3" wit="ar"><w>τεσσεράκοντα</w><w>ἕξ</w></rdg>
                 <rdg n="4" wit="P115 04 Caesarius"><w>δέκα</w><w>ἕξ</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1077,9 +1108,9 @@
             </app>
             <app xml:id="B26K14V1U10"><!-- TODO: check if the word index is correct -->
                 <lem><w>τό</w></lem>
-                <rdg n="1" wit="01 02 04 046 1006 1611 1841 2053 2329 2344 2377 Byz copbo eth Origen Methodius"><w>τό</w></rdg>
+                <rdg n="1" wit="Byz 01 02 04 046 1006 1611 1841 2053 2329 2344 2377 copbo eth Methodius Origen"><w>τό</w></rdg>
                 <rdg n="2" wit="P47 025 051 205 209 1854 copsa Andrew"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2351 2432 ar gig h sin t vg syrph syrphmg syrh syrhmg arm Ambrose Ambrosiaster Apringius Augustine Beatus Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1094,8 +1125,8 @@
             <app xml:id="B26K14V3U6">
                 <lem><w>ὡς</w></lem>
                 <rdg n="1" wit="02 04 051 1006 1841 ar vg syrph Andrew Beatus"><w>ὡς</w></rdg>
-                <rdg n="2" wit="P47 01 025 046 205 209 1611 1854 2053 2329 2344 2377 Byz gig t syrh copsa copbo arm eth Origen Methodius Jerome Primasius Cassiodorus"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="2" wit="Byz P47 01 025 046 205 209 1611 1854 2053 2329 2344 2377 gig t syrh copsa copbo arm eth Cassiodorus Jerome Methodius Origen Primasius"/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2351 2432 h sin syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Maternus Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1108,10 +1139,10 @@
             </app>
             <app xml:id="B26K14V6U4-8">
                 <lem><w>εἶδον</w><w>ἄλλον</w><w>ἄγγελον</w></lem>
-                <rdg n="1" wit="P115 01C2 02 04 025 051 1006 1611 1841 2053 2329 ar gig t vg syrph syrh copbo arm Cyprian Maternus Varimadum Primasius Cassiodorus Beatus"><w>εἶδον</w><w>ἄλλον</w><w>ἄγγελον</w></rdg>
+                <rdg n="1" wit="P115 01C2 02 04 025 051 1006 1611 1841 2053 2329 ar gig t vg syrph syrh copbo arm Beatus Cassiodorus Cyprian Maternus Primasius Varimadum"><w>εἶδον</w><w>ἄλλον</w><w>ἄγγελον</w></rdg>
                 <rdg n="2" wit="eth"><w>ἦλθεν</w><w>ἄλλος</w><w>ἄγγελος</w></rdg>
-                <rdg n="3" wit="P47 01* 046 205 209 1854 Byz copsa Origen Andrew VictorinusPettau Ambrose"><w>εἶδον</w><w>ἄγγελον</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="3" wit="Byz P47 01* 046 205 209 1854 copsa Ambrose Andrew Origen VictorinusPettau"><w>εἶδον</w><w>ἄγγελον</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2344 2351 2377 2432 h sin syrphmg syrhmg Ambrosiaster Apringius Augustine Caesarius Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1129,10 +1160,10 @@
                 <lem><w>ἄγγελος</w><w>δεύτερος</w></lem>
                 <rdg n="1" wit="01C2 025 051 205 209 1611 2053 2344 gig syrh copsa copbo arm Andrew Beatus"><w>ἄγγελος</w><w>δεύτερος</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="04"><w>ἄγγελος</w><w>δεύτερον</w></rdg>
-                <rdg n="2" wit="02 046 2329 Byz Primasius Cassiodorus"><w>δεύτερος</w><w>ἄγγελος</w></rdg>
+                <rdg n="2" wit="Byz 02 046 2329 Cassiodorus Primasius"><w>δεύτερος</w><w>ἄγγελος</w></rdg>
                 <rdg n="3" wit="P47 01* 1006 1841 1854 syrph syrhmg"><w>δεύτερος</w></rdg>
                 <rdg n="4" wit="61 69 ar vg eth VictorinusPettau"><w>ἄγγελος</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 104 1611S 1828 1859 2027 2030 2042 2049 2050 2062 2254 2351 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1148,11 +1179,11 @@
             </app>
             <app xml:id="B26K14V13U36-38">
                 <lem><w>ναί</w><w>λέγει</w></lem>
-                <rdg n="1" wit="01C2 02 04 025 051 209 1006 1611 1854 2344 ar gig vg syrph syrh copsa Andrew Augustine Speculum Primasius Beatus"><w>ναί</w><w>λέγει</w></rdg>
-                <rdg n="2" wit="046 2329 Byz"><w>λέγει</w><w>ναί</w></rdg>
+                <rdg n="1" wit="01C2 02 04 025 051 209 1006 1611 1854 2344 ar gig vg syrph syrh copsa Andrew Augustine Beatus Primasius Speculum"><w>ναί</w><w>λέγει</w></rdg>
+                <rdg n="2" wit="Byz 046 2329"><w>λέγει</w><w>ναί</w></rdg>
                 <rdg n="3" wit="205 2053"><w>καὶ</w><w>λέγει</w></rdg>
                 <rdg n="4" wit="P47 01* copbo arm eth Varimadum"><w>λέγει</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1841 1859 2027 2030 2042 2049 2050 2062 2254 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1172,13 +1203,13 @@
             <app xml:id="B26K14V18U6-16">
                 <lem><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></lem>
                 <rdg n="1" wit="04 2329 h arm eth Beatus"><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></rdg>
-                <rdg n="2" wit="01 025 046 205 209 1006 Byz copsa copbo Andrew"><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w></rdg>
+                <rdg n="2" wit="Byz 01 025 046 205 209 1006 copsa copbo Andrew"><w>ἄγγελος</w><w>ἐξῆλθεν</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="051 1854"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ἐξῆλθεν</w></rdg>
                 <rdg n="3" wit="02 ar gig"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w><w>ὁ</w></rdg>
                 <rdg n="4" wit="P47 1611 2053"><w>ἄγγελος</w><w>ἐκ</w><w>τοῦ</w><w>θυσιαστηρίου</w></rdg>
                 <rdg n="5" wit="Primasius"><w>ἄγγελος</w></rdg>
                 <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports ἄγγελος ἐξῆλθεν ἐκ τοῦ θυσιαστηρίου ὁ, while vgww and vgst support ἄγγελος ἐκ τοῦ θυσιαστηρίου ὁ -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1841 1859 2027 2030 2042 2049 2050 2062 2254 2344 2351 2377 2432 sin t syrph syrphmg syrh syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1200,11 +1231,11 @@
             </app>
             <app xml:id="B26K15V3U72">
                 <lem><w>ἐθνῶν</w></lem>
-                <rdg n="1" wit="01C1 02 025 046 051 205 209 1854 2053 2062 2329 Byz gig syrhmg copbo Andrew Ambrose Beatus"><w>ἐθνῶν</w></rdg>
+                <rdg n="1" wit="Byz 01C1 02 025 046 051 205 209 1854 2053 2062 2329 gig syrhmg copbo Ambrose Andrew Beatus"><w>ἐθνῶν</w></rdg>
                 <rdg n="2" wit="h arm eth Primasius"><w>πάντων</w><w>τῶν</w><w>ἐθνῶν</w></rdg>
                 <rdg n="3" wit="P47 01* 01C2 04 1006 1611 1841 ar vg syrph syrh copsa"><w>αἰώνων</w></rdg>
                 <rdg n="4" wit="2049"><w>ἁγίων</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2050 2254 2344 2351 2377 2432 sin t syrphmg Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1221,13 +1252,13 @@
             </app>
             <app xml:id="B26K15V6U30">
                 <lem><w>λίνον</w></lem>
-                <rdg n="1" wit="025 051 205 209 1006 1611 2329 Byz syrph syrh Andrew Beatus"><w>λίνον</w></rdg>
+                <rdg n="1" wit="Byz 025 051 205 209 1006 1611 2329 syrph syrh Andrew Beatus"><w>λίνον</w></rdg>
                 <rdg n="2" wit="P47 046 ar gig h Origen Primasius"><w>λινοῦν</w></rdg>
                 <rdg n="3" wit="01 arm Cassiodorus"><w>λινους</w><note>[sic] after καθαρούς and before λαμπρούς</note></rdg>
                 <rdg n="4" wit="02 04 2053 2062 syrhmg"><w>λίθον</w></rdg>
                 <rdg n="5" wit="eth"/>
                 <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.3333"/><certainty target="4" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports λίνον, while vgww and vgst support λίθον -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1841 1854 1859 2027 2030 2042 2049 2050 2254 2344 2351 2377 2432 sin t syrphmg copsa copbo Ambrose Ambrosiaster Apringius Augustine Caesarius Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1248,10 +1279,10 @@
             </app>
             <app xml:id="B26K16V4U34">
                 <lem><w>ἐγένετο</w></lem>
-                <rdg n="1" wit="01 04 025 046 051 205 209 Byz ar vg arm Andrew Beatus"><w>ἐγένετο</w></rdg>
+                <rdg n="1" wit="Byz 01 04 025 046 051 205 209 ar vg arm Andrew Beatus"><w>ἐγένετο</w></rdg>
                 <rdg n="2" wit="P47 02 1006 1611 1841 1854 2053 2329 gig h syrph syrh copsa copbo eth Primasius"><w>ἐγένοντο</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="paleographic-confusion" ana="#VisErr" wit="2062"><w>ἐγένεντο</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2254 2344 2351 2377 2432 sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1265,17 +1296,17 @@
             </app>
             <app xml:id="B26K16V17U30-40">
                 <lem><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></lem>
-                <rdg n="1" wit="P47 02 1611 1841 2053 2062 ar vg syrph syrh copsa copbo arm eth Primasius Beatus"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="1" wit="P47 02 1611 1841 2053 2062 ar vg syrph syrh copsa copbo arm eth Beatus Primasius"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1006"><w>ἀπὸ</w><w>τοῦ</w><w>ναοῦ</w><w>ἐκ</w><w>τοῦ</w><w>θρόνου</w></rdg>
                 <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="2329"><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w></rdg>
                 <rdg n="2" wit="gig"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="clarification" ana="#Clar" wit="051*"><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
                 <rdg n="3" wit="1854 2344 Andrew"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
-                <rdg n="4" wit="046 205 209 Byz"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
+                <rdg n="4" wit="Byz 046 205 209"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
                 <rdg n="4-s1" type="subreading" cause="clarification" ana="#Clar" wit="051C"><w>ἀπὸ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w></rdg>
                 <rdg n="5" wit="01"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
                 <rdg n="6" wit="2027"><w>ἐκ</w><w>τοῦ</w><w>ναοῦ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θρόνου</w><w>τοῦ</w><w>θεοῦ</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P115 01C1 01C2 04 025 051S 0207 0229 1 61 69 104 1611S 1828 1859 2030 2042 2049 2050 2254 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1299,11 +1330,11 @@
             <app xml:id="B26K17V4U60-62">
                 <lem><w>πορνείας</w><w>αὐτῆς</w></lem>
                 <rdg n="1" wit="02 051 205 209 1006 1841 2344 ar vg syrph syrhmg arm eth Andrew Beatus"><w>πορνείας</w><w>αὐτῆς</w></rdg>
-                <rdg n="2" wit="046 1611 2030 2053 2062 2329 Byz Hippolytus Cyprian Quodvultdeus Primasius"><w>πορνείας</w><w>τῆς</w><w>γῆς</w></rdg>
+                <rdg n="2" wit="Byz 046 1611 2030 2053 2062 2329 Cyprian Hippolytus Primasius Quodvultdeus"><w>πορνείας</w><w>τῆς</w><w>γῆς</w></rdg>
                 <rdg n="2-s1" type="subreading" cause="aural-confusion" ana="#AurConf" wit="1854"><w>πονηρίας</w><w>τῆς</w><w>γῆς</w></rdg>
                 <rdg n="3" wit="01 syrh copsa copbo"><w>πορνείας</w><w>αὐτῆς</w><w>καὶ</w><w>τῆς</w><w>γῆς</w></rdg>
                 <rdg n="4" wit="gig"><w>γῆς</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 025 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1322,9 +1353,9 @@
             </app>
             <app xml:id="B26K17V8U36">
                 <lem><w>ὑπάγει</w></lem>
-                <rdg n="1" wit="02 1611 2053 2062 syrph copsa copbo eth Irenaeus Hippolytus Andrew Primasius"><w>ὑπάγει</w></rdg>
-                <rdg n="2" wit="01 025 046 051 205 209 1006 1841 1854 2030 2329 2344 Byz ar gig vg syrh arm Quodvultdeus Beatus"><w>ὑπάγειν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="02 1611 2053 2062 syrph copsa copbo eth Andrew Hippolytus Irenaeus Primasius"><w>ὑπάγει</w></rdg>
+                <rdg n="2" wit="Byz 01 025 046 051 205 209 1006 1841 1854 2030 2329 2344 ar gig vg syrh arm Beatus Quodvultdeus"><w>ὑπάγειν</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Jerome Maternus Methodius Origen Pacian Priscillian Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1338,12 +1369,12 @@
             </app>
             <app xml:id="B26K18V2U32-60">
                 <rdg n="1" wit="2329 gig syrh copsa arm eth Hippolytus Primasius">Include all three phrases beginning καὶ φυλακή</rdg>
-                <rdg n="2" wit="01 04 025 046 051 1006 1841 2030 2053 2062 Byz ar vg copbo Andrew Beatus">Include first and second phrases beginning καὶ φυλακή</rdg>
+                <rdg n="2" wit="Byz 01 04 025 046 051 1006 1841 2030 2053 2062 ar vg copbo Andrew Beatus">Include first and second phrases beginning καὶ φυλακή</rdg>
                 <rdg n="3" wit="02">Include first and third phrases beginning καὶ φυλακή</rdg>
                 <rdg n="4" wit="syrph">Include first phrase beginning καὶ φυλακή</rdg>
                 <rdg n="5" wit="205 209 1611 1854">Include second phrase beginning καὶ φυλακή</rdg>
                 <rdg n="6" wit="Priscillian">Omit all three phrases beginning καὶ φυλακή</rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2344 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1364,14 +1395,14 @@
             </app>
             <app xml:id="B26K18V3U6-16">
                 <lem><w>τοῦ</w><w>οἴνου</w><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></lem>
-                <rdg n="1" wit="01 046 1006 1841 2030 2329 2344 Byz syrh copsa"><w>τοῦ</w><w>οἴνου</w><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></rdg>
-                <rdg n="2" wit="025 051 205 209 gig arm Hippolytus Andrew"><w>τοῦ</w><w>θυμοῦ</w><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="1" wit="Byz 01 046 1006 1841 2030 2329 2344 syrh copsa"><w>τοῦ</w><w>οἴνου</w><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="2" wit="025 051 205 209 gig arm Andrew Hippolytus"><w>τοῦ</w><w>θυμοῦ</w><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
                 <rdg n="3" wit="02 1611 2053 2062 ar eth Priscillian"><w>τοῦ</w><w>θυμοῦ</w><w>τῆς</w><w>πορνείας</w></rdg>
                 <rdg n="3-s1" type="subreading" cause="clarification" ana="#Clar" wit="04"><w>τῆς</w><w>πορνείας</w><w>τοῦ</w><w>θυμοῦ</w></rdg>
-                <rdg n="4" wit="1854 syrph Primasius Beatus"><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
+                <rdg n="4" wit="1854 syrph Beatus Primasius"><w>τοῦ</w><w>οἴνου</w><w>τῆς</w><w>πορνείας</w></rdg>
                 <witDetail n="W1/2/3" type="ambiguous" wit="copbo" target="1 2 3"><certainty target="1" locus="value" degree="0.3334"/><certainty target="2" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- tradition is divided -->
                 <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports τοῦ οἴνου τοῦ θυμοῦ τῆς πορνείας, while vgww and vgst support τοῦ θυμοῦ τῆς πορνείας -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1389,14 +1420,14 @@
             </app>
             <app xml:id="B26K18V3U20">
                 <lem><w>πέπωκαν</w></lem>
-                <rdg n="1" wit="1006C 2329 ar gig vg syrh arm Andrew Priscillian Beatus"><w>πέπωκαν</w></rdg>
+                <rdg n="1" wit="1006C 2329 ar gig vg syrh arm Andrew Beatus Priscillian"><w>πέπωκαν</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="025 051"><w>πέπωκεν</w></rdg>
                 <rdg n="2" wit="2042"><w>πεπότικεν</w></rdg>
-                <rdg n="3" wit="01 02 04 046 205 209 1006* 1611 1841 2030 Byz eth Hippolytus"><w>πεπτώκαν</w></rdg>
+                <rdg n="3" wit="Byz 01 02 04 046 205 209 1006* 1611 1841 2030 eth Hippolytus"><w>πεπτώκαν</w></rdg>
                 <rdg n="3-s1" type="subreading" cause="linguistic-confusion" ana="#LingConf" wit="1854 2053 2062"><w>πέπτωκεν</w></rdg>
                 <rdg n="4" wit="syrhmg"><w>πέπτωκεν</w><w>εἰς</w></rdg>
                 <rdg n="5" wit="Primasius"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2049 2050 2254 2344 2351 2377 2432 h sin t syrph syrphmg copsa copbo Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingD"/>
@@ -1417,10 +1448,10 @@
             </app>
             <app xml:id="B26K18V12U58-60">
                 <lem><w>ἐκ</w><w>ξύλου</w></lem>
-                <rdg n="1" wit="01 04 025 046 051 205 209 1611 1854 2030 2329 Byz gig syrph syrh copsa copbo arm Hippolytus Andrew Primasius Beatus"><w>ἐκ</w><w>ξύλου</w></rdg>
+                <rdg n="1" wit="Byz 01 04 025 046 051 205 209 1611 1854 2030 2329 gig syrph syrh copsa copbo arm Andrew Beatus Hippolytus Primasius"><w>ἐκ</w><w>ξύλου</w></rdg>
                 <rdg n="1-s1" type="subreading" wit="2053 2062"><w>ξύλου</w></rdg>
                 <rdg n="2" wit="02 1006 1841 ar vg eth"><w>ἐκ</w><w>λίθου</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2344 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1434,14 +1465,14 @@
             </app>
             <app xml:id="B26K18V17U26-32">
                 <lem><w>ὁ</w><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></lem>
-                <rdg n="1" wit="02 04 1006 1841 1854 2030 Byz ar arm"><w>ὁ</w><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></rdg>
+                <rdg n="1" wit="Byz 02 04 1006 1841 1854 2030 ar arm"><w>ὁ</w><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></rdg>
                 <rdg n="1-s1" type="subreading" wit="1611"><w>ἐπὶ</w><w>τόπον</w><w>πλέων</w></rdg>
                 <rdg n="2" wit="01 046 0229 2329 gig"><w>ὁ</w><w>ἐπὶ</w><w>τὸν</w><w>τόπον</w><w>πλέων</w></rdg>
                 <rdg n="3" wit="2254 copbo Caesarius Primasius"><w>ὁ</w><w>ἐπὶ</w><w>πόντον</w><w>πλέων</w></rdg>
                 <rdg n="4" wit="2053 2062 copsa"><w>ὁ</w><w>ἐπὶ</w><w>τὸν</w><w>ποταμὸν</w><w>πλέων</w></rdg>
-                <rdg n="5" wit="025 051 205 209 Hippolytus Andrew Beatus"><w>ἐπὶ</w><w>τῶν</w><w>πλοίων</w><w>πλέων</w></rdg>
+                <rdg n="5" wit="025 051 205 209 Andrew Beatus Hippolytus"><w>ἐπὶ</w><w>τῶν</w><w>πλοίων</w><w>πλέων</w></rdg>
                 <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.6667"/><certainty target="3" locus="value" degree="0.3333"/></witDetail><!-- vgww, vgst support ὁ ἐπὶ τόπον πλέων, while vgcl supports ὁ ἐπὶ πόντον πλέων -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2344 2351 2377 2432 h sin t syrph syrphmg syrh syrhmg eth Ambrose Ambrosiaster Apringius Augustine Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1463,14 +1494,14 @@
             </app>
             <app xml:id="B26K18V22U32-40">
                 <lem><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνης</w></lem>
-                <rdg n="1" wit="04 025 046 051 205 209 1006 1611 1841 1854 2062 2344 Byz ar gig vg syrh copsa Andrew Primasius Beatus"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνης</w></rdg>
+                <rdg n="1" wit="Byz 04 025 046 051 205 209 1006 1611 1841 1854 2062 2344 ar gig vg syrh copsa Andrew Beatus Primasius"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνης</w></rdg>
                 <rdg n="1-s1" type="subreading" wit="2329"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>πάσης</w><w>τέχνεως</w></rdg>
                 <rdg n="2" wit="2053"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w><w>καὶ</w><w>πάσης</w><w>τέχνης</w></rdg>
                 <rdg n="3" wit="01 02 copbo"><w>καὶ</w><w>πᾶς</w><w>τεχνίτης</w></rdg>
                 <rdg n="4" wit="syrph syrhmg arm"/>
                 <witDetail n="W1/3/4" type="ambiguous" wit="Hippolytus" target="1 3 4"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.3333"/><certainty target="4" locus="value" degree="0.3334"/></witDetail><!-- tradition is divided -->
                 <witDetail n="W1/3" type="ambiguous" wit="eth" target="1 3"><certainty target="1" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2030 2042 2049 2050 2254 2351 2377 2432 h sin t syrphmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1487,10 +1518,10 @@
             </app>
             <app xml:id="B26K19V5U32-36">
                 <lem><w>καὶ</w><w>οἱ</w><w>φοβούμενοι</w></lem>
-                <rdg n="1" wit="02 046 051 205 209 1006 1611 1841 1854 2030 2053 2062 2329 2344 Byz ar gig t vg syrph syrh copbo arm Andrew Primasius Apringius Beatus"><w>καὶ</w><w>οἱ</w><w>φοβούμενοι</w></rdg>
+                <rdg n="1" wit="Byz 02 046 051 205 209 1006 1611 1841 1854 2030 2053 2062 2329 2344 ar gig t vg syrph syrh copbo arm Andrew Apringius Beatus Primasius"><w>καὶ</w><w>οἱ</w><w>φοβούμενοι</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="haplography" ana="#VisErr" wit="0229"><w>καὶ</w><w>φοβούμενοι</w></rdg>
                 <rdg n="2" wit="01 04 025 copsa eth"><w>οἱ</w><w>φοβούμενοι</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 051S 0207 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrphmg syrhmg Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1504,13 +1535,13 @@
             </app>
             <app xml:id="B26K19V6U42-48">
                 <lem><w>κύριος</w><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></lem>
-                <rdg n="1" wit="01C2 025 046 1611 1854 2030 2053 2062 2329 2344 Byz ar gig vg syrh arm Apringius Beatus"><w>κύριος</w><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></rdg>
+                <rdg n="1" wit="Byz 01C2 025 046 1611 1854 2030 2053 2062 2329 2344 ar gig vg syrh arm Apringius Beatus"><w>κύριος</w><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></rdg>
                 <rdg n="2" wit="01*"><w>ὁ</w><w>θεὸς</w><w>ὁ</w><w>κύριος</w><w>ἡμῶν</w></rdg>
-                <rdg n="3" wit="02 1006 1841 t syrphC copsa copbo Cyprian"><w>κύριος</w><w>ὁ</w><w>θεός</w></rdg>
+                <rdg n="3" wit="02 1006 1841 t syrphmg copsa copbo Cyprian"><w>κύριος</w><w>ὁ</w><w>θεός</w></rdg>
                 <rdg n="4" wit="051 205 209 Andrew"><w>ὁ</w><w>θεὸς</w><w>ἡμῶν</w></rdg>
-                <rdg n="5" wit="syrph*"><w>κύριος</w></rdg>
+                <rdg n="5" wit="syrph"><w>κύριος</w></rdg>
                 <rdg n="5-s1" type="subreading" cause="clarification" ana="#Clar" wit="Primasius"><w>κύριος</w><w>ἡμῶν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrhmg eth Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1533,8 +1564,8 @@
                 <lem><w>δώσωμεν</w></lem>
                 <rdg n="1" wit="025 2062 2329 2344 Andrew"><w>δώσωμεν</w></rdg>
                 <rdg n="2" wit="01C2 02 2053"><w>δώσομεν</w></rdg>
-                <rdg n="3" wit="01* 046 051 205 209 1006 1611 1841 1854 2030 Byz ar gig t vg eth Cyprian Primasius Beatus"><w>δῶμεν</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="3" wit="Byz 01* 046 051 205 209 1006 1611 1841 1854 2030 ar gig t vg eth Beatus Cyprian Primasius"><w>δῶμεν</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrph syrphmg syrh syrhmg copsa copbo arm Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1550,14 +1581,14 @@
             </app>
             <app xml:id="B26K19V11U30-36">
                 <lem><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></lem>
-                <rdg n="1" wit="046 1611 1841 1854 2030 2053 2062 2344 Byz ar gig t syrph syrh eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus"><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="1" wit="Byz 046 1611 1841 1854 2030 2053 2062 2344 ar gig t syrph syrh eth Apringius Beatus Cyprian Irenaeus Jerome Origen Primasius"><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="01"><w>πιστὸς</w><w>καλούμενος</w><w>καὶ</w><w>ἀληθινός</w></rdg>
                 <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="1006"><w>καὶ</w><w>καλούμενος</w><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
                 <rdg n="1-s3" type="subreading" cause="haplography" ana="#VisErr" wit="2329"><w>καλούμενος</w><w>πιστὸς</w></rdg>
-                <rdg n="2" wit="02 025 051 205 209 arm Hippolytus Andrew"><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
+                <rdg n="2" wit="02 025 051 205 209 arm Andrew Hippolytus"><w>πιστὸς</w><w>καὶ</w><w>ἀληθινός</w></rdg>
                 <rdg n="3" xml:lang="lat" wit=""><w>vocabatur</w><w>fidelis</w><w>et</w><w>verax</w><w>vocatur</w></rdg>
                 <witDetail n="W1/3" type="ambiguous" wit="vg" target="1 3"><certainty target="1" locus="value" degree="0.3333"/><certainty target="3" locus="value" degree="0.6667"/></witDetail><!-- vgcl supports καλούμενος πιστὸς καὶ ἀληθινός, while vgww and vgst read vocabatur fidelis et verax vocatur -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrphmg syrhmg copsa copbo Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Maternus Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1572,9 +1603,9 @@
             </app>
             <app xml:id="B26K19V12U10">
                 <lem><w>ὡς</w></lem>
-                <rdg n="1" wit="02 1006 1841 ar gig t vg syrph syrh copsa copbo eth Irenaeus Origen Cyprian Jerome Apringius Primasius Beatus"><w>ὡς</w></rdg>
-                <rdg n="2" wit="01 025 046 051 205 209 1611 1854 2030 2053 2062 2329 2344 Byz arm Hippolytus Andrew"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="02 1006 1841 ar gig t vg syrph syrh copsa copbo eth Apringius Beatus Cyprian Irenaeus Jerome Origen Primasius"><w>ὡς</w></rdg>
+                <rdg n="2" wit="Byz 01 025 046 051 205 209 1611 1854 2030 2053 2062 2329 2344 arm Andrew Hippolytus"/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrphmg syrhmg Ambrose Ambrosiaster Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Maternus Methodius Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1588,15 +1619,15 @@
             </app>
             <app xml:id="B26K19V13U8">
                 <lem><w>βεβαμμένον</w></lem>
-                <rdg n="1" wit="02 046 051 205 209 1854 2030 2344 Byz copsa arm Andrew"><w>βεβαμμένον</w></rdg>
+                <rdg n="1" wit="Byz 02 046 051 205 209 1854 2030 2344 copsa arm Andrew"><w>βεβαμμένον</w></rdg>
                 <rdg n="2" wit="2053 2062"><w>ἐρραμμένον</w></rdg>
                 <rdg n="2-s1" type="subreading" wit="1611"><w>ῥεραμμένον</w></rdg>
-                <rdg n="3" wit="1006 1841 ar gig t vg eth Irenaeuslat Hippolytus Cyprian Priscillian Jerome Varimadum Apringius Primasius Cassiodorus Beatus"><w>ἐρραντισμένον</w></rdg>
+                <rdg n="3" wit="1006 1841 ar gig t vg eth Apringius Beatus Cassiodorus Cyprian Hippolytus Irenaeus Jerome Primasius Priscillian Varimadum"><w>ἐρραντισμένον</w></rdg>
                 <rdg n="3-s1" type="subreading" wit="025 2329"><w>ῥεραντισμένον</w></rdg>
                 <rdg n="4" wit="01*"><w>περιρεραμμένον</w></rdg>
                 <rdg n="4-s1" type="subreading" wit="01C2"><w>περιρεραντισμένον</w></rdg>
                 <witDetail n="W2/3" type="ambiguous" wit="Origen" target="2 3"><certainty target="2" locus="value" degree="0.5000"/><certainty target="3" locus="value" degree="0.5000"/></witDetail><!-- different readings in different quotations -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2050 2254 2351 2377 2432 h sin syrph syrphmg syrh syrhmg copbo Ambrose Ambrosiaster Augustine Caesarius Chromatius ClementOfAlexandria Didymus Epiphanius Fulgentius GregoryElvira Maternus Methodius Pacian Quodvultdeus Speculum Tertullian Tyconius VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1616,8 +1647,8 @@
             <app xml:id="B26K20V6U64">
                 <lem><w>τά</w></lem>
                 <rdg n="1" wit="01 046 1611 2053 2062 2329 syrh copsa copbo"><w>τά</w></rdg>
-                <rdg n="2" wit="02 051 205 209 1006 1841 1854 2030 2050 2377 Byz arm eth Andrew"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="2" wit="Byz 02 051 205 209 1006 1841 1854 2030 2050 2377 arm eth Andrew"/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 025 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2432 ar gig h sin t vg syrph syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Beatus Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1631,14 +1662,14 @@
             </app>
             <app xml:id="B26K20V9U44-48">
                 <lem><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></lem>
-                <rdg n="1" wit="02 2053K copbomss eth Primasius"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="1" wit="02 2053K eth Primasius"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
                 <rdg n="2" wit="1854"><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
-                <rdg n="3" wit="01C2 025 1006 1611 1841 2050 2053T 2062 vg syrh Jerome Apringius Beatus"><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
+                <rdg n="3" wit="01C2 025 1006 1611 1841 2050 2053T 2062 vg syrh Apringius Beatus Jerome"><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
                 <rdg n="4" wit="205 209 Andrew"><w>ἐκ</w><w>τοῦ</w><w>θεοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
                 <rdg n="4-s1" type="subreading" wit="051"><w>ἐκ</w><w>θεοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>οὐρανοῦ</w></rdg>
-                <rdg n="5" wit="046 2030 2329 Byz ar gig syrph copsa copbo arm"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
+                <rdg n="5" wit="Byz 046 2030 2329 ar gig syrph copsa copbo arm"><w>ἐκ</w><w>τοῦ</w><w>οὐρανοῦ</w><w>ἀπὸ</w><w>τοῦ</w><w>θεοῦ</w></rdg>
                 <witDetail n="W1/5" type="ambiguous" wit="Augustine" target="1 5"><certainty target="1" locus="value" degree="0.6667"/><certainty target="5" locus="value" degree="0.3333"/></witDetail><!-- different readings in different quotations -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2377 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingA"/>
@@ -1656,9 +1687,9 @@
             </app>
             <app xml:id="B26K21V3U46">
                 <lem><w>λαοί</w></lem>
-                <rdg n="1" wit="01 02 046 2050 2053 2062 2329 ar Irenaeus Andrew"><w>λαοί</w></rdg>
-                <rdg n="2" wit="025 051S 205 209 1006 1611 1841 1854 2030 Byz gig sin vg syrph syrh copsa copbo arm eth Ambrose Augustine Primasius Apringius Beatus"><w>λαός</w></rdg>
-                <witDetail n="Z" type="lac" wit=""/>
+                <rdg n="1" wit="01 02 046 2050 2053 2062 2329 ar Andrew Irenaeus"><w>λαοί</w></rdg>
+                <rdg n="2" wit="Byz 025 051S 205 209 1006 1611 1841 1854 2030 gig sin vg syrph syrh copsa copbo arm eth Ambrose Apringius Augustine Beatus Primasius"><w>λαός</w></rdg>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2377 2432 h t syrphmg syrhmg Ambrosiaster Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingB"/>
@@ -1672,16 +1703,16 @@
             </app>
             <app xml:id="B26K21V3U56-64">
                 <lem><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></lem>
-                <rdg n="1" wit="02 2030 2053K 2329 2377 vg eth Irenaeus Apringius Beatus"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></rdg>
+                <rdg n="1" wit="02 2030 2053K 2329 2377 vg eth Apringius Beatus Irenaeus"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="1854"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>θεὸς</w><w>αὐτῶν</w></rdg>
                 <rdg n="1-s2" type="subreading" cause="clarification" ana="#Clar" wit="2050"><w>μετ᾽</w><w>αὐτῶν</w><w>καὶ</w><w>ἔσται</w><w>αὐτῶν</w><w>θεός</w></rdg>
                 <rdg n="1-s3" type="subreading" cause="clarification" ana="#Clar" wit="2053T 2062"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>αὐτῶν</w><w>ὁ</w><w>θεός</w></rdg>
                 <rdg n="2" wit="025 051S 205 209 Andrew"><w>ἔσται</w><w>μετ᾽</w><w>αὐτῶν</w><w>θεὸς</w><w>αὐτῶν</w></rdg>
                 <rdg n="3" wit="1006 1611 1841 copsa"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w><w>θεός</w></rdg>
-                <rdg n="4" wit="046 Byz gig sin Augustine Primasius"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w></rdg>
+                <rdg n="4" wit="Byz 046 gig sin Augustine Primasius"><w>μετ᾽</w><w>αὐτῶν</w><w>ἔσται</w></rdg>
                 <witDetail n="W1/4" type="ambiguous" wit="Ambrose" target="1 4"><certainty target="1" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- different readings in different quotations -->
                 <witDetail n="W3/4" type="ambiguous" wit="copbo" target="3 4"><certainty target="3" locus="value" degree="0.5000"/><certainty target="4" locus="value" degree="0.5000"/></witDetail><!-- tradition is divided -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01 01C1 01C2 04 051 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2432 ar h t syrph syrphmg syrh syrhmg arm Ambrosiaster Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1699,14 +1730,14 @@
             </app>
             <app xml:id="B26K21V4U48-52">
                 <lem><w>ὅτι</w><w>τὰ</w><w>πρῶτα</w></lem>
-                <rdg n="1" wit="01C1 046 205 209 1854 Byz ar syrh copsa copbo arm Irenaeus Augustine Quodvultdeus Primasius"><w>ὅτι</w><w>τὰ</w><w>πρῶτα</w></rdg>
+                <rdg n="1" wit="Byz 01C1 046 205 209 1854 ar syrh copsa copbo arm Augustine Irenaeus Primasius Quodvultdeus"><w>ὅτι</w><w>τὰ</w><w>πρῶτα</w></rdg>
                 <rdg n="1-s1" type="subreading" cause="clarification" ana="#Clar" wit="gig"><w>τὰ</w><w>γὰρ</w><w>πρῶτα</w></rdg>
                 <rdg n="2" wit="2050"><w>ὅτι</w><w>ταῦτα</w></rdg>
                 <rdg n="3" wit="02 025 051S 1006 1611 1841 2030 2053 2062 2329 2377 Andrew"><w>τὰ</w><w>πρῶτα</w></rdg>
                 <rdg n="4" wit="Apringius Beatus"><w>quae</w><w>prima</w></rdg>
                 <rdg n="5" wit="01*"><w>τὰ</w><w>πρόβατα</w></rdg>
                 <witDetail n="W1/4" type="ambiguous" wit="vg" target="1 4"><certainty target="1" locus="value" degree="0.6667"/><certainty target="4" locus="value" degree="0.3333"/></witDetail><!-- vgcl, vgww support ὅτι τὰ πρῶτα, while vgst supports quae prima -->
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2432 h sin t syrph syrphmg syrhmg eth Ambrose Ambrosiaster Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Jerome Maternus Methodius Origen Pacian Priscillian Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1727,9 +1758,9 @@
             <app xml:id="B26K21V12U40-42">
                 <lem><w>τὰ</w><w>ὀνόματα</w></lem>
                 <rdg n="1" wit="02 1611 1841 1854 2030 2050 2053 2329 2377"><w>τὰ</w><w>ὀνόματα</w></rdg>
-                <rdg n="2" wit="046 1006 2062 Byz"><w>ὀνόματα</w></rdg>
+                <rdg n="2" wit="Byz 046 1006 2062"><w>ὀνόματα</w></rdg>
                 <rdg n="3" wit="01 025 051 205 209 arm Andrew"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 051S 0207 0229 1 61 69 104 1611S 1828 1859 2027 2042 2049 2254 2344 2351 2432 ar gig h sin t vg syrph syrphmg syrh syrhmg copsa copbo eth Ambrose Ambrosiaster Apringius Augustine Beatus Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
@@ -1746,11 +1777,11 @@
             <app xml:id="B26K22V21U8-10">
                 <lem><w>κυρίου</w><w>Ἰησοῦ</w></lem>
                 <rdg n="1" wit="01 02 1611S 2053 2062"><w>κυρίου</w><w>Ἰησοῦ</w></rdg>
-                <rdg n="2" wit="046 051S 209 1006 1841 1854 2030 2050 2329 2377 Byz syrh Andrew"><w>κυρίου</w><w>Ἰησοῦ</w><w>Χριστοῦ</w></rdg>
+                <rdg n="2" wit="Byz 046 051S 209 1006 1841 1854 2030 2050 2329 2377 syrh Andrew"><w>κυρίου</w><w>Ἰησοῦ</w><w>Χριστοῦ</w></rdg>
                 <rdg n="3" wit="205 ar gig vg syrph arm eth Beatus"><w>κυρίου</w><w>ἡμῶν</w><w>Ἰησοῦ</w><w>Χριστοῦ</w></rdg>
                 <rdg n="3-s1" type="subreading" cause="haplography" ana="#VisErr" wit="copsa"><w>κυρίου</w><w>ἡμῶν</w><w>Ἰησοῦ</w></rdg>
                 <witDetail n="↑B26K22V21U2-14" type="overlap" target="B26K22V21U2-14" wit="copbo"/>
-                <witDetail n="Z" type="lac" wit=""/>
+                <witDetail n="Z" type="lac" wit="P18 P24 P47 P115 01C1 01C2 04 025 051 0207 0229 1 61 69 104 1611 1828 1859 2027 2042 2049 2254 2344 2351 2432 h sin t syrphmg syrhmg Ambrose Ambrosiaster Apringius Augustine Caesarius Cassiodorus Chromatius ClementOfAlexandria Cyprian Didymus Epiphanius Fulgentius GregoryElvira Hippolytus Irenaeus Jerome Maternus Methodius Origen Pacian Primasius Priscillian Quodvultdeus Speculum Tertullian Tyconius Varimadum VictorinusPettau"/>
                 <note>
                     <listRelation type="intrinsic">
                         <relation active="1" passive="2" ana="#RatingC"/>
