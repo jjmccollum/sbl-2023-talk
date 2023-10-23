@@ -669,7 +669,7 @@
                     </listRelation>
                     <listRelation type="transcriptional">
                         <relation active="1 2" passive="3" ana="#VisErr"/>
-                        <relation active="1" passive="2" ana="#Clar"/>
+                        <relation active="1" passive="2" ana="#Clar #VisErr"/><!-- clarification or dittography of a phrase in the previous verse -->
                         <relation active="3" passive="1" ana="#Clar"/>
                         <relation active="1 2" passive="3" ana="#Byz"/>
                     </listRelation>

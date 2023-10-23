@@ -648,18 +648,18 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.9">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate AurConf_rate Clar_rate + +">
+                                <var spec="RPNcalculator" expression="Byz_rate Clar_rate AurConf_rate + +">
                                     <parameter idref="Byz_rate"/>
-                                    <parameter idref="AurConf_rate"/>
                                     <parameter idref="Clar_rate"/>
+                                    <parameter idref="AurConf_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="AurConf_rate"/>
                                 <var idref="VisErr_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                             </rates>
                         </substModel>
@@ -684,9 +684,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.10">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="AurConf_rate Clar_rate +">
-                                    <parameter idref="AurConf_rate"/>
+                                <var spec="RPNcalculator" expression="Clar_rate AurConf_rate +">
                                     <parameter idref="Clar_rate"/>
+                                    <parameter idref="AurConf_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="Clar_rate"/>
@@ -887,9 +887,9 @@
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
@@ -924,10 +924,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.16">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -956,15 +956,18 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.17">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var idref="Clar_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Clar_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Clar_rate"/>
+                                </var>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
+                                    <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
@@ -999,10 +1002,10 @@
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
                                 </var>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -1033,10 +1036,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.19">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -1065,10 +1068,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.20">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -1097,10 +1100,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.21">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -1129,10 +1132,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.22">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="VisErr_rate Harm_rate +">
                                     <parameter idref="VisErr_rate"/>
@@ -1189,9 +1192,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.24">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="VisErr_rate"/>
                                 <var idref="Clar_rate"/>
@@ -1309,14 +1312,14 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.28">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="AurConf_rate Clar_rate +">
-                                    <parameter idref="AurConf_rate"/>
+                                <var spec="RPNcalculator" expression="Clar_rate AurConf_rate +">
                                     <parameter idref="Clar_rate"/>
+                                    <parameter idref="AurConf_rate"/>
                                 </var>
-                                <var spec="RPNcalculator" expression="Byz_rate AurConf_rate Clar_rate + +">
+                                <var spec="RPNcalculator" expression="Byz_rate Clar_rate AurConf_rate + +">
                                     <parameter idref="Byz_rate"/>
-                                    <parameter idref="AurConf_rate"/>
                                     <parameter idref="Clar_rate"/>
+                                    <parameter idref="AurConf_rate"/>
                                 </var>
                             </rates>
                         </substModel>
@@ -1469,9 +1472,9 @@
                                 <!-- Start transition rate matrix off-diagonal entries -->
                                 <var idref="Clar_rate"/>
                                 <var idref="Clar_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="Byz_rate"/>
@@ -1594,23 +1597,23 @@
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="AurConf_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="AurConf_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
@@ -1639,9 +1642,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.37">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="Clar_rate"/>
@@ -1649,9 +1652,9 @@
                                 <var idref="Clar_rate"/>
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
@@ -1994,15 +1997,15 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.46">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Clar_rate Harm_rate +">
-                                    <parameter idref="Clar_rate"/>
+                                <var spec="RPNcalculator" expression="Harm_rate Clar_rate +">
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Clar_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
@@ -2039,9 +2042,9 @@
                                 <var idref="Clar_rate"/>
                                 <var idref="Harm_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                                 <var idref="Harm_rate"/>
@@ -2152,9 +2155,9 @@
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="VisErr_rate"/>
                             </rates>
@@ -2249,9 +2252,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.52">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="VisErr_rate"/>
                                 <var idref="VisErr_rate"/>
@@ -2448,9 +2451,9 @@
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="Clar_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var spec="RPNcalculator" expression="VisErr_rate Clar_rate +">
@@ -2612,9 +2615,9 @@
                                     <parameter idref="Byz_rate"/>
                                     <parameter idref="Clar_rate"/>
                                 </var>
-                                <var spec="RPNcalculator" expression="AurConf_rate Clar_rate +">
-                                    <parameter idref="AurConf_rate"/>
+                                <var spec="RPNcalculator" expression="Clar_rate AurConf_rate +">
                                     <parameter idref="Clar_rate"/>
+                                    <parameter idref="AurConf_rate"/>
                                 </var>
                                 <var spec="RPNcalculator" expression="Byz_rate Clar_rate +">
                                     <parameter idref="Byz_rate"/>
@@ -2674,9 +2677,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.62">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                             </rates>
@@ -2772,36 +2775,36 @@
                                 <var idref="default_rate"/>
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate Clar_rate VisErr_rate Harm_rate + + +">
+                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate Clar_rate + + +">
                                     <parameter idref="Byz_rate"/>
-                                    <parameter idref="Clar_rate"/>
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Clar_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="Clar_rate"/>
                                 <var idref="default_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate Clar_rate VisErr_rate Harm_rate + + +">
+                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate Clar_rate + + +">
                                     <parameter idref="Byz_rate"/>
-                                    <parameter idref="Clar_rate"/>
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Clar_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="VisErr_rate"/>
                                 <var idref="Clar_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
                                 <var idref="default_rate"/>
                                 <var idref="Clar_rate"/>
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate Harm_rate + +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Harm_rate Byz_rate + +">
                                     <parameter idref="VisErr_rate"/>
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="VisErr_rate"/>
                                 <var idref="default_rate"/>
@@ -2830,9 +2833,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.66">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate Harm_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="Harm_rate Byz_rate +">
                                     <parameter idref="Harm_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="Clar_rate"/>
                             </rates>
@@ -2945,9 +2948,9 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.69">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate VisErr_rate +">
-                                    <parameter idref="Byz_rate"/>
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate +">
                                     <parameter idref="VisErr_rate"/>
+                                    <parameter idref="Byz_rate"/>
                                 </var>
                                 <var idref="VisErr_rate"/>
                                 <var idref="Clar_rate"/>
