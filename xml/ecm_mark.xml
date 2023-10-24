@@ -397,7 +397,9 @@
                         <origDate notBefore="1400" notAfter="1500"/>
                     </witness> -->
                     <witness n="979">
-                        <origDate notBefore="1500" notAfter="1600"/>
+                        <!-- <origDate notBefore="1500" notAfter="1600"/> -->
+                        <!-- fixed date to align DensiTrees... -->
+                        <origDate when="1600"/>
                     </witness>
                     <witness n="983">
                         <origDate notBefore="1100" notAfter="1200"/>

@@ -125,7 +125,9 @@
                         <origDate when="1576"/>
                     </witness>
                     <witness type="lectionary" n="L593">
-                        <origDate notBefore="1400" notAfter="1500"/>
+                        <!-- <origDate notBefore="1400" notAfter="1500"/> -->
+                        <!-- fixed date to align DensiTrees... -->
+                        <origDate when="1450"/>
                     </witness>
                     <witness type="lectionary" n="L596">
                         <origDate when="1146"/>
