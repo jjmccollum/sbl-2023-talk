@@ -19,10 +19,6 @@
                     <date notBefore="50" notAfter="80"/>
                 </bibl>
                 <listWit>
-                    <!-- Reconstructed texts -->
-                    <witness n="UBS">
-                        <origDate notBefore="50" notAfter="80"/>
-                    </witness>
                     <!-- Papyri -->
                     <witness n="P46">
                         <origDate notBefore="175" notAfter="225"/>

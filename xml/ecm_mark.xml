@@ -20,7 +20,9 @@
                 </bibl>
                 <listWit>
                     <!-- Byzantine tradition -->
-                    <witness n="MT"/>
+                    <witness n="MT">
+                        <origDate notAfter="900"/>
+                    </witness>
                     <!-- Papyri -->
                     <!-- <witness n="P45">
                         <origDate notBefore="200" notAfter="300"/>

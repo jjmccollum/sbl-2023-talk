@@ -107,7 +107,7 @@
         </userDataType>
     </data>
     <tree spec="Tree" id="tree">
-        <trait spec="TraitSet" traitname="date" units="year" value="Byz=1041,P72=300,01=350,02=450,03=350,04=450,018=850,020=850,025=850,044=900,5=1250,33=850,81=1044,307=950,436=1100,442=1200,642=1350,1175=1050,1243=1050,1448=1150,1611=950,1735=950,1739=950,1852=1250,2344=1050,2492=1350,L147=1150,L422=1350,L590=1050,L591=1050,L592=1576,L593=1450,L596=1146,L680=1250,L751=1050,L809=1150,L883=1050,L884=1250,L895=1250,L921=1150,L938=1250,L1153=1350,L1154=1150,L1156=1350,L1159=1250,L1178=1050,L1298=1050,L1364=1150,L1365=1150,L1441=1250,L1590=1250,ar=850,t=1050,z=750,vg=400,syrp=500,syrh=665,syrhmg=665,copsa=350,copbo=850,arm=434,geo=450,eth=550,slav=864">
+        <trait spec="TraitSet" traitname="date" units="year" value="Byz=480,P72=300,01=350,02=450,03=350,04=450,018=850,020=850,025=850,044=900,5=1250,33=850,81=1044,307=950,436=1100,442=1200,642=1350,1175=1050,1243=1050,1448=1150,1611=950,1735=950,1739=950,1852=1250,2344=1050,2492=1350,L147=1150,L422=1350,L590=1050,L591=1050,L592=1576,L593=1450,L596=1146,L680=1250,L751=1050,L809=1150,L883=1050,L884=1250,L895=1250,L921=1150,L938=1250,L1153=1350,L1154=1150,L1156=1350,L1159=1250,L1178=1050,L1298=1050,L1364=1150,L1365=1150,L1441=1250,L1590=1250,ar=850,t=1050,z=750,vg=400,syrp=500,syrh=665,syrhmg=665,copsa=350,copbo=850,arm=434,geo=450,eth=550,slav=864">
             <taxa spec="TaxonSet" id="taxa" alignment="@alignment"/>
         </trait>
         <taxonset spec="TaxonSet" idref="taxa"/>
@@ -195,7 +195,7 @@
                     <taxonset id="taxonSet.Byz" spec="TaxonSet">
                         <taxon id="Byz" spec="Taxon"/>
                     </taxonset>
-                    <distr spec="beast.base.inference.distribution.Uniform" id="datePrior.Byz.Uniform" lower="60" upper="2023"/>
+                    <distr spec="beast.base.inference.distribution.Uniform" id="datePrior.Byz.Uniform" lower="60" upper="900"/>
                 </distribution>
                 <distribution id="date.P72" spec="MRCAPrior" tipsonly="true" tree="@tree">
                     <taxonset id="taxonSet.P72" spec="TaxonSet">
@@ -364,12 +364,6 @@
                         <taxon id="L591" spec="Taxon"/>
                     </taxonset>
                     <distr spec="beast.base.inference.distribution.Uniform" id="datePrior.L591.Uniform" lower="1000" upper="1100"/>
-                </distribution>
-                <distribution id="date.L593" spec="MRCAPrior" tipsonly="true" tree="@tree">
-                    <taxonset id="taxonSet.L593" spec="TaxonSet">
-                        <taxon id="L593" spec="Taxon"/>
-                    </taxonset>
-                    <distr spec="beast.base.inference.distribution.Uniform" id="datePrior.L593.Uniform" lower="1400" upper="1500"/>
                 </distribution>
                 <distribution id="date.L680" spec="MRCAPrior" tipsonly="true" tree="@tree">
                     <taxonset id="taxonSet.L680" spec="TaxonSet">
@@ -568,10 +562,10 @@
                             </frequencies>
                             <rates spec="parameter.CompoundValuable" id="rates.1">
                                 <!-- Start transition rate matrix off-diagonal entries -->
-                                <var spec="RPNcalculator" expression="Byz_rate Clar_rate VisErr_rate AurConf_rate + + +">
+                                <var spec="RPNcalculator" expression="VisErr_rate Byz_rate Clar_rate AurConf_rate + + +">
+                                    <parameter idref="VisErr_rate"/>
                                     <parameter idref="Byz_rate"/>
                                     <parameter idref="Clar_rate"/>
-                                    <parameter idref="VisErr_rate"/>
                                     <parameter idref="AurConf_rate"/>
                                 </var>
                                 <var idref="default_rate"/>
@@ -1957,7 +1951,6 @@
         <operator spec="TipDatesRandomWalker" id="dateOperator.L422" windowSize="1" taxonset="@taxonSet.L422" tree="@tree" weight="1.0"/>
         <operator spec="TipDatesRandomWalker" id="dateOperator.L590" windowSize="1" taxonset="@taxonSet.L590" tree="@tree" weight="1.0"/>
         <operator spec="TipDatesRandomWalker" id="dateOperator.L591" windowSize="1" taxonset="@taxonSet.L591" tree="@tree" weight="1.0"/>
-        <operator spec="TipDatesRandomWalker" id="dateOperator.L593" windowSize="1" taxonset="@taxonSet.L593" tree="@tree" weight="1.0"/>
         <operator spec="TipDatesRandomWalker" id="dateOperator.L680" windowSize="1" taxonset="@taxonSet.L680" tree="@tree" weight="1.0"/>
         <operator spec="TipDatesRandomWalker" id="dateOperator.L751" windowSize="1" taxonset="@taxonSet.L751" tree="@tree" weight="1.0"/>
         <operator spec="TipDatesRandomWalker" id="dateOperator.L809" windowSize="1" taxonset="@taxonSet.L809" tree="@tree" weight="1.0"/>
@@ -2041,7 +2034,6 @@
             <log idref="date.L422"/>
             <log idref="date.L590"/>
             <log idref="date.L591"/>
-            <log idref="date.L593"/>
             <log idref="date.L680"/>
             <log idref="date.L751"/>
             <log idref="date.L809"/>
