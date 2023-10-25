@@ -174,7 +174,7 @@
                     <witness type="version" n="syrph">
                         <origDate when="508"/>
                     </witness>
-                    <witness type="version" n="syrphmg">
+                    <witness type="corrector" n="syrphmg">
                         <origDate when="508"/>
                     </witness>
                     <witness type="version" n="syrh">
