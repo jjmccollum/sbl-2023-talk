@@ -1,0 +1,29 @@
+\documentclass[tikz]{standalone}
+\usepackage{../sty/transcriptional-markov} % Include the style file containing the code defining the structure and style of the document
+
+\begin{document}
+\begin{tikzpicture}[node distance=2.5cm]
+	\node (a) {\Rdg{a}};
+	\node (e) [below left=of a] {\Rdg{e}};
+	\node (f) [below right=of a] {\Rdg{f}};
+	\node (b) [above right=of f] {\Rdg{b}};
+	\node[byz] (c) [below left=of f] {\Rdg{c}};
+	\node (d) [below right=of f] {\Rdg{d}};
+	\draw (a) edge[bidirectional] node[cause, above, xshift=-25pt] {\Clarification{}/\Harmonization{}} (c);
+	\draw (c) edge[bidirectional] node[cause, below, xshift=-25pt] {\Clarification{}} (a);
+	\draw (a) edge[bidirectional] node[cause, above] {\Clarification{}} (b);
+	\draw (b) edge[bidirectional] node[cause, below] {\Clarification{}} (a);
+	\draw (a) edge[bidirectional] node[cause, below] {\VisualError{}} (f);
+	\draw (f) edge[bidirectional] node[cause, above] {\Clarification{}} (a);
+	\draw (b) edge[bidirectional] node[cause, below] {\Clarification{}/\Harmonization{}} (d);
+	\draw (d) edge[bidirectional] node[cause, above] {\Clarification{}} (b);
+	\draw (c) edge[bidirectional] node[cause, below] {\Clarification{}/\Harmonization{}} (d);
+	\draw (d) edge[bidirectional] node[cause, above] {\Clarification{}} (c);
+	\draw (e) edge[unidirectional] node[cause, above] {\Clarification{}} (a);
+	\draw (e) edge[unidirectional] node[cause, above] {\Clarification{}/\Harmonization{}} (c);
+	\draw (f) edge[unidirectional] node[cause, above] {\Clarification{}} (b);
+	\draw (f) edge[unidirectional] node[cause, above] {\Clarification{}/\Harmonization{}} (c);
+	\draw (f) edge[unidirectional] node[cause, above] {\Clarification{}/\Harmonization{}} (d);
+	\draw (f) edge[unidirectional] node[cause, above, fill=white] {\Clarification{}/\Harmonization{}} (e);
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,33 @@
+% Declare the package that this style file will produce, along with its formal name:
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{transcriptional-markov}[2022/04/08 Transcriptional Markov Chain Diagram Style File]
+
+%TikZ settings
+\RequirePackage{tikz}
+\usetikzlibrary{decorations,positioning}
+
+\pgfdeclaredecoration{sl}{initial}{
+	\state{initial}[width=\pgfdecoratedpathlength-1sp]{
+		\pgfmoveto{\pgfpointorigin}
+	}
+	\state{final}{
+		\pgflineto{\pgfpointorigin}
+	}
+}
+
+\tikzset{byz/.style = {circle, line width=1.0pt, draw=blue}}% for Byzantine reading nodes
+\tikzset{cause/.style = {inner sep=3pt, font=\footnotesize, sloped}}% for cause label nodes
+\tikzset{unidirectional/.style={->,>=stealth,line width=1.0pt}}% for unidirectional edges
+\tikzset{bidirectional/.style={->,>=stealth,line width=1.0pt,decoration={sl,raise=-2pt},decorate}}% for bidirectional edges
+
+% Collation-related commands
+\newcommand\Rdg[1]{\strut\emph{#1}}
+% Transcriptional probability-related commands
+\newcommand\Clarification{Clar} % shorthand for attempts, whether intentional or subconscious, to clarify the text for grammatical, stylistic, or theological reasons
+\newcommand\AuralConfusion{AurConf} % shorthand for scribal errors due to confusion of similar sounds
+\newcommand\LinguisticConfusion{LingConf} % shorthand for scribal errors due to misunderstandings of Greek grammar
+\newcommand\VisualError{VisErr} % shorthand for visual errors (haplography, dittography, skips of the eye past small words)
+\newcommand\Harmonization{Harm} % shorthand for harmonization, either to a parallel passage or to the near context
+\newcommand\Byzantine{Byz} % shorthand for correction toward the Byzantine text
+
+\endinput

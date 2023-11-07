@@ -1,0 +1,24 @@
+digraph stemma {
+    margin=0;
+    node [shape=circle];
+    graph [nodesep="1", ranksep="0.5"];
+    0 [label="Ω", style=dotted, color="red", fontname="times-bold"];
+    1 [label="ω", style=solid, color="blue", fontname="times-bold"];
+    2 [label="α", style=solid, color="blue", fontname="times-bold"];
+    3 [label="β", style=solid, color="blue", fontname="times-bold"];
+    4 [label="a", style=solid, color="blue"];
+    5 [label="b1", style=solid, color="blue"];
+    6 [label="b2", style=solid, color="blue"];
+    7 [label="δ", style=solid, color="blue", fontname="times-bold"];
+    8 [label="d1", style=solid, color="blue"];
+    9 [label="d2", style=solid, color="blue"];
+    0 -> 1[style=dashed, color="forestgreen"];
+    1 -> 2[style=dashed, color="forestgreen"];
+    1 -> 3[style=dashed, color="forestgreen"];
+    2 -> 4[style=dashed, color="forestgreen"];
+    2 -> 7[style=dashed, color="forestgreen"];
+    3 -> 5[style=dashed, color="forestgreen"];
+    3 -> 6[style=dashed, color="forestgreen"];
+    7 -> 8[style=dashed, color="forestgreen"];
+    7 -> 9[style=dashed, color="forestgreen"];
+}

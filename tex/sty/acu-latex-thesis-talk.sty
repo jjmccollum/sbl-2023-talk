@@ -1,0 +1,206 @@
+%Declare the package that this file will produce, along with its formal name:
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{acu-latex-thesis-talk}[2022/08/18 ACU Thesis Seminar Style]
+%Set slide themes:
+\usetheme{irci}
+\usefonttheme{serif}
+\setmainfont[Ligatures=Common]{Georgia}
+% Set Greek font
+\newfontfamily\greekfont[Script=Greek,Scale=1.1]{GFSPorson-Regular}
+%Enable more flexible specification of colors:
+\RequirePackage{xcolor}
+%Ensure proper use of superscripts:
+\RequirePackage{realscripts} % Update \textsuperscript to use true OpenType-accessed superscripts
+%Add support for highlighting and strikethrough:
+\RequirePackage{soul}
+%Don't add extra space after a period:
+\frenchspacing
+%Include support for FontAwesome glyphs:
+\RequirePackage{fontawesome}
+%Include support for URL formatting:
+\RequirePackage{url}
+%Include support for pictures:
+\RequirePackage{graphicx}
+%Include support for TikZ:
+\RequirePackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{decorations}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{shapes}
+\usetikzlibrary{positioning}
+\usetikzlibrary{backgrounds}
+%Include support for advanced math commands:
+\RequirePackage{amsmath}
+%----------------------------------------------------------------------------------------
+%	PARAGRAPH LAYOUT
+%----------------------------------------------------------------------------------------
+\RequirePackage[autopunct,style=american]{csquotes} % Include support for context-sensitive quotation handling
+\DeclareAutoPunct{.,} % trailing punctuation to placed inside quotes
+\renewcommand{\mktextquote}[6]{#1#2#4#5#3#6} % move the trailing punctuation marks defined above inside the quote, American-style (comment out if Australian style is preferred)
+%----------------------------------------------------------------------------------------
+%	TABULAR LAYOUT
+%----------------------------------------------------------------------------------------
+\RequirePackage{tabularx} % extend functionality of tables
+\newcolumntype{A}[1]{>{\raggedright\addfontfeatures{Numbers=Lining}\footnotesize\arraybackslash}p{#1}} % column style for apparatus tables
+%Include support for multi-row cells in tabular environments:
+\RequirePackage{multirow}
+
+%----------------------------------------------------------------------------------------
+%	CUSTOMIZED LISTS	
+%----------------------------------------------------------------------------------------
+\RequirePackage{enumitem,amssymb}
+\setlist[itemize]{label=\color{Red100}$\bullet$}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\RequirePackage{pifont}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}\hspace{-2.5pt}}
+
+%----------------------------------------------------------------------------------------
+%	SPECIAL TEXT MACROS
+%----------------------------------------------------------------------------------------
+% Collation-related commands
+\newcommand\Rdg[1]{\emph{#1}}
+% Patristic abbreviations
+\newcommand\Adamantius{Ad}
+\newcommand\Ambrose{Ambr}
+\newcommand\Ambrosiaster{Ambst}
+\newcommand\AsteriusSophist{AstS}
+\newcommand\Athanasius{Ath}
+\newcommand\BasilOfCaesarea{Bas}
+\newcommand\Chrysostom{Chr}
+\newcommand\ClementOfAlexandria{Cl}
+\newcommand\Cyprian{Cyp}
+\newcommand\CyrilOfAlexandria{Cyr}
+\newcommand\CyrilOfJerusalem{CyrJ}
+\newcommand\DeCharitate{DeCharitate}
+\newcommand\Didymus{Did}
+\newcommand\DidascaliaApostolorum{DidApost}
+\newcommand\Ephrem{Ephr}
+\newcommand\Epiphanius{Epiph}
+\newcommand\EpistulaMagna{EpMag}
+\newcommand\Eusebius{Eus}
+\newcommand\EvagriusPonticus{EvPont}
+\newcommand\GregoryOfNazianzus{GrNaz}
+\newcommand\GregoryOfNyssa{GrNy}
+\newcommand\GregoryThaumaturgus{GrTh}
+\newcommand\HesychiusOfJerusalem{Hes}
+\newcommand\Hippolytus{Hipp}
+\newcommand\HomiliaeSpirituales{HomiliaeSpirituales}
+\newcommand\Irenaeus{Iren}
+\newcommand\IsidoreOfPelusium{IsPel}
+\newcommand\Jerome{Hier}
+\newcommand\JohnDamascene{JohnDam}
+\newcommand\Lucifer{Lcf}
+\newcommand\Marcion{Mcion}
+\newcommand\Marcellus{Marcellus}
+\newcommand\MarcusEremita{Marc}
+\newcommand\MariusVictorinus{MVict}
+\newcommand\Maximus{Max}
+\newcommand\Methodius{Meth}
+\newcommand\Nilus{Nil}
+\newcommand\OccursuDomini{OccDom}
+\newcommand\Oecumenius{Oec}
+\newcommand\Origen{Or}
+\newcommand\Pelagius{Pel}
+\newcommand\Physiologus{Phys}
+\newcommand\Primasius{Prim}
+\newcommand\Priscillian{Prisc}
+\newcommand\Proclus{Proclus}
+\newcommand\Procopius{Proc}
+\newcommand\Quodvultdeus{Qu}
+\newcommand\RefutatioOmniumHaeresium{Ref}
+\newcommand\SynopsisScripturaeSacrae{SynScrSac}
+\newcommand\Severian{Sev}
+\newcommand\Socrates{Socrates}
+\newcommand\Speculum{Spec}
+\newcommand\Tertullian{Tert}
+\newcommand\TheodoreOfMopsuestia{ThMops}
+\newcommand\TheodoreOfMopsuestiaLatin{ThMops\textsuperscript*{lat}}
+\newcommand\Theodoret{Thret}
+\newcommand\Theophylact{Theophylact}
+\newcommand\Valentinus{Val}
+% Printed edition abbreviations
+\newcommand\Lachmann[1]{Lach\textsuperscript*{#1}}
+\newcommand\NestleAland[1]{NA\textsuperscript*{#1}}
+\newcommand\RobinsonPierpont[1]{RP\textsuperscript*{#1}}
+\newcommand\Sbl[1]{SBL\textsuperscript*{#1}}
+\newcommand\Tischendorf[1]{Tisch\textsuperscript*{#1}}
+\newcommand\Tregelles[1]{Treg\textsuperscript*{#1}}
+\newcommand\TyndaleHouse[1]{TH\textsuperscript*{#1}}
+\newcommand\TextusReceptus[1]{TR\textsuperscript*{#1}}
+\newcommand\Ubs[1]{UBS\textsuperscript*{#1}}
+\newcommand\WestcottHort[1]{WH\textsuperscript*{#1}}
+% Intrinsic probability-related commands
+\newcommand\RelativeRating[1]{$\overset{#1}{\gg}$} % shorthand for a relative intrinsic probability rating (odds ratio) between a reading and the next most likely reading
+\newcommand\EqualRating[1]{$=$} % shorthand for equal intrinsic probability (odds ratio) between two readings
+% Transcriptional probability-related commands
+\newcommand\Overlap{$\uparrow$} % shorthand for an overlap
+\newcommand\RdgTrans[2]{\Rdg{#1}$\,\to\,$\Rdg{#2}} % shorthand for a transition from one reading to another
+\newcommand\Clarification{Clar} % shorthand for attempts, whether intentional or subconscious, to clarify the text for grammatical, stylistic, or theological reasons
+\newcommand\AuralConfusion{AurConf} % shorthand for scribal errors due to confusion of similar sounds
+\newcommand\LinguisticConfusion{LingConf} % shorthand for scribal errors due to misunderstandings of Greek grammar
+\newcommand\VisualError{VisErr} % shorthand for visual errors (haplography, dittography, skips of the eye past small words)
+\newcommand\Harmonization{Harm} % shorthand for harmonization, either to a parallel passage or to the near context
+\newcommand\Byzantine{Byz} % shorthand for correction toward the Byzantine text
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%Include support for hyphenation and punctuation:
+\RequirePackage{polyglossia}
+\setmainlanguage{american}
+\setotherlanguage[variant=ancient]{greek}
+
+%Include support for smart quoting:
+\RequirePackage{csquotes}
+
+%Include support for footnote citation and citation format:
+\RequirePackage[style=sbl, citepages=separate, ibidtracker=false, ibidpage=false, doi=false, useprefix=true, backend=biber]{biblatex}
+
+% biblatex-sbl typesets DOI in lowercase letters, so renew this command to typeset it in small caps
+\DeclareFieldFormat{doi}{%
+	\textsc{doi}\addcolon
+	\ifhyperref{\href{https://dx.doi.org/#1}{\nolinkurl{#1}}}{\nolinkurl{#1}}%
+}
+
+% By default, don't print DOIs in inline citations, but print them in the bibliography:
+\AtBeginBibliography{\toggletrue{bbx:doi}}
+
+\DefineBibliographyStrings{english}{thiscite = {here}}
+\makeatletter
+\def\cbx@opt@citepages@separate{%
+  \renewbibmacro*{pages}{%
+    \iffieldundef{pages}
+      {\ifbool{bbx@inset}
+         {}
+         {\printfield{postnote}%
+          \global\booltrue{suppresspostnote}}}
+      {\printfield{pages}%
+       \ifboolexpr{
+         test {\iffieldundef{postnote}}
+         or
+         bool {bbx@inset}
+       }
+         {}
+         {\newunit%
+          \iffieldpages{postnote}
+            {\bibstring{thiscite}
+             \setunit{\addspace}}
+            {}%
+          \printfield{postnote}}}}}
+\makeatother
+\ExecuteBibliographyOptions{citepages=separate}
+
+% biblatex-sbl has a typo here (https://github.com/dcpurton/biblatex-sbl/issues/128), so patch this here
+\makeatletter
+\let\@firtoftwo\@firstoftwo
+\makeatother
+
+%Add the bibliography source file:
+\addbibresource{../bib/bibliography.bib}
+
+%Finally, close the input:
+\endinput
